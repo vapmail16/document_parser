@@ -1,0 +1,225 @@
+{
+ "page": 141,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1784,
+    "scale": 0.9208,
+    "effective_dpi": 276.2
+   },
+   "bands_on_page": 3,
+   "cache_key": "d28810b22c90adb38445a3c94d37217d97281463d370bcd221b4f949cb1e31f5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).",
+       "confidence": 0.96,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).\",\"confidence\":0.96}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8950,
+     "output_tokens": 219,
+     "cost_usd": 0.050225
+    },
+    "latency_s": 7.830204821002553,
+    "request_id": "req_011CfGZhad6a6rKyRwDp8RRh"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1679,
+    "y1": 3493,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "6b5541142416aa05768e3634d6f93eae350bb560e46bf7d82b4569ae114cd287",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8941,
+     "output_tokens": 29,
+     "cost_usd": 0.04543
+    },
+    "latency_s": 5.51503255499847,
+    "request_id": "req_011CfGZiArddHjsQnpvP65f2"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3373,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "ce4f0441ba4bb2fa26b427fbb4f51abf810316364d96d39781acc8274f12a632",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4607,
+     "output_tokens": 29,
+     "cost_usd": 0.02376
+    },
+    "latency_s": 2.9259488430034253,
+    "request_id": "req_011CfGZiannnmWpeBJAta1j1"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1784,
+    "scale": 0.9208,
+    "effective_dpi": 276.2
+   },
+   "bands_on_page": 3,
+   "cache_key": "d28810b22c90adb38445a3c94d37217d97281463d370bcd221b4f949cb1e31f5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).",
+       "confidence": 0.96,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).\",\"confidence\":0.96}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8950,
+     "output_tokens": 219,
+     "cost_usd": 0.050225
+    },
+    "latency_s": 7.830204821002553,
+    "request_id": "req_011CfGZhad6a6rKyRwDp8RRh"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1679,
+    "y1": 3493,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "6b5541142416aa05768e3634d6f93eae350bb560e46bf7d82b4569ae114cd287",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8941,
+     "output_tokens": 29,
+     "cost_usd": 0.04543
+    },
+    "latency_s": 5.51503255499847,
+    "request_id": "req_011CfGZiArddHjsQnpvP65f2"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3373,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "ce4f0441ba4bb2fa26b427fbb4f51abf810316364d96d39781acc8274f12a632",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4607,
+     "output_tokens": 29,
+     "cost_usd": 0.02376
+    },
+    "latency_s": 2.9259488430034253,
+    "request_id": "req_011CfGZiannnmWpeBJAta1j1"
+   }
+  }
+ ]
+}

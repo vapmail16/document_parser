@@ -1,0 +1,241 @@
+{
+ "page": 141,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1718,
+    "scale": 0.9382,
+    "effective_dpi": 281.4
+   },
+   "bands_on_page": 3,
+   "cache_key": "331ab3e8b3817b8f86f30e4efa1fbf0625efd2db5eba965691b160365065e106",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)",
+       "confidence": 0.97,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)\",\"confidence\":0.97}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8708,
+     "output_tokens": 219,
+     "cost_usd": 0.049015
+    },
+    "latency_s": 5.577946706995135,
+    "request_id": "req_011CfGX7hTgDA6hUMh3vMq7Z"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1598,
+    "y1": 3397,
+    "scale": 0.9168,
+    "effective_dpi": 275.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "782bf44b6fa34beae11416c2789eb610bc46957742682454689d1145e25d6984",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "NEW YORK STATE COURT",
+       "source_text": "MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"NEW YORK STATE COURT\",\"source_text\":\"MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8746,
+     "output_tokens": 142,
+     "cost_usd": 0.04728
+    },
+    "latency_s": 4.600770638004178,
+    "request_id": "req_011CfGX89z7YYiJ5szeRuhCn"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3277,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "1fad26be02f3285cbebd521ba5c4ef3b8f10949f98e05eeb528763e5b557aab7",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4761,
+     "output_tokens": 29,
+     "cost_usd": 0.02453
+    },
+    "latency_s": 2.766677590996551,
+    "request_id": "req_011CfGX8W66FdTyBY11fZbTx"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1718,
+    "scale": 0.9382,
+    "effective_dpi": 281.4
+   },
+   "bands_on_page": 3,
+   "cache_key": "331ab3e8b3817b8f86f30e4efa1fbf0625efd2db5eba965691b160365065e106",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)",
+       "confidence": 0.97,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)\",\"confidence\":0.97}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8708,
+     "output_tokens": 219,
+     "cost_usd": 0.049015
+    },
+    "latency_s": 5.577946706995135,
+    "request_id": "req_011CfGX7hTgDA6hUMh3vMq7Z"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1598,
+    "y1": 3397,
+    "scale": 0.9168,
+    "effective_dpi": 275.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "782bf44b6fa34beae11416c2789eb610bc46957742682454689d1145e25d6984",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "NEW YORK STATE COURT",
+       "source_text": "MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"NEW YORK STATE COURT\",\"source_text\":\"MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8746,
+     "output_tokens": 142,
+     "cost_usd": 0.04728
+    },
+    "latency_s": 4.600770638004178,
+    "request_id": "req_011CfGX89z7YYiJ5szeRuhCn"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3277,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "1fad26be02f3285cbebd521ba5c4ef3b8f10949f98e05eeb528763e5b557aab7",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4761,
+     "output_tokens": 29,
+     "cost_usd": 0.02453
+    },
+    "latency_s": 2.766677590996551,
+    "request_id": "req_011CfGX8W66FdTyBY11fZbTx"
+   }
+  }
+ ]
+}

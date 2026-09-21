@@ -1,0 +1,317 @@
+21/09/2026, 11:44                                                                  Document
+
+  EX-10.1 2 exhibit1010930202210q.htm EX-10.1
+                                                                                                               Exhibit 10.1
+
+
+
+
+                                                                                                          Execution Version
+
+                                                                                               Published CUSIP: 01265LAR2
+
+
+
+
+                                       AMENDED AND RESTATED CREDIT AGREEMENT
+
+                                                          Dated as of October 28, 2022
+
+                                                                       among
+
+                                                     ALBEMARLE CORPORATION,
+                                                          (the “Company”),
+
+                                     CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,
+
+                                                    THE LENDERS PARTY HERETO,
+
+                                                      BANK OF AMERICA, N.A.,
+                                              as Administrative Agent and Swing Line Lender,
+
+                                                    JPMORGAN CHASE BANK, N.A.,
+                                                         as Syndication Agent
+
+                                               GOLDMAN SACHS BANK USA,
+                                                     MUFG BANK, LTD.,
+                                        BANCO SANTANDER, S.A., NEW YORK BRANCH,
+                                        SUMITOMO MITSUI BANKING CORPORATION,
+                                                        TRUIST BANK
+                                                             and
+                                            U.S. BANK NATIONAL ASSOCIATION,
+                                                  as Co-Documentation Agents
+
+                                                                   Arranged By:
+
+                                                        BOFA SECURITIES, INC.,
+                                                    JPMORGAN CHASE BANK, N.A.,
+                                                     HSBC SECURITIES (USA) INC.
+                                                                    and
+                                                          MIZUHO BANK, LTD.,
+                                               as Joint Lead Arrangers and Joint Bookrunners
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm                              1/211
+21/09/2026, 11:44                                                                  Document
+
+
+
+
+                                                            TABLE OF CONTENTS
+  Section      Page
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm   2/211
+21/09/2026, 11:44                                                                  Document
+
+   ARTICLE I. DEFINITIONS AND ACCOUNTING TERMS                                                1
+
+   1.01     Defined Terms                                                                     1
+
+   1.02     Other Interpretive Provisions                                                     29
+
+   1.03 Accounting Terms                                                                      30
+
+   1.04     Rounding                                                                          31
+
+   1.05     References to Agreements and Laws                                                 31
+
+   1.06 Times of Day; Rates                                                                   31
+
+   1.07     Letter of Credit Amounts                                                          31
+
+   1.08     Exchange Rates; Currency Equivalents                                              32
+
+   1.09 Additional Alternative Currencies                                                     32
+
+   1.10     Redenomination of Certain Alternative Currencies; Change of Currency              33
+
+   1.11     Belgium Terms                                                                     34
+
+   1.12     Dutch Terms                                                                       34
+
+   ARTICLE II. THE COMMITMENTS AND CREDIT EXTENSIONS                                          35
+
+   2.01     Committed Loans                                                                   35
+
+   2.02     Borrowings, Conversions and Continuations of Committed Loans                      37
+
+   2.03     Letters of Credit                                                                 39
+
+   2.04     Swing Line Loans                                                                  48
+
+   2.05     Prepayments                                                                       50
+
+   2.06 Termination or Reduction of Commitments                                               51
+
+   2.07     Repayment of Loans                                                                52
+
+   2.08     Interest                                                                          52
+
+   2.09     Fees                                                                              53
+
+   2.10     Computation of Interest and Fees                                                  54
+
+   2.11     Evidence of Debt                                                                  54
+
+   2.12     Payments Generally; Administrative Agent’s Clawback                               55
+
+   2.13     Sharing of Payments                                                               57
+
+   2.14     Designated Borrowers                                                              57
+
+   2.15     Extension of Maturity Date                                                        59
+
+   2.16     Cash Collateral                                                                   60
+
+   2 17     D f lti       L d
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm
+                                                                                              61   3/211
+21/09/2026, 11:44                                                                  Document
+   2.17     Defaulting Lenders                                                                61
+
+   ARTICLE III. TAXES, YIELD PROTECTION AND ILLEGALITY                                        63
+
+   3.01 Taxes                                                                                 63
+
+   3.02     Illegality                                                                        66
+
+   3.03     Inability to Determine Rates                                                      67
+
+   3.04     Increased Cost and Reduced Return; Capital Adequacy                               70
+
+   3.05     Funding Losses                                                                    71
+
+   3.06     Matters Applicable to all Requests for Compensation                               72
+
+   3.07     Survival                                                                          72
+
+   ARTICLE IV. GUARANTY                                                                       73
+
+   4.01 The Guaranty                                                                          73
+
+   4.02     Obligations Unconditional                                                         73
+
+   4.03     Reinstatement                                                                     74
+
+   4.04     Certain Additional Waivers                                                        74
+
+   4.05     Remedies                                                                          74
+
+   4.06     Guarantee of Payment; Continuing Guarantee                                        74
+
+   ARTICLE V. CONDITIONS PRECEDENT TO Credit Extensions                                       75
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm        4/211
+21/09/2026, 11:44                                                                  Document
+
+
+
+
+                                                                           i
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm   5/211
+21/09/2026, 11:44                                                                  Document
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm   6/211
+21/09/2026, 11:44                                                                  Document
+
+   5.01     Conditions of Initial Credit Extension                                            75
+
+   5.02     Conditions to all Credit Extensions                                               77
+
+   ARTICLE VI. REPRESENTATIONS AND WARRANTIES                                                 78
+
+   6.01     Existence, Qualification and Power                                                78
+
+   6.02 Authorization; No Contravention                                                       78
+
+   6.03     Governmental Authorization; Other Consents                                        78
+
+   6.04     Binding Effect                                                                    78
+
+   6.05     Financial Statements; No Material Adverse Change                                  78
+
+   6.06     Litigation                                                                        79
+
+   6.07     No Default                                                                        79
+
+   6.08     Ownership of Property; Liens                                                      79
+
+   6.09     Environmental Compliance                                                          80
+
+   6.10     Insurance                                                                         80
+
+   6.11 Taxes                                                                                 80
+
+   6.12     ERISA Compliance                                                                  80
+
+   6.13     Margin Regulations; Investment Company Act                                        81
+
+   6.14     Disclosure                                                                        81
+
+   6.15     Compliance with Laws                                                              82
+
+   6.16     Intellectual Property; Licenses, Etc                                              82
+
+   6.17     Subsidiaries                                                                      82
+
+   6.18     Solvency                                                                          82
+
+   6.19     Non-Domestic Borrowers                                                            82
+
+   6.20     OFAC; Anti-Corruption Laws                                                        83
+
+   6.21 Affected Financial Institutions                                                       84
+
+   ARTICLE VII. AFFIRMATIVE COVENANTS                                                         84
+
+   7.01     Financial Statements                                                              84
+
+   7.02     Certificates; Other Information                                                   84
+
+   7.03     Notices                                                                           86
+
+   7.04     Payment of Obligations                                                            87
+
+   7.05     Preservation of Existence, Etc                                                    87
+
+   7 06     M i t             fP        ti
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm
+                                                                                              87   7/211
+21/09/2026, 11:44                                                                  Document
+   7.06     Maintenance of Properties                                                         87
+
+   7.07     Maintenance of Insurance                                                          87
+
+   7.08     Compliance with Laws                                                              87
+
+   7.09     Books and Records                                                                 87
+
+   7.10     Inspection Rights                                                                 88
+
+   7.11     Use of Proceeds                                                                   88
+
+   ARTICLE VIII. NEGATIVE COVENANTS                                                           88
+
+   8.01     Liens                                                                             89
+
+   8.02     Mergers, Dispositions, etc                                                        91
+
+   8.03     Change in Nature of Business                                                      92
+
+   8.04 Transactions with Affiliates                                                          92
+
+   8.05     Use of Proceeds                                                                   93
+
+   8.06     Financial Covenant                                                                93
+
+   8.07     Subsidiary Indebtedness                                                           93
+
+   8.08     Sanctions                                                                         94
+
+   8.09 Anti-Corruption Laws                                                                  94
+
+   ARTICLE IX. EVENTS OF DEFAULT AND REMEDIES                                                 94
+
+   9.01     Events of Default                                                                 94
+
+   9.02     Remedies Upon Event of Default                                                    96
+
+   9.03 Application of Funds                                                                  97
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm        8/211
+21/09/2026, 11:44                                                                  Document
+
+
+
+
+                                                                           ii
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm   9/211
+21/09/2026, 11:44                                                                  Document
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm   10/211
+

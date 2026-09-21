@@ -1,0 +1,75 @@
+{
+ "document_id": "albemarle",
+ "revisions": [
+  {
+   "version_label": "2022-AR",
+   "revision": 1,
+   "effective_date": "2022-10-28",
+   "input_variant": "clean",
+   "published_at": "2026-09-21T11:57:39.769107Z",
+   "run_id": "20260921T094008Z-67a88b",
+   "model_id": "frontier",
+   "prompt_versions": {
+    "pass1_extraction": "v2"
+   },
+   "dictionary_version": 3,
+   "source_sha256": "6913e1b833800ee3706406cf4f1d9b95f8140a89935fe9f6947cb4683a99c088",
+   "fields": 212,
+   "reviewed": 0,
+   "path": "records/albemarle/2022-AR/r001.json"
+  },
+  {
+   "version_label": "2022-AR",
+   "revision": 2,
+   "effective_date": "2022-10-28",
+   "input_variant": "degraded",
+   "published_at": "2026-09-21T11:57:40.652355Z",
+   "run_id": "20260921T094335Z-f0985b",
+   "model_id": "frontier",
+   "prompt_versions": {
+    "pass1_extraction": "v2"
+   },
+   "dictionary_version": 3,
+   "source_sha256": "a83062b57870c97bc0a7ff46b00a5c734fb69c37bfafb1514ecf5c9dc06927f8",
+   "fields": 222,
+   "reviewed": 0,
+   "path": "records/albemarle/2022-AR/r002.json"
+  },
+  {
+   "version_label": "2022-AR",
+   "revision": 3,
+   "effective_date": "2022-10-28",
+   "input_variant": "clean",
+   "published_at": "2026-09-21T12:01:19.346855Z",
+   "run_id": "20260921T094008Z-67a88b",
+   "model_id": "frontier",
+   "prompt_versions": {
+    "pass1_extraction": "v2",
+    "pass2_schema_hint": "v1"
+   },
+   "dictionary_version": 3,
+   "source_sha256": "6913e1b833800ee3706406cf4f1d9b95f8140a89935fe9f6947cb4683a99c088",
+   "fields": 212,
+   "reviewed": 0,
+   "path": "records/albemarle/2022-AR/r003.json"
+  },
+  {
+   "version_label": "2022-AR",
+   "revision": 4,
+   "effective_date": "2022-10-28",
+   "input_variant": "degraded",
+   "published_at": "2026-09-21T12:03:16.554080Z",
+   "run_id": "20260921T094335Z-f0985b",
+   "model_id": "frontier",
+   "prompt_versions": {
+    "pass1_extraction": "v2",
+    "pass2_schema_hint": "v1"
+   },
+   "dictionary_version": 3,
+   "source_sha256": "a83062b57870c97bc0a7ff46b00a5c734fb69c37bfafb1514ecf5c9dc06927f8",
+   "fields": 222,
+   "reviewed": 0,
+   "path": "records/albemarle/2022-AR/r004.json"
+  }
+ ]
+}

@@ -1,0 +1,542 @@
+{
+ "created_at": "2026-09-21T12:23:50.729513Z",
+ "document_id": "albemarle",
+ "version_label": "2022-AR",
+ "dictionary_version": 3,
+ "candidates_considered": 31,
+ "proposals": [
+  {
+   "entry": {
+    "canonical_name": "debt_rating",
+    "display_name": "Debt Rating",
+    "aliases": [],
+    "business_meaning": "The borrower's senior unsecured (or otherwise specified) long-term debt rating from the rating agencies — typically shown as a triple of S&P/Moody's/Fitch equivalents — used as the pricing grid level in the credit agreement. Values are stated as rating tiers (e.g. 'BBB+/Baa1/BBB+'), with a bottom tier covering ratings at or below a threshold or unrated.",
+    "credit_risk_relevance": "It is an external, third-party view of the borrower's default risk, so a downgrade signals deteriorating credit quality; because the agreement ties margins to it, a downgrade also raises the borrower's interest cost and can compound stress.",
+    "downstream_use": "Used to set the Applicable Rate (margin, facility/commitment fees) on the facility, and monitored for rating migration in pricing recalculation, covenant/ratings-trigger checks and portfolio credit reporting.",
+    "typical_location": "p17 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "debt_rating",
+    "display_name": "Debt Rating",
+    "examples": [
+     "A-/A3/A- or better",
+     "BBB+/Baa1/BBB+",
+     "BBB/Baa2/BBB"
+    ],
+    "page": 17,
+    "clause_excerpt": "“Applicable Rate” means, from time to time, the following percentages per annum, based upon the Debt Rating, as set forth below: 5 | worse than or equal to BB+/Ba1/BB+ or unrated | 1.375% | 0.375% | 1.375% | 0.250%",
+    "seen": 12
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01155,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "pro_rata_share",
+    "display_name": "Pro Rata Share1",
+    "aliases": [],
+    "business_meaning": "Each lender's percentage share of the syndicated facility \\u2014 typically its commitment (or outstanding loans) divided by the total commitments \\u2014 expressed to nine decimal places as shown in the commitment schedule. It determines the proportion in which that lender funds advances and receives repayments, prepayments and fee/interest distributions.",
+    "credit_risk_relevance": "It quantifies the bank's proportional exposure to the borrower under the facility, so an increase means more funding obligation and loss-given-default exposure, while a decrease (e.g. after an assignment or commitment reduction) signals reduced exposure and possibly a shift in the lender group's composition.",
+    "downstream_use": "Used to set and monitor the bank's committed and drawn exposure limits, allocate funding requests and payment/fee distributions, and to aggregate syndicate participations in exposure and concentration reporting.",
+    "typical_location": "p154 of albemarle 2022-AR",
+    "data_type": "percentage",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "pro_rata_share",
+    "display_name": "Pro Rata Share1",
+    "examples": [
+     "11.333333333%",
+     "8.000000000%",
+     "3.333333333%"
+    ],
+    "page": 154,
+    "clause_excerpt": "1 Percentages rounded to the ninth decimal place.",
+    "seen": 12
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.010815,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "pricing_level",
+    "display_name": "Pricing Level",
+    "aliases": [],
+    "business_meaning": "The row (tier) in the credit agreement's pricing grid that currently applies to the borrower, determined here by the borrower's Debt Ratings from Moody's, S&P and Fitch under stated tie-break rules (e.g., the middle rating when three apply, a notch-down when only one applies, and the lowest level, Level 5, if no rating is in effect). The level itself is just an index (1, 2, 3...) that maps to the Applicable Rate — margins, letter of credit fees and commitment fees — with Level 1 being the best pricing.",
+    "credit_risk_relevance": "It is a direct, rating-linked indicator of perceived credit quality: a move to a higher-numbered level means the borrower has been downgraded (or lost ratings coverage) and now pays more, raising interest cost and signalling deteriorating risk.",
+    "downstream_use": "Used to set and re-price interest margins and fees on drawn and undrawn amounts, to check billed interest against the agreement, and in portfolio reporting or triggers that track rating-driven pricing migration.",
+    "typical_location": "p17 of albemarle 2022-AR",
+    "data_type": "integer",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "pricing_level",
+    "display_name": "Pricing Level",
+    "examples": [
+     "1",
+     "2",
+     "3"
+    ],
+    "page": 17,
+    "clause_excerpt": "For purposes of the foregoing, (a) if each of Moody's, S&P and Fitch shall have a Debt Rating in effect and the Debt Ratings established by such rating agencies shall fall within different Levels in the foregoing table, the Applicable Rate shall be based on the Level in which two of such Ratings shall fall or, if there shall be no such Level, on the Level in which the second highest of the three Debt Ratings shall fall; (b) if only two of S&P, Moody's and Fitch shall have Debt Ratings in effect, then the Applicable Rate shall be based on the Level in which the higher Debt Rating shall fall unless one of such Debt Ratings is two or more Levels lower than the other, in which case the Applicable Rate shall be based on the Level next above that of the lower of the two Debt Ratings; (c) if only one of S&P, Moody's and Fitch shall have a Debt Rating in effect, then the Applicable Rate shall be based on the Level next below that in which such Debt Rating shall fall; and (d) if none of Moody's, S&P and Fitch shall have a Debt Rating in effect, then the Applicable Rate shall be based on Level 5. If the rating system of S&P, Moody's or Fitch shall change, the Company and the Lenders shall negotiate in good faith to amend this definition to reflect such changed rating system and, pending the effectiveness of any such amendment, the Applicable Rate shall be determined as provided above as if the affected rating agency did not have a Debt Rating in effect. For the avoidance of doubt, Leve",
+    "seen": 6
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01456,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "minimum_collateral_amount",
+    "display_name": "Minimum Collateral Amount",
+    "aliases": [],
+    "business_meaning": "The defined dollar floor of cash collateral (cash or deposit account balances) a borrower or defaulting lender must post to secure letter of credit exposure — generally 100% of the L/C Issuer's Fronting Exposure where a Defaulting Lender exists, 100% of the Outstanding Amount of all L/C Obligations where cash collateral is required under the specified Section 2.16(a) triggers, and otherwise an amount set by the Administrative Agent and L/C Issuer in their sole discretion.",
+    "credit_risk_relevance": "It sets how fully contingent L/C exposure must be cash-secured, so a 100% level means the fronting bank's risk is effectively eliminated once collateral is posted; a lower or discretionary amount leaves residual unsecured exposure to the borrower or to a defaulting lender.",
+    "downstream_use": "Used to calculate and monitor required cash collateral postings against outstanding L/C obligations, to adjust net exposure and available commitments in limit monitoring, and to report collateral shortfalls or defaulting-lender events.",
+    "typical_location": "p33 of albemarle 2022-AR",
+    "data_type": "percentage",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "minimum_collateral_amount",
+    "display_name": "Minimum Collateral Amount",
+    "examples": [
+     "100% of the Fronting Exposure",
+     "100% of the Outstanding Amount of all L/C Obligations"
+    ],
+    "page": 33,
+    "clause_excerpt": "\"Minimum Collateral Amount\" means, at any time, (a) with respect to Cash Collateral consisting of cash or deposit account balances provided to reduce or eliminate Fronting Exposure during the existence of a Defaulting Lender, an amount equal to 100% of the Fronting Exposure of the L/C Issuer with respect to Letters of Credit issued and outstanding at such time, (b) with respect to Cash Collateral consisting of cash or deposit account balances provided in accordance with the provisions of Section 2.16(a)(i), (a)(ii) or (a)(iii), an amount equal to 100% of the Outstanding Amount of all L/C Obligations, and (c) otherwise, an amount determined by the Administrative Agent and the L/C Issuer in their sole discretion.",
+    "seen": 2
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01364,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "accounting_standard_for_pension_liability_mark_to_market",
+    "display_name": "Accounting standard for pension liability mark-to-market",
+    "aliases": [],
+    "business_meaning": "This field records the accounting standard cited in the EBITDA definition as the basis for the pension liability mark-to-market adjustment — here ASC 715 — which governs the non-cash valuation losses on pension liabilities that may be added back to Consolidated Net Income (to the extent the related cash impact has not been realized).",
+    "credit_risk_relevance": "It fixes the technical reference point for a permitted EBITDA add-back, so it affects how much non-cash pension loss can inflate reported EBITDA; a different or broader standard reference (or an add-back not tied to unrealized amounts) can loosen the covenant calculation and overstate debt capacity.",
+    "downstream_use": "Used when recalculating Consolidated EBITDA for covenant testing and leverage/coverage ratio monitoring, and in reviewing borrower compliance certificates for correctly scoped pension add-backs.",
+    "typical_location": "p22 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "accounting_standard_for_pension_liability_mark_to_market",
+    "display_name": "Accounting standard for pension liability mark-to-market",
+    "examples": [
+     "Accounting Standards Codification 715 (ASC 715)"
+    ],
+    "page": 22,
+    "clause_excerpt": "“Consolidated EBITDA” means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period, (ii) the provision for federal, state, local and foreign income taxes payable by the Consolidated Group for such period, (iii) the amount of depreciation and amortization expense for such period, (iv) non-cash expenses for such period (excluding any non-cash expense to the extent that it represents an accrual of or reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715), (vii) any fees, expenses or charges (other than depreciation or amortization expense) related to any Acquisition, Disposition, issuance of equity interests, other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement (including any refinancing or amendment thereof) (in each case, whether or not consummated), including, but not limited to, such fees, expenses or charges rel",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.013095,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "adjustment_period",
+    "display_name": "Adjustment Period",
+    "aliases": [],
+    "business_meaning": "The defined window during which a temporarily loosened financial covenant level applies following a qualifying acquisition — here, the four consecutive fiscal quarters beginning with the quarter in which a debt-funded acquisition closes, during which the maximum Consolidated Leverage Ratio is stepped up by 0.50x at the borrower's election.",
+    "credit_risk_relevance": "It sets how long the borrower may operate at higher permitted leverage before the covenant snaps back to its base level, so a longer period (or repeated elections) means extended tolerance for elevated leverage and reduced near-term covenant protection.",
+    "downstream_use": "Used in covenant testing and limit monitoring to apply the correct leverage threshold for each test date and to flag when the covenant reverts to the base level.",
+    "typical_location": "p108 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "adjustment_period",
+    "display_name": "Adjustment Period",
+    "examples": [
+     "four consecutive fiscal quarters"
+    ],
+    "page": 108,
+    "clause_excerpt": "Permit the Consolidated Leverage Ratio as of the end of any fiscal quarter of the Company to be greater than 3.50 to 1.0; provided, that, upon consummation of an Acquisition where the consideration includes cash proceeds from the issuance of Funded Debt in excess of $500,000,000, the otherwise applicable maximum Consolidated Leverage Ratio, at the election of the Company (with prior written notice to the Administrative Agent), shall increase by 0.50:1.00 for four consecutive fiscal quarters beginning with the fiscal quarter in which such Acquisition occurs (the \"Adjustment Period\"). After any",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.010775,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "alternative_currency",
+    "display_name": "Alternative Currency",
+    "aliases": [],
+    "business_meaning": "The non-Dollar currencies in which borrowings (loans or letters of credit) may be made under the facility \\u2014 typically a named list (e.g., Sterling, Euro, Yen, Australian Dollars, Canadian Dollars) plus any other freely available, freely transferable currency convertible into Dollars that is approved under the agreement's currency-approval mechanics.",
+    "credit_risk_relevance": "Multi-currency availability exposes the lender and borrower to FX movements, since outstandings must be revalued into Dollars for commitment and covenant purposes, and a longer or less liquid currency list increases FX, convertibility and transfer risk.",
+    "downstream_use": "Used to set up permitted currencies in the loan system, drive FX revaluation of outstandings for commitment/limit monitoring and covenant testing, and support currency-level exposure reporting.",
+    "typical_location": "p15 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "alternative_currency",
+    "display_name": "Alternative Currency",
+    "examples": [
+     "British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars"
+    ],
+    "page": 15,
+    "clause_excerpt": "“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars and each other lawful currency (other than Dollars) that is freely available and freely transferable and convertible into Dollars and that is approved in accordance with Section 1.09.",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01109,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "alternative_currency_daily_rate",
+    "display_name": "Alternative Currency Daily Rate",
+    "aliases": [],
+    "business_meaning": "The overnight (daily) benchmark interest rate used to price borrowings denominated in a non-USD alternative currency under the facility — here, SONIA for loans in British Pounds Sterling. It is the floating base rate to which the applicable margin is added, as determined under the agreement's definition of that rate.",
+    "credit_risk_relevance": "It drives the borrower's interest cost on alternative-currency loans, so movements in the rate directly affect debt service burden and interest coverage; a change in the specified benchmark (e.g., a replacement or fallback rate) can also shift pricing basis and signal benchmark-transition or basis risk.",
+    "downstream_use": "Used in pricing and interest accrual calculations, in cash-flow and debt-service forecasting for covenant testing (e.g., interest coverage), and in rate-exposure and multi-currency facility reporting.",
+    "typical_location": "p15 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "alternative_currency_daily_rate",
+    "display_name": "Alternative Currency Daily Rate",
+    "examples": [
+     "SONIA"
+    ],
+    "page": 15,
+    "clause_excerpt": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01062,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "alternative_currency_daily_rate_floor",
+    "display_name": "Alternative Currency Daily Rate floor",
+    "aliases": [],
+    "business_meaning": "The contractual minimum level applied to the Alternative Currency Daily Rate (the daily-set reference rate for borrowings in a non-USD alternative currency, e.g. SONIA). If the published rate falls below this floor — 0.0% in the example — the rate is deemed to equal the floor for all purposes of the agreement.",
+    "credit_risk_relevance": "The floor prevents negative reference rates from eroding interest income, so it sets the minimum all-in yield the lender earns on alternative-currency loans; a floor above zero would increase the borrower's minimum debt service cost, while a zero or absent floor leaves the lender exposed to falling or negative rates.",
+    "downstream_use": "Used in interest accrual and pricing calculations for alternative-currency drawings, and feeds interest-expense and debt-service projections used in cash flow forecasting and covenant testing.",
+    "typical_location": "p15 of albemarle 2022-AR",
+    "data_type": "percentage",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "alternative_currency_daily_rate_floor",
+    "display_name": "Alternative Currency Daily Rate floor",
+    "examples": [
+     "0.0%"
+    ],
+    "page": 15,
+    "clause_excerpt": "provided, that, if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement. Any change in an Alternative Currency Daily Rate shall be effective from and including the date of such change without further notice.",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.010935,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "base_rate_loan_term_sofr_term",
+    "display_name": "Base Rate Loan Term SOFR term",
+    "aliases": [],
+    "business_meaning": "The tenor of Term SOFR used in the Base Rate definition — i.e., when the Base Rate is calculated on any date, one of its floor components is the Term SOFR Screen Rate for a term of this length (here one month) commencing that day. It is not the interest period of the loan itself, just the SOFR tenor plugged into the Base Rate formula.",
+    "credit_risk_relevance": "It determines which point on the SOFR curve feeds the Base Rate floor, so a longer tenor generally picks up more forward rate expectations and can raise the borrower's floating cost in a steepening curve; a change signals a repricing of Base Rate borrowings rather than a change in credit quality.",
+    "downstream_use": "Used in interest pricing and accrual calculations for Base Rate loans, and in cash-flow/debt-service forecasting and interest expense reporting.",
+    "typical_location": "p42 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "base_rate_loan_term_sofr_term",
+    "display_name": "Base Rate Loan Term SOFR term",
+    "examples": [
+     "one month"
+    ],
+    "page": 42,
+    "clause_excerpt": "(g)\tfor any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate with a term of one month commencing that day;",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.010645,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "commercial_letter_of_credit_payment_requirement",
+    "display_name": "Commercial Letter of Credit payment requirement",
+    "aliases": [],
+    "business_meaning": "This field captures the payment mechanics that any commercial letter of credit issued under the facility must contain — here, that it must provide solely for cash payment upon presentation of a sight draft (i.e., immediate payment on demand, no deferred-payment, acceptance or negotiation terms).",
+    "credit_risk_relevance": "Restricting commercial L/Cs to sight-draft cash payment means the exposure crystallises immediately into a reimbursement obligation (and potentially a loan) rather than a deferred or time-draft liability, making the timing of drawdowns predictable; allowing deferred payment, acceptances or usance terms would extend the contingent exposure and add settlement and counterparty risk.",
+    "downstream_use": "Used in L/C issuance eligibility checks and product controls, and in exposure and limit monitoring to determine how quickly a drawn L/C converts into a funded reimbursement obligation against the Letter of Credit Sublimit and Aggregate Commitments.",
+    "typical_location": "p32 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "commercial_letter_of_credit_payment_requirement",
+    "display_name": "Commercial Letter of Credit payment requirement",
+    "examples": [
+     "cash payment upon presentation of a sight draft"
+    ],
+    "page": 32,
+    "clause_excerpt": "“Letter of Credit” means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit; provided, however, that any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft. Notwithstanding anything to the contrary contained herein, a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof) shall not be a “Letter of Credit” for purposes of the Loan Documents until such time as the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01271,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "default_pricing_level",
+    "display_name": "Default Pricing Level",
+    "aliases": [],
+    "business_meaning": "The fallback tier in the ratings-based pricing grid that applies when none of Moody's, S&P or Fitch has a Debt Rating in effect for the borrower — here, Level 5 (typically the highest-priced/lowest-rated tier). It sets the Applicable Rate (margin and fees) by default rather than by reference to any current rating.",
+    "credit_risk_relevance": "It caps the bank's downside on unrated exposure by pricing the facility at the worst grid level if ratings lapse or are withdrawn, so reliance on this level signals a borrower that has lost or never had external ratings coverage. A default level set at a mid-grid rather than bottom tier means less pricing protection if ratings disappear.",
+    "downstream_use": "Used in pricing and interest/fee calculation logic as the fallback Applicable Rate input, and in monitoring/reporting to flag facilities currently priced off the default level due to absent Debt Ratings.",
+    "typical_location": "p17 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "default_pricing_level",
+    "display_name": "Default Pricing Level",
+    "examples": [
+     "Level 5"
+    ],
+    "page": 17,
+    "clause_excerpt": "For purposes of the foregoing, (a) if each of Moody's, S&P and Fitch shall have a Debt Rating in effect and the Debt Ratings established by such rating agencies shall fall within different Levels in the foregoing table, the Applicable Rate shall be based on the Level in which two of such Ratings shall fall or, if there shall be no such Level, on the Level in which the second highest of the three Debt Ratings shall fall; (b) if only two of S&P, Moody's and Fitch shall have Debt Ratings in effect, then the Applicable Rate shall be based on the Level in which the higher Debt Rating shall fall unless one of such Debt Ratings is two or more Levels lower than the other, in which case the Applicable Rate shall be based on the Level next above that of the lower of the two Debt Ratings; (c) if only one of S&P, Moody's and Fitch shall have a Debt Rating in effect, then the Applicable Rate shall be based on the Level next below that in which such Debt Rating shall fall; and (d) if none of Moody's, S&P and Fitch shall have a Debt Rating in effect, then the Applicable Rate shall be based on Level 5. If the rating system of S&P, Moody's or Fitch shall change, the Company and the Lenders shall negotiate in good faith to amend this definition to reflect such changed rating system and, pending the effectiveness of any such amendment, the Applicable Rate shall be determined as provided above as if the affected rating agency did not have a Debt Rating in effect. For the avoidance of doubt, Leve",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.013615,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "exchange_rate_determination_date",
+    "display_name": "Exchange rate determination date",
+    "aliases": [],
+    "business_meaning": "The point in time the credit agreement uses to fix the FX rate when converting amounts between Dollars and an Alternative Currency — here, the rate quoted at approximately 11:00 a.m. on the date two Business Days before the date the currency conversion is actually made (with a fallback if no rate is published).",
+    "credit_risk_relevance": "It determines which market rate applies to multicurrency exposures, so a longer or shorter lag changes how much rate movement can occur between the quoted rate and the actual funding or utilisation date, affecting measured exposure against commitments and any borrowing-base or covenant thresholds.",
+    "downstream_use": "Used to timestamp the FX rate applied when revaluing multicurrency loans and letters of credit for facility limit/availability monitoring, covenant and financial-ratio testing, and exposure reporting.",
+    "typical_location": "p15 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "exchange_rate_determination_date",
+    "display_name": "Exchange rate determination date",
+    "examples": [
+     "two Business Days prior to the date as of which the foreign exchange computation is made"
+    ],
+    "page": 15,
+    "clause_excerpt": "\"Alternative Currency Equivalent\" means, at any time, with respect to any amount denominated in Dollars, the equivalent amount thereof in the applicable Alternative Currency as determined by the Administrative Agent or the L/C Issuer, as the case may be, by reference to Bloomberg (or such other publicly available service for displaying exchange rates), to be the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m. on the date two Business Days prior to the date as of which the foreign exchange computation is made; provided, however, that if no such rate is available, the \"Alternative Currency Equivalent\" shall be determined by the Administrative Agent or the",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01138,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "exchange_rate_determination_time",
+    "display_name": "Exchange rate determination time",
+    "aliases": [],
+    "business_meaning": "The time of day (here, approximately 11:00 a.m.) at which the Administrative Agent or L/C Issuer reads the published FX rate used to convert Dollar amounts into an Alternative Currency, taken on the specified rate-setting date (in this clause, two Business Days before the computation date).",
+    "credit_risk_relevance": "It fixes the exact FX snapshot that determines converted exposure amounts, so a later or earlier fixing time (or an unspecified one) changes the rate applied and creates intraday basis risk between the rate used and the rate at actual funding or utilization.",
+    "downstream_use": "Used to reproduce and validate FX conversions for multicurrency commitment and utilization limit monitoring, borrowing base and L/C exposure calculations, and currency-denominated covenant and exposure reporting.",
+    "typical_location": "p15 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "exchange_rate_determination_time",
+    "display_name": "Exchange rate determination time",
+    "examples": [
+     "11:00 a.m."
+    ],
+    "page": 15,
+    "clause_excerpt": "\"Alternative Currency Equivalent\" means, at any time, with respect to any amount denominated in Dollars, the equivalent amount thereof in the applicable Alternative Currency as determined by the Administrative Agent or the L/C Issuer, as the case may be, by reference to Bloomberg (or such other publicly available service for displaying exchange rates), to be the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m. on the date two Business Days prior to the date as of which the foreign exchange computation is made; provided, however, that if no such rate is available, the \"Alternative Currency Equivalent\" shall be determined by the Administrative Agent or the",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01123,
+   "failure": null
+  },
+  {
+   "entry": {
+    "canonical_name": "exchange_rate_source",
+    "display_name": "Exchange rate source",
+    "aliases": [],
+    "business_meaning": "The named service or screen (here, Bloomberg) that the Administrative Agent or L/C Issuer uses to obtain the FX rate when converting Dollar amounts into an Alternative Currency, typically at a set time (around 11:00 a.m.) two business days before the computation date, with a fallback to another publicly available service or agent determination if no rate is available.",
+    "credit_risk_relevance": "It determines which quoted rate governs the size of multi-currency exposures, so a change in source (or reliance on the fallback/agent-determined rate) can shift measured utilisation and headroom and introduces discretion or basis risk in how exposure is valued.",
+    "downstream_use": "Used to convert non-Dollar commitments, loans and L/C exposure into the reporting currency for facility limit and sublimit monitoring, borrowing base or covenant calculations, and exposure reporting.",
+    "typical_location": "p15 of albemarle 2022-AR",
+    "data_type": "text",
+    "repeatable": false,
+    "instance_rules": [],
+    "value_guidance": null,
+    "value_is_name": false,
+    "core": false,
+    "status": "pending_review",
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "version": 1
+   },
+   "evidence": {
+    "canonical_name": "exchange_rate_source",
+    "display_name": "Exchange rate source",
+    "examples": [
+     "Bloomberg"
+    ],
+    "page": 15,
+    "clause_excerpt": "\"Alternative Currency Equivalent\" means, at any time, with respect to any amount denominated in Dollars, the equivalent amount thereof in the applicable Alternative Currency as determined by the Administrative Agent or the L/C Issuer, as the case may be, by reference to Bloomberg (or such other publicly available service for displaying exchange rates), to be the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m. on the date two Business Days prior to the date as of which the foreign exchange computation is made; provided, however, that if no such rate is available, the \"Alternative Currency Equivalent\" shall be determined by the Administrative Agent or the",
+    "seen": 1
+   },
+   "model_key": "frontier",
+   "prompt_version": "v1",
+   "cost_usd": 0.01163,
+   "failure": null
+  }
+ ],
+ "cost_usd": 0.1783
+}

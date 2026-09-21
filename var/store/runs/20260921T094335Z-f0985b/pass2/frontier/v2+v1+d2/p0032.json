@@ -1,0 +1,203 @@
+{
+ "page": 32,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "5f47f4e7e196b89faad6be6ee7c4081df6825ca7887ec8fa1934fe131beb6f29",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "each of the Persons identified as a \"Lender\" on the signature pages hereto",
+       "source_text": "\"Lender\" means each of the Persons identified as a \"Lender\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement",
+       "confidence": 0.6,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "Letter of Credit",
+       "source_text": "\"Letter of Credit\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit",
+       "confidence": 0.45,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto\",\"source_text\":\"\\\"Lender\\\" means each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement\",\"confidence\":0.6},{\"name\":\"facility_type\",\"raw_value\":\"Letter of Credit\",\"source_text\":\"\\\"Letter of Credit\\\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit\",\"confidence\":0.45}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8765,
+     "output_tokens": 232,
+     "cost_usd": 0.049625
+    },
+    "latency_s": 5.958935046997794,
+    "request_id": "req_011CfGX5zp9kdQ1LbRK6ZT5h"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1785,
+    "y1": 3508,
+    "scale": 0.9368,
+    "effective_dpi": 281.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "bb892c14628bce513112abc23f55a708633f882ae78ea83ff61f29718e2383ea",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "Letter of Credit",
+       "source_text": "means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95},{\"name\":\"facility_type\",\"raw_value\":\"Letter of Credit\",\"source_text\":\"means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.\",\"confidence\":0.4}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8756,
+     "output_tokens": 243,
+     "cost_usd": 0.049855
+    },
+    "latency_s": 5.571085616000346,
+    "request_id": "req_011CfGX6WjiyK3ARoe56KLY1"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "5f47f4e7e196b89faad6be6ee7c4081df6825ca7887ec8fa1934fe131beb6f29",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "each of the Persons identified as a \"Lender\" on the signature pages hereto",
+       "source_text": "\"Lender\" means each of the Persons identified as a \"Lender\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement",
+       "confidence": 0.6,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "Letter of Credit",
+       "source_text": "\"Letter of Credit\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit",
+       "confidence": 0.45,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto\",\"source_text\":\"\\\"Lender\\\" means each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement\",\"confidence\":0.6},{\"name\":\"facility_type\",\"raw_value\":\"Letter of Credit\",\"source_text\":\"\\\"Letter of Credit\\\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit\",\"confidence\":0.45}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8765,
+     "output_tokens": 232,
+     "cost_usd": 0.049625
+    },
+    "latency_s": 5.958935046997794,
+    "request_id": "req_011CfGX5zp9kdQ1LbRK6ZT5h"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1785,
+    "y1": 3508,
+    "scale": 0.9368,
+    "effective_dpi": 281.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "bb892c14628bce513112abc23f55a708633f882ae78ea83ff61f29718e2383ea",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "Letter of Credit",
+       "source_text": "means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95},{\"name\":\"facility_type\",\"raw_value\":\"Letter of Credit\",\"source_text\":\"means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.\",\"confidence\":0.4}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8756,
+     "output_tokens": 243,
+     "cost_usd": 0.049855
+    },
+    "latency_s": 5.571085616000346,
+    "request_id": "req_011CfGX6WjiyK3ARoe56KLY1"
+   }
+  }
+ ]
+}

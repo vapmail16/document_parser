@@ -1,0 +1,189 @@
+{
+ "page": 15,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "685d8afe000f46cb44feff0e3b82d6579c3c2377ab1e02a17cea08f04f933167",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "total_commitments",
+       "raw_value": "ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)",
+       "source_text": "The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (alternative currency daily)",
+       "raw_value": "SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"total_commitments\",\"raw_value\":\"ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)\",\"source_text\":\"The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).\",\"confidence\":0.9},{\"name\":\"benchmark_rate (alternative currency daily)\",\"raw_value\":\"SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8814,
+     "output_tokens": 249,
+     "cost_usd": 0.050295
+    },
+    "latency_s": 7.15738439100096,
+    "request_id": "req_011CfGX4PDykan63pyFfNQv1"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "3a257e2f28e85d215eaaa6100af96fbdea2dc0e5518d0b6f854b195b9fd3e8b4",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (alternative currency daily)",
+       "raw_value": "the rate per annum equal to SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (alternative currency daily)\",\"raw_value\":\"the rate per annum equal to SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8811,
+     "output_tokens": 127,
+     "cost_usd": 0.04723
+    },
+    "latency_s": 4.320395810005721,
+    "request_id": "req_011CfGX4xwG6rqqE8ZvQBuCq"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "685d8afe000f46cb44feff0e3b82d6579c3c2377ab1e02a17cea08f04f933167",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "total_commitments",
+       "raw_value": "ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)",
+       "source_text": "The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (alternative currency daily)",
+       "raw_value": "SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"total_commitments\",\"raw_value\":\"ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)\",\"source_text\":\"The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).\",\"confidence\":0.9},{\"name\":\"benchmark_rate (alternative currency daily)\",\"raw_value\":\"SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8814,
+     "output_tokens": 249,
+     "cost_usd": 0.050295
+    },
+    "latency_s": 7.15738439100096,
+    "request_id": "req_011CfGX4PDykan63pyFfNQv1"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "3a257e2f28e85d215eaaa6100af96fbdea2dc0e5518d0b6f854b195b9fd3e8b4",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (alternative currency daily)",
+       "raw_value": "the rate per annum equal to SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (alternative currency daily)\",\"raw_value\":\"the rate per annum equal to SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8811,
+     "output_tokens": 127,
+     "cost_usd": 0.04723
+    },
+    "latency_s": 4.320395810005721,
+    "request_id": "req_011CfGX4xwG6rqqE8ZvQBuCq"
+   }
+  }
+ ]
+}

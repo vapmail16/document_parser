@@ -1,0 +1,595 @@
+{
+ "page": 15,
+ "model_key": "frontier",
+ "prompt_version": "v2",
+ "prompt_sha256": "ffcc6fa944d0bcf954dc09f86c57269364cc4020bbf12e07c98bc47912dc7acb",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "32e495512c12b390f168755daadae080812f11214caa7c9eb6cb0f31458e76e4",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Affected Financial Institution” means (a) any EEA Financial Institution or (b) any UK Financial Institution.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Affiliate” means, with respect to any Person, another Person that directly, or indirectly through one or more intermediaries, Controls or is Controlled by or is under common Control with the Person specified. “Control” means the possession, directly or indirectly, of the power to direct or cause the direction of the management or policies of a Person, whether through the ability to exercise voting power, by contract or otherwise. “Controlling” and “Controlled” have meanings correlative thereto. Without limiting the generality of the foregoing, for purposes of determining Affiliates of a member of the Consolidated Group, a Person shall be deemed to be Controlled by another Person if such other Person possesses, directly or indirectly, power to vote 35% or more of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Agent Parties” has the meaning specified in Section 11.02.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Aggregate Commitments” means the aggregate amount of Commitments of all the Lenders. The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Agreement” means this Credit Agreement.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars and each other lawful currency (other than Dollars) that is freely available and freely transferable and convertible into Dollars and that is approved in accordance with Section 1.09.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Alternative Currency Daily Rate” means, for any day, with respect to any Credit Extension:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": null,
+       "text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Control threshold for Affiliates of Consolidated Group member",
+       "raw_value": "35%",
+       "source_text": "power to vote 35% or more of the securities having ordinary voting power for the election of directors",
+       "confidence": 0.97,
+       "block_index": 3
+      },
+      {
+       "name": "Aggregate Commitments",
+       "raw_value": "ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)",
+       "source_text": "The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+       "confidence": 0.97,
+       "block_index": 5
+      },
+      {
+       "name": "Alternative Currency",
+       "raw_value": "British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars",
+       "source_text": "“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars",
+       "confidence": 0.95,
+       "block_index": 7
+      },
+      {
+       "name": "Alternative Currency Daily Rate (British Pounds Sterling)",
+       "raw_value": "SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof",
+       "confidence": 0.95,
+       "block_index": 9
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Affected Financial Institution” means (a) any EEA Financial Institution or (b) any UK Financial Institution.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Affiliate” means, with respect to any Person, another Person that directly, or indirectly through one or more intermediaries, Controls or is Controlled by or is under common Control with the Person specified. “Control” means the possession, directly or indirectly, of the power to direct or cause the direction of the management or policies of a Person, whether through the ability to exercise voting power, by contract or otherwise. “Controlling” and “Controlled” have meanings correlative thereto. Without limiting the generality of the foregoing, for purposes of determining Affiliates of a member of the Consolidated Group, a Person shall be deemed to be Controlled by another Person if such other Person possesses, directly or indirectly, power to vote 35% or more of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Agent Parties” has the meaning specified in Section 11.02.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Aggregate Commitments” means the aggregate amount of Commitments of all the Lenders. The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Agreement” means this Credit Agreement.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars and each other lawful currency (other than Dollars) that is freely available and freely transferable and convertible into Dollars and that is approved in accordance with Section 1.09.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Alternative Currency Daily Rate” means, for any day, with respect to any Credit Extension:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":null,\"text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Control threshold for Affiliates of Consolidated Group member\",\"raw_value\":\"35%\",\"source_text\":\"power to vote 35% or more of the securities having ordinary voting power for the election of directors\",\"confidence\":0.97,\"block_index\":3},{\"name\":\"Aggregate Commitments\",\"raw_value\":\"ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)\",\"source_text\":\"The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).\",\"confidence\":0.97,\"block_index\":5},{\"name\":\"Alternative Currency\",\"raw_value\":\"British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars\",\"source_text\":\"“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars\",\"confidence\":0.95,\"block_index\":7},{\"name\":\"Alternative Currency Daily Rate (British Pounds Sterling)\",\"raw_value\":\"SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof\",\"confidence\":0.95,\"block_index\":9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1531,
+     "cost_usd": 0.077545
+    },
+    "latency_s": 16.682031489996007,
+    "request_id": "req_011CfGT2KtHohjN5VRfJB7SL"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4316882da82c368a49aa6fe43a94d7a80d8cf0cfc61cb4934eb04bf7fc74cfb8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": null,
+       "text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(b)",
+       "heading": null,
+       "text": "denominated in any other Alternative Currency (to the extent such Loans denominated in such currency will bear interest at a daily rate), the daily rate per annum as designated with respect to such Alternative Currency at the time such Alternative Currency is approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09 plus the adjustment (if any) determined by the Administrative Agent and the relevant Lenders pursuant to Section 1.09;",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "provided, that, if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement. Any change in an Alternative Currency Daily Rate shall be effective from and including the date of such change without further notice.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Alternative Currency Daily Rate Loan",
+       "text": "\"Alternative Currency Daily Rate Loan\" means a Loan that bears interest at a rate based on the definition of \"Alternative Currency Daily Rate.\" All Alternative Currency Daily Rate Loans must be denominated in an Alternative Currency.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Alternative Currency Equivalent",
+       "text": "\"Alternative Currency Equivalent\" means, at any time, with respect to any amount denominated in Dollars, the equivalent amount thereof in the applicable Alternative Currency as determined by the Administrative Agent or the L/C Issuer, as the case may be, by reference to Bloomberg (or such other publicly available service for displaying exchange rates), to be the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m. on the date two Business Days prior to the date as of which the foreign exchange computation is made; provided, however, that if no such rate is available, the \"Alternative Currency Equivalent\" shall be determined by the Administrative Agent or the",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "2",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    15/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Alternative Currency Daily Rate floor",
+       "raw_value": "0.0%",
+       "source_text": "if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Alternative Currency Daily Rate (British Pounds Sterling)",
+       "raw_value": "SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof",
+       "confidence": 0.94,
+       "block_index": 0
+      },
+      {
+       "name": "Exchange rate determination time",
+       "raw_value": "11:00 a.m.",
+       "source_text": "the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m.",
+       "confidence": 0.94,
+       "block_index": 4
+      },
+      {
+       "name": "Exchange rate determination date",
+       "raw_value": "two Business Days prior to the date as of which the foreign exchange computation is made",
+       "source_text": "on the date two Business Days prior to the date as of which the foreign exchange computation is made",
+       "confidence": 0.93,
+       "block_index": 4
+      },
+      {
+       "name": "Exchange rate source",
+       "raw_value": "Bloomberg",
+       "source_text": "by reference to Bloomberg (or such other publicly available service for displaying exchange rates)",
+       "confidence": 0.94,
+       "block_index": 4
+      },
+      {
+       "name": "Page number",
+       "raw_value": "2",
+       "source_text": "2",
+       "confidence": 0.8,
+       "block_index": 5
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "as determined by the Administrative Agent or the L/C Issuer"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "as determined by the Administrative Agent or the L/C Issuer, as the case may be"
+      },
+      {
+       "name": "Lenders",
+       "role": "Lender",
+       "source_text": "approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":null,\"text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(b)\",\"heading\":null,\"text\":\"denominated in any other Alternative Currency (to the extent such Loans denominated in such currency will bear interest at a daily rate), the daily rate per annum as designated with respect to such Alternative Currency at the time such Alternative Currency is approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09 plus the adjustment (if any) determined by the Administrative Agent and the relevant Lenders pursuant to Section 1.09;\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"provided, that, if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement. Any change in an Alternative Currency Daily Rate shall be effective from and including the date of such change without further notice.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Alternative Currency Daily Rate Loan\",\"text\":\"\\\"Alternative Currency Daily Rate Loan\\\" means a Loan that bears interest at a rate based on the definition of \\\"Alternative Currency Daily Rate.\\\" All Alternative Currency Daily Rate Loans must be denominated in an Alternative Currency.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Alternative Currency Equivalent\",\"text\":\"\\\"Alternative Currency Equivalent\\\" means, at any time, with respect to any amount denominated in Dollars, the equivalent amount thereof in the applicable Alternative Currency as determined by the Administrative Agent or the L/C Issuer, as the case may be, by reference to Bloomberg (or such other publicly available service for displaying exchange rates), to be the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m. on the date two Business Days prior to the date as of which the foreign exchange computation is made; provided, however, that if no such rate is available, the \\\"Alternative Currency Equivalent\\\" shall be determined by the Administrative Agent or the\",\"continues_from_previous\":false,\"continues_on_next\":true},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"2\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    15/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Alternative Currency Daily Rate floor\",\"raw_value\":\"0.0%\",\"source_text\":\"if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Alternative Currency Daily Rate (British Pounds Sterling)\",\"raw_value\":\"SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof\",\"confidence\":0.94,\"block_index\":0},{\"name\":\"Exchange rate determination time\",\"raw_value\":\"11:00 a.m.\",\"source_text\":\"the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m.\",\"confidence\":0.94,\"block_index\":4},{\"name\":\"Exchange rate determination date\",\"raw_value\":\"two Business Days prior to the date as of which the foreign exchange computation is made\",\"source_text\":\"on the date two Business Days prior to the date as of which the foreign exchange computation is made\",\"confidence\":0.93,\"block_index\":4},{\"name\":\"Exchange rate source\",\"raw_value\":\"Bloomberg\",\"source_text\":\"by reference to Bloomberg (or such other publicly available service for displaying exchange rates)\",\"confidence\":0.94,\"block_index\":4},{\"name\":\"Page number\",\"raw_value\":\"2\",\"source_text\":\"2\",\"confidence\":0.8,\"block_index\":5}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"as determined by the Administrative Agent or the L/C Issuer\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"as determined by the Administrative Agent or the L/C Issuer, as the case may be\"},{\"name\":\"Lenders\",\"role\":\"Lender\",\"source_text\":\"approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1688,
+     "cost_usd": 0.08147
+    },
+    "latency_s": 17.68852486099786,
+    "request_id": "req_011CfGT3aBnvutdCTqsrv5W9"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "32e495512c12b390f168755daadae080812f11214caa7c9eb6cb0f31458e76e4",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Affected Financial Institution” means (a) any EEA Financial Institution or (b) any UK Financial Institution.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Affiliate” means, with respect to any Person, another Person that directly, or indirectly through one or more intermediaries, Controls or is Controlled by or is under common Control with the Person specified. “Control” means the possession, directly or indirectly, of the power to direct or cause the direction of the management or policies of a Person, whether through the ability to exercise voting power, by contract or otherwise. “Controlling” and “Controlled” have meanings correlative thereto. Without limiting the generality of the foregoing, for purposes of determining Affiliates of a member of the Consolidated Group, a Person shall be deemed to be Controlled by another Person if such other Person possesses, directly or indirectly, power to vote 35% or more of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Agent Parties” has the meaning specified in Section 11.02.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Aggregate Commitments” means the aggregate amount of Commitments of all the Lenders. The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Agreement” means this Credit Agreement.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars and each other lawful currency (other than Dollars) that is freely available and freely transferable and convertible into Dollars and that is approved in accordance with Section 1.09.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "“Alternative Currency Daily Rate” means, for any day, with respect to any Credit Extension:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": null,
+       "text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Control threshold for Affiliates of Consolidated Group member",
+       "raw_value": "35%",
+       "source_text": "power to vote 35% or more of the securities having ordinary voting power for the election of directors",
+       "confidence": 0.97,
+       "block_index": 3
+      },
+      {
+       "name": "Aggregate Commitments",
+       "raw_value": "ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)",
+       "source_text": "The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+       "confidence": 0.97,
+       "block_index": 5
+      },
+      {
+       "name": "Alternative Currency",
+       "raw_value": "British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars",
+       "source_text": "“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars",
+       "confidence": 0.95,
+       "block_index": 7
+      },
+      {
+       "name": "Alternative Currency Daily Rate (British Pounds Sterling)",
+       "raw_value": "SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof",
+       "confidence": 0.95,
+       "block_index": 9
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Affected Financial Institution” means (a) any EEA Financial Institution or (b) any UK Financial Institution.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Affiliate” means, with respect to any Person, another Person that directly, or indirectly through one or more intermediaries, Controls or is Controlled by or is under common Control with the Person specified. “Control” means the possession, directly or indirectly, of the power to direct or cause the direction of the management or policies of a Person, whether through the ability to exercise voting power, by contract or otherwise. “Controlling” and “Controlled” have meanings correlative thereto. Without limiting the generality of the foregoing, for purposes of determining Affiliates of a member of the Consolidated Group, a Person shall be deemed to be Controlled by another Person if such other Person possesses, directly or indirectly, power to vote 35% or more of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Agent Parties” has the meaning specified in Section 11.02.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Aggregate Commitments” means the aggregate amount of Commitments of all the Lenders. The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Agreement” means this Credit Agreement.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars and each other lawful currency (other than Dollars) that is freely available and freely transferable and convertible into Dollars and that is approved in accordance with Section 1.09.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"“Alternative Currency Daily Rate” means, for any day, with respect to any Credit Extension:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":null,\"text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Control threshold for Affiliates of Consolidated Group member\",\"raw_value\":\"35%\",\"source_text\":\"power to vote 35% or more of the securities having ordinary voting power for the election of directors\",\"confidence\":0.97,\"block_index\":3},{\"name\":\"Aggregate Commitments\",\"raw_value\":\"ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)\",\"source_text\":\"The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).\",\"confidence\":0.97,\"block_index\":5},{\"name\":\"Alternative Currency\",\"raw_value\":\"British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars\",\"source_text\":\"“Alternative Currency” means each of British Pounds Sterling, Euro, Japanese Yen, Australian Dollars and Canadian Dollars\",\"confidence\":0.95,\"block_index\":7},{\"name\":\"Alternative Currency Daily Rate (British Pounds Sterling)\",\"raw_value\":\"SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof\",\"confidence\":0.95,\"block_index\":9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1531,
+     "cost_usd": 0.077545
+    },
+    "latency_s": 16.682031489996007,
+    "request_id": "req_011CfGT2KtHohjN5VRfJB7SL"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4316882da82c368a49aa6fe43a94d7a80d8cf0cfc61cb4934eb04bf7fc74cfb8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": null,
+       "text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(b)",
+       "heading": null,
+       "text": "denominated in any other Alternative Currency (to the extent such Loans denominated in such currency will bear interest at a daily rate), the daily rate per annum as designated with respect to such Alternative Currency at the time such Alternative Currency is approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09 plus the adjustment (if any) determined by the Administrative Agent and the relevant Lenders pursuant to Section 1.09;",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "provided, that, if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement. Any change in an Alternative Currency Daily Rate shall be effective from and including the date of such change without further notice.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Alternative Currency Daily Rate Loan",
+       "text": "\"Alternative Currency Daily Rate Loan\" means a Loan that bears interest at a rate based on the definition of \"Alternative Currency Daily Rate.\" All Alternative Currency Daily Rate Loans must be denominated in an Alternative Currency.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Alternative Currency Equivalent",
+       "text": "\"Alternative Currency Equivalent\" means, at any time, with respect to any amount denominated in Dollars, the equivalent amount thereof in the applicable Alternative Currency as determined by the Administrative Agent or the L/C Issuer, as the case may be, by reference to Bloomberg (or such other publicly available service for displaying exchange rates), to be the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m. on the date two Business Days prior to the date as of which the foreign exchange computation is made; provided, however, that if no such rate is available, the \"Alternative Currency Equivalent\" shall be determined by the Administrative Agent or the",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "2",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    15/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Alternative Currency Daily Rate floor",
+       "raw_value": "0.0%",
+       "source_text": "if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Alternative Currency Daily Rate (British Pounds Sterling)",
+       "raw_value": "SONIA",
+       "source_text": "denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof",
+       "confidence": 0.94,
+       "block_index": 0
+      },
+      {
+       "name": "Exchange rate determination time",
+       "raw_value": "11:00 a.m.",
+       "source_text": "the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m.",
+       "confidence": 0.94,
+       "block_index": 4
+      },
+      {
+       "name": "Exchange rate determination date",
+       "raw_value": "two Business Days prior to the date as of which the foreign exchange computation is made",
+       "source_text": "on the date two Business Days prior to the date as of which the foreign exchange computation is made",
+       "confidence": 0.93,
+       "block_index": 4
+      },
+      {
+       "name": "Exchange rate source",
+       "raw_value": "Bloomberg",
+       "source_text": "by reference to Bloomberg (or such other publicly available service for displaying exchange rates)",
+       "confidence": 0.94,
+       "block_index": 4
+      },
+      {
+       "name": "Page number",
+       "raw_value": "2",
+       "source_text": "2",
+       "confidence": 0.8,
+       "block_index": 5
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "as determined by the Administrative Agent or the L/C Issuer"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "as determined by the Administrative Agent or the L/C Issuer, as the case may be"
+      },
+      {
+       "name": "Lenders",
+       "role": "Lender",
+       "source_text": "approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":null,\"text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof; and\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(b)\",\"heading\":null,\"text\":\"denominated in any other Alternative Currency (to the extent such Loans denominated in such currency will bear interest at a daily rate), the daily rate per annum as designated with respect to such Alternative Currency at the time such Alternative Currency is approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09 plus the adjustment (if any) determined by the Administrative Agent and the relevant Lenders pursuant to Section 1.09;\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"provided, that, if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement. Any change in an Alternative Currency Daily Rate shall be effective from and including the date of such change without further notice.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Alternative Currency Daily Rate Loan\",\"text\":\"\\\"Alternative Currency Daily Rate Loan\\\" means a Loan that bears interest at a rate based on the definition of \\\"Alternative Currency Daily Rate.\\\" All Alternative Currency Daily Rate Loans must be denominated in an Alternative Currency.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Alternative Currency Equivalent\",\"text\":\"\\\"Alternative Currency Equivalent\\\" means, at any time, with respect to any amount denominated in Dollars, the equivalent amount thereof in the applicable Alternative Currency as determined by the Administrative Agent or the L/C Issuer, as the case may be, by reference to Bloomberg (or such other publicly available service for displaying exchange rates), to be the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m. on the date two Business Days prior to the date as of which the foreign exchange computation is made; provided, however, that if no such rate is available, the \\\"Alternative Currency Equivalent\\\" shall be determined by the Administrative Agent or the\",\"continues_from_previous\":false,\"continues_on_next\":true},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"2\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    15/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Alternative Currency Daily Rate floor\",\"raw_value\":\"0.0%\",\"source_text\":\"if any Alternative Currency Daily Rate shall be less than 0.0%, such rate shall be deemed 0.0% for purposes of this Agreement\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Alternative Currency Daily Rate (British Pounds Sterling)\",\"raw_value\":\"SONIA\",\"source_text\":\"denominated in British Pounds Sterling, the rate per annum equal to SONIA determined pursuant to the definition thereof\",\"confidence\":0.94,\"block_index\":0},{\"name\":\"Exchange rate determination time\",\"raw_value\":\"11:00 a.m.\",\"source_text\":\"the exchange rate for the purchase of such Alternative Currency with Dollars at approximately 11:00 a.m.\",\"confidence\":0.94,\"block_index\":4},{\"name\":\"Exchange rate determination date\",\"raw_value\":\"two Business Days prior to the date as of which the foreign exchange computation is made\",\"source_text\":\"on the date two Business Days prior to the date as of which the foreign exchange computation is made\",\"confidence\":0.93,\"block_index\":4},{\"name\":\"Exchange rate source\",\"raw_value\":\"Bloomberg\",\"source_text\":\"by reference to Bloomberg (or such other publicly available service for displaying exchange rates)\",\"confidence\":0.94,\"block_index\":4},{\"name\":\"Page number\",\"raw_value\":\"2\",\"source_text\":\"2\",\"confidence\":0.8,\"block_index\":5}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"as determined by the Administrative Agent or the L/C Issuer\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"as determined by the Administrative Agent or the L/C Issuer, as the case may be\"},{\"name\":\"Lenders\",\"role\":\"Lender\",\"source_text\":\"approved by the Administrative Agent and the relevant Lenders pursuant to Section 1.09\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1688,
+     "cost_usd": 0.08147
+    },
+    "latency_s": 17.68852486099786,
+    "request_id": "req_011CfGT3aBnvutdCTqsrv5W9"
+   }
+  }
+ ]
+}

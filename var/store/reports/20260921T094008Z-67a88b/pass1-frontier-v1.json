@@ -1,0 +1,26 @@
+{
+  "run_id": "20260921T094008Z-67a88b",
+  "model_key": "frontier",
+  "pages": [
+    1,
+    15,
+    17,
+    18,
+    22,
+    33,
+    108,
+    110,
+    141,
+    150
+  ],
+  "ok": 10,
+  "failed": [],
+  "calls": 20,
+  "cached_calls": 0,
+  "input_tokens": 155060,
+  "output_tokens": 31029,
+  "cost_usd": 1.551,
+  "cost_per_page_usd": 0.1551,
+  "projected_doc_cost_usd": 32.73,
+  "mean_latency_per_call_s": 15.3
+}

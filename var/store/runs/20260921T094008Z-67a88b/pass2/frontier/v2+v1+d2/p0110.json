@@ -1,0 +1,269 @@
+{
+ "page": 110,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1805,
+    "scale": 0.9155,
+    "effective_dpi": 274.6
+   },
+   "bands_on_page": 3,
+   "cache_key": "209f63cb6a71f456212ee7c399d2a6ca2d59446b6794d29b1db2edd99d5ed4e7",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default",
+       "raw_value": "Any of the following shall constitute an Event of Default:",
+       "source_text": "11.01 Events of Default. Any of the following shall constitute an Event of Default:",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default\",\"raw_value\":\"Any of the following shall constitute an Event of Default:\",\"source_text\":\"11.01 Events of Default. Any of the following shall constitute an Event of Default:\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8759,
+     "output_tokens": 105,
+     "cost_usd": 0.04642
+    },
+    "latency_s": 5.21429551399342,
+    "request_id": "req_011CfGWs9d7hbySdKjhbhT3e"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1685,
+    "y1": 3499,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "d4fbd391f409bd3aba8d843412bad0d44e4418363b0a7d1fd6caba6bfa0893ff",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (non-payment)",
+       "raw_value": "Non-Payment",
+       "source_text": "(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (specific covenant)",
+       "raw_value": "Specific Covenants",
+       "source_text": "(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (other default)",
+       "raw_value": "Other Defaults",
+       "source_text": "(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document",
+       "confidence": 0.9,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (non-payment)\",\"raw_value\":\"Non-Payment\",\"source_text\":\"(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation\",\"confidence\":0.9},{\"name\":\"event_of_default (specific covenant)\",\"raw_value\":\"Specific Covenants\",\"source_text\":\"(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"confidence\":0.9},{\"name\":\"event_of_default (other default)\",\"raw_value\":\"Other Defaults\",\"source_text\":\"(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document\",\"confidence\":0.9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8790,
+     "output_tokens": 351,
+     "cost_usd": 0.052725
+    },
+    "latency_s": 5.677208011002222,
+    "request_id": "req_011CfGWsYu62JhxAtjNyeMpz"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3379,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "90587fdce1ad71c60cbce017ea274d5c476070bd989b8da3815775d565a3c4cd",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4405,
+     "output_tokens": 29,
+     "cost_usd": 0.02275
+    },
+    "latency_s": 3.078485477999493,
+    "request_id": "req_011CfGWsy7sRCtaxSB2Xzkfo"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1805,
+    "scale": 0.9155,
+    "effective_dpi": 274.6
+   },
+   "bands_on_page": 3,
+   "cache_key": "209f63cb6a71f456212ee7c399d2a6ca2d59446b6794d29b1db2edd99d5ed4e7",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default",
+       "raw_value": "Any of the following shall constitute an Event of Default:",
+       "source_text": "11.01 Events of Default. Any of the following shall constitute an Event of Default:",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default\",\"raw_value\":\"Any of the following shall constitute an Event of Default:\",\"source_text\":\"11.01 Events of Default. Any of the following shall constitute an Event of Default:\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8759,
+     "output_tokens": 105,
+     "cost_usd": 0.04642
+    },
+    "latency_s": 5.21429551399342,
+    "request_id": "req_011CfGWs9d7hbySdKjhbhT3e"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1685,
+    "y1": 3499,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "d4fbd391f409bd3aba8d843412bad0d44e4418363b0a7d1fd6caba6bfa0893ff",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (non-payment)",
+       "raw_value": "Non-Payment",
+       "source_text": "(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (specific covenant)",
+       "raw_value": "Specific Covenants",
+       "source_text": "(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (other default)",
+       "raw_value": "Other Defaults",
+       "source_text": "(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document",
+       "confidence": 0.9,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (non-payment)\",\"raw_value\":\"Non-Payment\",\"source_text\":\"(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation\",\"confidence\":0.9},{\"name\":\"event_of_default (specific covenant)\",\"raw_value\":\"Specific Covenants\",\"source_text\":\"(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"confidence\":0.9},{\"name\":\"event_of_default (other default)\",\"raw_value\":\"Other Defaults\",\"source_text\":\"(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document\",\"confidence\":0.9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8790,
+     "output_tokens": 351,
+     "cost_usd": 0.052725
+    },
+    "latency_s": 5.677208011002222,
+    "request_id": "req_011CfGWsYu62JhxAtjNyeMpz"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3379,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "90587fdce1ad71c60cbce017ea274d5c476070bd989b8da3815775d565a3c4cd",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4405,
+     "output_tokens": 29,
+     "cost_usd": 0.02275
+    },
+    "latency_s": 3.078485477999493,
+    "request_id": "req_011CfGWsy7sRCtaxSB2Xzkfo"
+   }
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "page": 42,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "0b16780638969988493cf8d422bc4d5f8191c988e1c252f0802701425595d144",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "\"Term SOFR\" means: (f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "confidence": 0.72,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "\"Term SOFR Daily Floating Rate\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest",
+       "confidence": 0.7,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"\\\"Term SOFR\\\" means: (f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"confidence\":0.72},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"\\\"Term SOFR Daily Floating Rate\\\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest\",\"confidence\":0.7}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8866,
+     "output_tokens": 284,
+     "cost_usd": 0.05143
+    },
+    "latency_s": 7.884000643003674,
+    "request_id": "req_011CfGX6ykgVVSzF8KVcoAKs"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1675,
+    "y1": 3508,
+    "scale": 0.9083,
+    "effective_dpi": 272.5
+   },
+   "bands_on_page": 2,
+   "cache_key": "1b38a1241fbca8420961ae4bb455c833eafc4b1a844592251f00c8d3d0a469c0",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (cross-default)",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (cross-default)\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8704,
+     "output_tokens": 315,
+     "cost_usd": 0.051395
+    },
+    "latency_s": 6.624845238002308,
+    "request_id": "req_011CfGX7durV6r1LSHuMBuRm"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "0b16780638969988493cf8d422bc4d5f8191c988e1c252f0802701425595d144",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "\"Term SOFR\" means: (f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "confidence": 0.72,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "\"Term SOFR Daily Floating Rate\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest",
+       "confidence": 0.7,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"\\\"Term SOFR\\\" means: (f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"confidence\":0.72},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"\\\"Term SOFR Daily Floating Rate\\\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest\",\"confidence\":0.7}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8866,
+     "output_tokens": 284,
+     "cost_usd": 0.05143
+    },
+    "latency_s": 7.884000643003674,
+    "request_id": "req_011CfGX6ykgVVSzF8KVcoAKs"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1675,
+    "y1": 3508,
+    "scale": 0.9083,
+    "effective_dpi": 272.5
+   },
+   "bands_on_page": 2,
+   "cache_key": "1b38a1241fbca8420961ae4bb455c833eafc4b1a844592251f00c8d3d0a469c0",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (cross-default)",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (cross-default)\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8704,
+     "output_tokens": 315,
+     "cost_usd": 0.051395
+    },
+    "latency_s": 6.624845238002308,
+    "request_id": "req_011CfGX7durV6r1LSHuMBuRm"
+   }
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "page": 150,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1812,
+    "scale": 0.9137,
+    "effective_dpi": 274.1
+   },
+   "bands_on_page": 3,
+   "cache_key": "ba0a13efcf26375b73a2e406c7b0ca0d42061b236ff7455556c59c0a9f3bf5a5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "HSBC BANK USA, NATIONAL ASSOCIATION",
+       "source_text": "HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "JPMORGAN CHASE BANK, N.A.",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "MIZUHO BANK, LTD.",
+       "source_text": "MIZUHO BANK, LTD., as a Lender and L/C Issuer",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"HSBC BANK USA, NATIONAL ASSOCIATION\",\"source_text\":\"HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer\",\"confidence\":0.95},{\"name\":\"lender\",\"raw_value\":\"JPMORGAN CHASE BANK, N.A.\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer\",\"confidence\":0.95},{\"name\":\"lender\",\"raw_value\":\"MIZUHO BANK, LTD.\",\"source_text\":\"MIZUHO BANK, LTD., as a Lender and L/C Issuer\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9031,
+     "output_tokens": 270,
+     "cost_usd": 0.051905
+    },
+    "latency_s": 5.614458514995931,
+    "request_id": "req_011CfGZhfcEQ11oaSvFnqQAv"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1692,
+    "y1": 3506,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "d3ea5ad304c1a8e209f6467af48986787a82fbb4cd83be764d308efec3e64878",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8958,
+     "output_tokens": 29,
+     "cost_usd": 0.045515
+    },
+    "latency_s": 5.6095997619995615,
+    "request_id": "req_011CfGZi5uibdebRWog4iJZ9"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3386,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "6888e06db826a5087b620961505b7e153e0a9829356da7c0dde672d30ec34041",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4608,
+     "output_tokens": 29,
+     "cost_usd": 0.023765
+    },
+    "latency_s": 2.7731028999987757,
+    "request_id": "req_011CfGZiVqtT3CUTwJwfyPCh"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1812,
+    "scale": 0.9137,
+    "effective_dpi": 274.1
+   },
+   "bands_on_page": 3,
+   "cache_key": "ba0a13efcf26375b73a2e406c7b0ca0d42061b236ff7455556c59c0a9f3bf5a5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "HSBC BANK USA, NATIONAL ASSOCIATION",
+       "source_text": "HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "JPMORGAN CHASE BANK, N.A.",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "MIZUHO BANK, LTD.",
+       "source_text": "MIZUHO BANK, LTD., as a Lender and L/C Issuer",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"HSBC BANK USA, NATIONAL ASSOCIATION\",\"source_text\":\"HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer\",\"confidence\":0.95},{\"name\":\"lender\",\"raw_value\":\"JPMORGAN CHASE BANK, N.A.\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer\",\"confidence\":0.95},{\"name\":\"lender\",\"raw_value\":\"MIZUHO BANK, LTD.\",\"source_text\":\"MIZUHO BANK, LTD., as a Lender and L/C Issuer\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9031,
+     "output_tokens": 270,
+     "cost_usd": 0.051905
+    },
+    "latency_s": 5.614458514995931,
+    "request_id": "req_011CfGZhfcEQ11oaSvFnqQAv"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1692,
+    "y1": 3506,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "d3ea5ad304c1a8e209f6467af48986787a82fbb4cd83be764d308efec3e64878",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8958,
+     "output_tokens": 29,
+     "cost_usd": 0.045515
+    },
+    "latency_s": 5.6095997619995615,
+    "request_id": "req_011CfGZi5uibdebRWog4iJZ9"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3386,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "6888e06db826a5087b620961505b7e153e0a9829356da7c0dde672d30ec34041",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4608,
+     "output_tokens": 29,
+     "cost_usd": 0.023765
+    },
+    "latency_s": 2.7731028999987757,
+    "request_id": "req_011CfGZiVqtT3CUTwJwfyPCh"
+   }
+  }
+ ]
+}

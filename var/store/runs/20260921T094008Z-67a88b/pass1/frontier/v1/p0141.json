@@ -1,0 +1,435 @@
+{
+ "page": 141,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "6a2be2f6d377b87bed2ccd348d1970678ec7422206db7f8e3ae7999190adf06b",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7fb5ccc428aa9db65ba504e7a1fdac21752ad063f21e22baecc714118a6922ae",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38    Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act. The Borrowers shall, promptly following a request by the Administrative Agent or any Lender, provide all documentation and other information that the Administrative Agent or such Lender requests in order to comply with its ongoing obligations under applicable \"know your customer\" and anti-money laundering rules and regulations, including the Act.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.18",
+       "heading": "Governing Law; Jurisdiction; Etc.",
+       "text": "11.18    Governing Law; Jurisdiction; Etc.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": "GOVERNING LAW",
+       "text": "(a)    GOVERNING LAW. THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(b)",
+       "heading": "SUBMISSION TO JURISDICTION",
+       "text": "(b)    SUBMISSION TO JURISDICTION. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY AGREES THAT IT WILL NOT COMMENCE ANY ACTION, LITIGATION OR PROCEEDING OF ANY KIND OR DESCRIPTION, WHETHER IN LAW OR EQUITY, WHETHER IN CONTRACT OR IN TORT OR OTHERWISE, AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING IN ANY WAY RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT OR THE TRANSACTIONS RELATING HERETO OR THERETO, IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF AND EACH OF THE PARTIES HERETO IRREVOCABLY AND UNCONDITIONALLY SUBMITS TO THE JURISDICTION OF SUCH COURTS AND AGREES THAT ALL CLAIMS IN RESPECT OF ANY SUCH ACTION OR PROCEEDING MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Governing Law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK",
+       "confidence": 0.97,
+       "block_index": 3
+      },
+      {
+       "name": "Submission to Jurisdiction",
+       "raw_value": "THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF",
+       "source_text": "IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK",
+       "confidence": 0.95,
+       "block_index": 4
+      },
+      {
+       "name": "Know your customer information obligation",
+       "raw_value": "the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act",
+       "source_text": "includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act.",
+       "confidence": 0.9,
+       "block_index": 1
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER"
+      },
+      {
+       "name": "Borrowers",
+       "role": "Borrower",
+       "source_text": "The Borrowers shall, promptly following a request by the Administrative Agent or any Lender"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING"
+      },
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "that will allow such Lender or the Administrative Agent, as applicable"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38    Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act. The Borrowers shall, promptly following a request by the Administrative Agent or any Lender, provide all documentation and other information that the Administrative Agent or such Lender requests in order to comply with its ongoing obligations under applicable \\\"know your customer\\\" and anti-money laundering rules and regulations, including the Act.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.18\",\"heading\":\"Governing Law; Jurisdiction; Etc.\",\"text\":\"11.18    Governing Law; Jurisdiction; Etc.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":\"GOVERNING LAW\",\"text\":\"(a)    GOVERNING LAW. THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(b)\",\"heading\":\"SUBMISSION TO JURISDICTION\",\"text\":\"(b)    SUBMISSION TO JURISDICTION. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY AGREES THAT IT WILL NOT COMMENCE ANY ACTION, LITIGATION OR PROCEEDING OF ANY KIND OR DESCRIPTION, WHETHER IN LAW OR EQUITY, WHETHER IN CONTRACT OR IN TORT OR OTHERWISE, AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING IN ANY WAY RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT OR THE TRANSACTIONS RELATING HERETO OR THERETO, IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF AND EACH OF THE PARTIES HERETO IRREVOCABLY AND UNCONDITIONALLY SUBMITS TO THE JURISDICTION OF SUCH COURTS AND AGREES THAT ALL CLAIMS IN RESPECT OF ANY SUCH ACTION OR PROCEEDING MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Governing Law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK\",\"confidence\":0.97,\"block_index\":3},{\"name\":\"Submission to Jurisdiction\",\"raw_value\":\"THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF\",\"source_text\":\"IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK\",\"confidence\":0.95,\"block_index\":4},{\"name\":\"Know your customer information obligation\",\"raw_value\":\"the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act\",\"source_text\":\"includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act.\",\"confidence\":0.9,\"block_index\":1}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER\"},{\"name\":\"Borrowers\",\"role\":\"Borrower\",\"source_text\":\"The Borrowers shall, promptly following a request by the Administrative Agent or any Lender\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING\"},{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"that will allow such Lender or the Administrative Agent, as applicable\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 2225,
+     "cost_usd": 0.09439
+    },
+    "latency_s": 20.45723130099941,
+    "request_id": "req_011CfGQXE1muDM1hi8bFqJ3h"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "16002e572ff36033cbd3ca03cd42afef65a1b10d826825967d18fce91fd3e09d",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER JURISDICTIONS BY SUIT ON THE JUDGMENT OR IN ANY OTHER MANNER PROVIDED BY LAW. NOTHING IN THIS AGREEMENT OR IN ANY OTHER LOAN DOCUMENT SHALL AFFECT ANY RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION OR PROCEEDING RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES IN THE COURTS OF ANY JURISDICTION.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(c)",
+       "heading": "WAIVER OF VENUE",
+       "text": "(c) WAIVER OF VENUE. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY OBJECTION THAT IT MAY NOW OR HEREAFTER HAVE TO THE LAYING OF VENUE OF ANY ACTION OR PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT IN ANY COURT REFERRED TO IN PARAGRAPH (B) OF THIS SECTION. EACH OF THE PARTIES HERETO HEREBY IRREVOCABLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE DEFENSE OF AN INCONVENIENT FORUM TO THE MAINTENANCE OF SUCH ACTION OR PROCEEDING IN ANY SUCH COURT.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "125",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 141/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Page number",
+       "raw_value": "125",
+       "source_text": "125",
+       "confidence": 0.95,
+       "block_index": 2
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE"
+      },
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION"
+      },
+      {
+       "name": "Borrower",
+       "role": "Borrower",
+       "source_text": "OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER JURISDICTIONS BY SUIT ON THE JUDGMENT OR IN ANY OTHER MANNER PROVIDED BY LAW. NOTHING IN THIS AGREEMENT OR IN ANY OTHER LOAN DOCUMENT SHALL AFFECT ANY RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION OR PROCEEDING RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES IN THE COURTS OF ANY JURISDICTION.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(c)\",\"heading\":\"WAIVER OF VENUE\",\"text\":\"(c) WAIVER OF VENUE. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY OBJECTION THAT IT MAY NOW OR HEREAFTER HAVE TO THE LAYING OF VENUE OF ANY ACTION OR PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT IN ANY COURT REFERRED TO IN PARAGRAPH (B) OF THIS SECTION. EACH OF THE PARTIES HERETO HEREBY IRREVOCABLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE DEFENSE OF AN INCONVENIENT FORUM TO THE MAINTENANCE OF SUCH ACTION OR PROCEEDING IN ANY SUCH COURT.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"125\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 141/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Page number\",\"raw_value\":\"125\",\"source_text\":\"125\",\"confidence\":0.95,\"block_index\":2}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE\"},{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION\"},{\"name\":\"Borrower\",\"role\":\"Borrower\",\"source_text\":\"OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1372,
+     "cost_usd": 0.073065
+    },
+    "latency_s": 13.728983054003038,
+    "request_id": "req_011CfGQYkEzTNWxw9FNpwbwo"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7fb5ccc428aa9db65ba504e7a1fdac21752ad063f21e22baecc714118a6922ae",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38    Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act. The Borrowers shall, promptly following a request by the Administrative Agent or any Lender, provide all documentation and other information that the Administrative Agent or such Lender requests in order to comply with its ongoing obligations under applicable \"know your customer\" and anti-money laundering rules and regulations, including the Act.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.18",
+       "heading": "Governing Law; Jurisdiction; Etc.",
+       "text": "11.18    Governing Law; Jurisdiction; Etc.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": "GOVERNING LAW",
+       "text": "(a)    GOVERNING LAW. THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(b)",
+       "heading": "SUBMISSION TO JURISDICTION",
+       "text": "(b)    SUBMISSION TO JURISDICTION. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY AGREES THAT IT WILL NOT COMMENCE ANY ACTION, LITIGATION OR PROCEEDING OF ANY KIND OR DESCRIPTION, WHETHER IN LAW OR EQUITY, WHETHER IN CONTRACT OR IN TORT OR OTHERWISE, AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING IN ANY WAY RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT OR THE TRANSACTIONS RELATING HERETO OR THERETO, IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF AND EACH OF THE PARTIES HERETO IRREVOCABLY AND UNCONDITIONALLY SUBMITS TO THE JURISDICTION OF SUCH COURTS AND AGREES THAT ALL CLAIMS IN RESPECT OF ANY SUCH ACTION OR PROCEEDING MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Governing Law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK",
+       "confidence": 0.97,
+       "block_index": 3
+      },
+      {
+       "name": "Submission to Jurisdiction",
+       "raw_value": "THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF",
+       "source_text": "IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK",
+       "confidence": 0.95,
+       "block_index": 4
+      },
+      {
+       "name": "Know your customer information obligation",
+       "raw_value": "the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act",
+       "source_text": "includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act.",
+       "confidence": 0.9,
+       "block_index": 1
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER"
+      },
+      {
+       "name": "Borrowers",
+       "role": "Borrower",
+       "source_text": "The Borrowers shall, promptly following a request by the Administrative Agent or any Lender"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING"
+      },
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "that will allow such Lender or the Administrative Agent, as applicable"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38    Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act. The Borrowers shall, promptly following a request by the Administrative Agent or any Lender, provide all documentation and other information that the Administrative Agent or such Lender requests in order to comply with its ongoing obligations under applicable \\\"know your customer\\\" and anti-money laundering rules and regulations, including the Act.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.18\",\"heading\":\"Governing Law; Jurisdiction; Etc.\",\"text\":\"11.18    Governing Law; Jurisdiction; Etc.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":\"GOVERNING LAW\",\"text\":\"(a)    GOVERNING LAW. THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(b)\",\"heading\":\"SUBMISSION TO JURISDICTION\",\"text\":\"(b)    SUBMISSION TO JURISDICTION. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY AGREES THAT IT WILL NOT COMMENCE ANY ACTION, LITIGATION OR PROCEEDING OF ANY KIND OR DESCRIPTION, WHETHER IN LAW OR EQUITY, WHETHER IN CONTRACT OR IN TORT OR OTHERWISE, AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING IN ANY WAY RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT OR THE TRANSACTIONS RELATING HERETO OR THERETO, IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF AND EACH OF THE PARTIES HERETO IRREVOCABLY AND UNCONDITIONALLY SUBMITS TO THE JURISDICTION OF SUCH COURTS AND AGREES THAT ALL CLAIMS IN RESPECT OF ANY SUCH ACTION OR PROCEEDING MAY BE HEARD AND DETERMINED IN SUCH NEW YORK STATE COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Governing Law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES THAT WOULD DEFER TO THE SUBSTANTIVE LAWS OF ANOTHER JURISDICTION)\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK\",\"confidence\":0.97,\"block_index\":3},{\"name\":\"Submission to Jurisdiction\",\"raw_value\":\"THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK, AND ANY APPELLATE COURT FROM ANY THEREOF\",\"source_text\":\"IN ANY FORUM OTHER THAN THE COURTS OF THE STATE OF NEW YORK SITTING IN NEW YORK COUNTY AND OF THE UNITED STATES DISTRICT COURT OF THE SOUTHERN DISTRICT OF NEW YORK\",\"confidence\":0.95,\"block_index\":4},{\"name\":\"Know your customer information obligation\",\"raw_value\":\"the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act\",\"source_text\":\"includes the name and address of each Borrower and other information that will allow such Lender or the Administrative Agent, as applicable, to identify such Borrower in accordance with the Act.\",\"confidence\":0.9,\"block_index\":1}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"AGAINST THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER\"},{\"name\":\"Borrowers\",\"role\":\"Borrower\",\"source_text\":\"The Borrowers shall, promptly following a request by the Administrative Agent or any Lender\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"THE ADMINISTRATIVE AGENT, ANY LENDER, THE L/C ISSUER, OR ANY RELATED PARTY OF THE FOREGOING\"},{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"that will allow such Lender or the Administrative Agent, as applicable\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 2225,
+     "cost_usd": 0.09439
+    },
+    "latency_s": 20.45723130099941,
+    "request_id": "req_011CfGQXE1muDM1hi8bFqJ3h"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "16002e572ff36033cbd3ca03cd42afef65a1b10d826825967d18fce91fd3e09d",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER JURISDICTIONS BY SUIT ON THE JUDGMENT OR IN ANY OTHER MANNER PROVIDED BY LAW. NOTHING IN THIS AGREEMENT OR IN ANY OTHER LOAN DOCUMENT SHALL AFFECT ANY RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION OR PROCEEDING RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES IN THE COURTS OF ANY JURISDICTION.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(c)",
+       "heading": "WAIVER OF VENUE",
+       "text": "(c) WAIVER OF VENUE. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY OBJECTION THAT IT MAY NOW OR HEREAFTER HAVE TO THE LAYING OF VENUE OF ANY ACTION OR PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT IN ANY COURT REFERRED TO IN PARAGRAPH (B) OF THIS SECTION. EACH OF THE PARTIES HERETO HEREBY IRREVOCABLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE DEFENSE OF AN INCONVENIENT FORUM TO THE MAINTENANCE OF SUCH ACTION OR PROCEEDING IN ANY SUCH COURT.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "125",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 141/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Page number",
+       "raw_value": "125",
+       "source_text": "125",
+       "confidence": 0.95,
+       "block_index": 2
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE"
+      },
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION"
+      },
+      {
+       "name": "Borrower",
+       "role": "Borrower",
+       "source_text": "OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"COURT OR, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN SUCH FEDERAL COURT. EACH OF THE PARTIES HERETO AGREES THAT A FINAL JUDGMENT IN ANY SUCH ACTION OR PROCEEDING SHALL BE CONCLUSIVE AND MAY BE ENFORCED IN OTHER JURISDICTIONS BY SUIT ON THE JUDGMENT OR IN ANY OTHER MANNER PROVIDED BY LAW. NOTHING IN THIS AGREEMENT OR IN ANY OTHER LOAN DOCUMENT SHALL AFFECT ANY RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION OR PROCEEDING RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES IN THE COURTS OF ANY JURISDICTION.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(c)\",\"heading\":\"WAIVER OF VENUE\",\"text\":\"(c) WAIVER OF VENUE. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY OBJECTION THAT IT MAY NOW OR HEREAFTER HAVE TO THE LAYING OF VENUE OF ANY ACTION OR PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT IN ANY COURT REFERRED TO IN PARAGRAPH (B) OF THIS SECTION. EACH OF THE PARTIES HERETO HEREBY IRREVOCABLY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE DEFENSE OF AN INCONVENIENT FORUM TO THE MAINTENANCE OF SUCH ACTION OR PROCEEDING IN ANY SUCH COURT.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"125\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 141/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Page number\",\"raw_value\":\"125\",\"source_text\":\"125\",\"confidence\":0.95,\"block_index\":2}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"RIGHT THAT THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER MAY OTHERWISE\"},{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"THE ADMINISTRATIVE AGENT, ANY LENDER OR THE L/C ISSUER\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"ANY LENDER OR THE L/C ISSUER MAY OTHERWISE HAVE TO BRING ANY ACTION\"},{\"name\":\"Borrower\",\"role\":\"Borrower\",\"source_text\":\"OTHER LOAN DOCUMENT AGAINST ANY BORROWER OR ITS PROPERTIES\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1372,
+     "cost_usd": 0.073065
+    },
+    "latency_s": 13.728983054003038,
+    "request_id": "req_011CfGQYkEzTNWxw9FNpwbwo"
+   }
+  }
+ ]
+}

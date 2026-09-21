@@ -1,0 +1,217 @@
+{
+ "page": 42,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "e8bee3ac597255f3ab9526a5ddd356c15dedcd1c5ca1618af48a62cc917fc475",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "source_text": "for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "confidence": 0.72,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date",
+       "source_text": "a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date",
+       "confidence": 0.7,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"source_text\":\"for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"confidence\":0.72},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date\",\"source_text\":\"a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date\",\"confidence\":0.7}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8846,
+     "output_tokens": 347,
+     "cost_usd": 0.052905
+    },
+    "latency_s": 5.486421002999123,
+    "request_id": "req_011CfGWrWaf3hMZny5C83nKb"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4cadc18e69242ff57d4b3ba72bec4ff625de7e8c7c80abfd3866b61be7d28f81",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (cross-default)",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.6,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.",
+       "confidence": 0.5,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "\"Term SOFR Loan\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (cross-default)\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.6,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.\",\"confidence\":0.5,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"\\\"Term SOFR Loan\\\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.\",\"confidence\":0.5,\"block_index\":null}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8763,
+     "output_tokens": 591,
+     "cost_usd": 0.05859
+    },
+    "latency_s": 7.302411262004171,
+    "request_id": "req_011CfGWrwCVwYis9Wxy6uLuQ"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "e8bee3ac597255f3ab9526a5ddd356c15dedcd1c5ca1618af48a62cc917fc475",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "source_text": "for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "confidence": 0.72,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date",
+       "source_text": "a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date",
+       "confidence": 0.7,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"source_text\":\"for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"confidence\":0.72},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date\",\"source_text\":\"a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date\",\"confidence\":0.7}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8846,
+     "output_tokens": 347,
+     "cost_usd": 0.052905
+    },
+    "latency_s": 5.486421002999123,
+    "request_id": "req_011CfGWrWaf3hMZny5C83nKb"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4cadc18e69242ff57d4b3ba72bec4ff625de7e8c7c80abfd3866b61be7d28f81",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (cross-default)",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.6,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.",
+       "confidence": 0.5,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "\"Term SOFR Loan\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (cross-default)\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.6,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.\",\"confidence\":0.5,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"\\\"Term SOFR Loan\\\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.\",\"confidence\":0.5,\"block_index\":null}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8763,
+     "output_tokens": 591,
+     "cost_usd": 0.05859
+    },
+    "latency_s": 7.302411262004171,
+    "request_id": "req_011CfGWrwCVwYis9Wxy6uLuQ"
+   }
+  }
+ ]
+}

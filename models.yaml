@@ -1,0 +1,80 @@
+# Model registry (spec §18). The ONLY place model names appear.
+# Code refers to models by key. Frontier <-> SLM is a config change here, not a code change.
+#
+# provider selects the adapter behind the single extract() seam:
+#   anthropic          — official Anthropic SDK (structured outputs, effort, stop reasons)
+#   openai_compatible  — vLLM / Ollama endpoints (on-prem path; wired when a candidate exists)
+
+default_model: frontier
+eval_pair: [frontier, onprem_candidate]   # (reference ceiling, production candidate)
+
+models:
+  frontier:
+    role: frontier
+    provider: anthropic
+    model_name: claude-opus-5
+    api_key_env: ANTHROPIC_API_KEY
+    prod_allowed: false              # public SEC documents only — never real customer agreements
+    supports_sampling_params: false  # temperature/top_p/top_k return HTTP 400 on this model
+    structured_output: true
+    max_output_tokens: 16000         # truncation -> finer tiling (spec §8)
+    image:
+      max_long_edge_px: 2576         # high-resolution vision tier
+      max_pixels: 3750000
+    tiling:
+      overlap_frac: 0.08
+      max_tiles_per_page: 2          # A4 @300 DPI -> 2 bands at ~275 effective DPI
+    params:
+      effort: medium                 # tunable: transcription may not need more; measure (spec §13)
+    price_in_per_mtok: 5.0
+    price_out_per_mtok: 25.0
+    concurrency: 4
+    notes: Accuracy ceiling for the POC.
+
+  frontier_cheap:
+    role: frontier
+    provider: anthropic
+    model_name: claude-sonnet-5
+    api_key_env: ANTHROPIC_API_KEY
+    prod_allowed: false
+    supports_sampling_params: false
+    structured_output: true
+    max_output_tokens: 16000
+    image:
+      max_long_edge_px: 2576
+      max_pixels: 3750000
+    tiling:
+      overlap_frac: 0.08
+      max_tiles_per_page: 2
+    params:
+      effort: medium
+    price_in_per_mtok: 2.0
+    price_out_per_mtok: 10.0
+    notes: Cheaper option for bulk prompt iteration; optional third row in eval.
+
+  onprem_candidate:
+    # Qwen VL served on-prem by vLLM (or Ollama) — OpenAI-compatible API. Fill in at the workplace:
+    #   model_name: exactly what GET <api_base>/models lists, e.g. Qwen/Qwen2.5-VL-7B-Instruct
+    #   api_base:   vLLM  http://<gpu-host>:8000/v1    |   Ollama  http://localhost:11434/v1
+    role: onprem
+    provider: openai_compatible
+    model_name: Qwen/Qwen2.5-VL-7B-Instruct
+    api_base: http://CHANGE_ME:8000/v1
+    api_key_env: ONPREM_API_KEY      # only if the endpoint needs a bearer token; read from env or .env
+    enabled: false                   # set true once `cae check-model onprem_candidate` passes
+    prod_allowed: true
+    licence: VERIFY                  # per model AND size (e.g. Qwen2.5-VL 7B is Apache-2.0; 3B/72B are not)
+    supports_sampling_params: true
+    structured_output: true
+    structured_output_style: json_schema   # older vLLM: vllm_guided_json; no schema support: prompt_only
+    max_output_tokens: 8192          # must fit the server's --max-model-len together with image + prompt tokens
+    image:
+      max_long_edge_px: 1600         # VERIFY: match the server's image processor limits (max_pixels)
+      max_pixels: 2500000            # small models misread small print when pages are downscaled — tile instead
+    tiling:
+      overlap_frac: 0.08
+      max_tiles_per_page: 4          # with these limits an A4 page @300 DPI = 2 bands at ~194 effective DPI
+    params:
+      temperature: 0
+    concurrency: 2                   # parallel requests the GPU server can take
+    notes: Production candidate. Parity-check against the frontier results with `cae compare`.

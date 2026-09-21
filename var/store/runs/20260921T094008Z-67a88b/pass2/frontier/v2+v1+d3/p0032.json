@@ -1,0 +1,173 @@
+{
+ "page": 32,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7ebfd06ce40b02ff4a0a4e01cdfbfc74f95efa6200d826fc375007d8c03d4d20",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9011,
+     "output_tokens": 29,
+     "cost_usd": 0.04578
+    },
+    "latency_s": 4.269006950999028,
+    "request_id": "req_011CfGZfeg7iozuW2cCgmT5c"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "2e482314a90a69ebecb255bdec15ba80c421516dd692999783207d44e93f424b",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender_commitment (Bank of America)",
+       "raw_value": "the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01",
+       "confidence": 0.3,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95},{\"name\":\"lender_commitment (Bank of America)\",\"raw_value\":\"the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01\",\"confidence\":0.3}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9006,
+     "output_tokens": 342,
+     "cost_usd": 0.05358
+    },
+    "latency_s": 7.255949154998234,
+    "request_id": "req_011CfGZfyoZLwEWWAqC8uim8"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7ebfd06ce40b02ff4a0a4e01cdfbfc74f95efa6200d826fc375007d8c03d4d20",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9011,
+     "output_tokens": 29,
+     "cost_usd": 0.04578
+    },
+    "latency_s": 4.269006950999028,
+    "request_id": "req_011CfGZfeg7iozuW2cCgmT5c"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "2e482314a90a69ebecb255bdec15ba80c421516dd692999783207d44e93f424b",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender_commitment (Bank of America)",
+       "raw_value": "the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01",
+       "confidence": 0.3,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95},{\"name\":\"lender_commitment (Bank of America)\",\"raw_value\":\"the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01\",\"confidence\":0.3}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9006,
+     "output_tokens": 342,
+     "cost_usd": 0.05358
+    },
+    "latency_s": 7.255949154998234,
+    "request_id": "req_011CfGZfyoZLwEWWAqC8uim8"
+   }
+  }
+ ]
+}

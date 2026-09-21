@@ -1,0 +1,762 @@
+{
+  "version": 3,
+  "parent_version": 2,
+  "created_at": "2026-09-21T11:48:00.988315Z",
+  "notes": "v3: value_guidance (what the value is) and value_is_name for 8 entries; borrower repeatable (Albemarle has a Belgian Borrower). Draft — needs dictionary-owner sign-off.",
+  "entries": [
+    {
+      "canonical_name": "borrower",
+      "display_name": "Borrower",
+      "aliases": [],
+      "business_meaning": "The legal entity that borrows under the agreement and is primarily liable for repayment.",
+      "credit_risk_relevance": "Identifies the obligor whose credit quality is being assessed.",
+      "downstream_use": "Links the facility to the obligor record for exposure aggregation.",
+      "typical_location": "Preamble / parties",
+      "data_type": "text",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "borrower",
+          "kind": "slug",
+          "choices": {},
+          "slug_from": "value"
+        }
+      ],
+      "value_guidance": "the legal name of each Borrower as printed, including designated or foreign borrowers",
+      "value_is_name": true,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "administrative_agent",
+      "display_name": "Administrative Agent",
+      "aliases": [
+        {
+          "surface_form": "Agent",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The bank that administers the facility on behalf of the lender group.",
+      "credit_risk_relevance": "Determines who holds security and acts on defaults for the syndicate.",
+      "downstream_use": "Counterparty for notices, payments and waivers.",
+      "typical_location": "Preamble / parties",
+      "data_type": "text",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_guidance": "the agent's full legal name as printed, e.g. including N.A.",
+      "value_is_name": true,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "lender",
+      "display_name": "Lender",
+      "aliases": [],
+      "business_meaning": "A financial institution providing commitments under the facility.",
+      "credit_risk_relevance": "Syndicate composition affects concentration and amendment dynamics.",
+      "downstream_use": "Lender list and commitment allocation.",
+      "typical_location": "Preamble; commitment schedule; signature pages",
+      "data_type": "text",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "lender",
+          "kind": "slug",
+          "choices": {},
+          "slug_from": "value"
+        }
+      ],
+      "value_guidance": "the lender's full legal name as printed",
+      "value_is_name": true,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 3
+    },
+    {
+      "canonical_name": "guarantor",
+      "display_name": "Guarantor",
+      "aliases": [
+        {
+          "surface_form": "Subsidiary Guarantor",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "An entity that guarantees the borrower's obligations.",
+      "credit_risk_relevance": "Guarantees add recourse beyond the borrower and change loss given default.",
+      "downstream_use": "Credit support mapping.",
+      "typical_location": "Parties; guaranty article; schedules",
+      "data_type": "text",
+      "repeatable": true,
+      "instance_rules": [],
+      "value_is_name": true,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "agreement_date",
+      "display_name": "Agreement Date",
+      "aliases": [
+        {
+          "surface_form": "dated as of",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The date the agreement is dated as of.",
+      "credit_risk_relevance": "Anchors the version timeline for this facility.",
+      "downstream_use": "Version lineage and as-of queries.",
+      "typical_location": "Cover page / preamble",
+      "data_type": "date",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "closing_date",
+      "display_name": "Closing Date",
+      "aliases": [],
+      "business_meaning": "The date on which conditions precedent are satisfied and the facility becomes available.",
+      "credit_risk_relevance": "Start of availability; may differ from the agreement date.",
+      "downstream_use": "Availability period start.",
+      "typical_location": "Definitions",
+      "data_type": "date",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "effective_date",
+      "display_name": "Effective Date",
+      "aliases": [],
+      "business_meaning": "The date on which the agreement (or restatement) takes effect.",
+      "credit_risk_relevance": "Determines which version of terms governs on a given date.",
+      "downstream_use": "As-of queries across versions.",
+      "typical_location": "Definitions; conditions precedent",
+      "data_type": "date",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "maturity_date",
+      "display_name": "Maturity Date",
+      "aliases": [
+        {
+          "surface_form": "Termination Date",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The date by which all outstanding amounts must be repaid and commitments terminate.",
+      "credit_risk_relevance": "Drives tenor, refinancing risk and maturity-wall analysis.",
+      "downstream_use": "Tenor and maturity profile reporting.",
+      "typical_location": "Definitions",
+      "data_type": "date",
+      "repeatable": true,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "facility_type",
+      "display_name": "Facility Type",
+      "aliases": [],
+      "business_meaning": "The kind of facility: revolving credit, term loan, delayed-draw term loan, letter of credit.",
+      "credit_risk_relevance": "Revolving and term facilities carry different drawdown and repayment risk.",
+      "downstream_use": "Product classification.",
+      "typical_location": "Recitals; Article II",
+      "data_type": "text",
+      "repeatable": true,
+      "instance_rules": [],
+      "value_guidance": "the kind of the main facility as described (e.g. revolving credit facility); sub-limits such as letters of credit are not the facility type",
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "total_commitments",
+      "display_name": "Total Commitments",
+      "aliases": [
+        {
+          "surface_form": "Aggregate Commitments",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The total amount the lenders have committed to lend under the facility.",
+      "credit_risk_relevance": "The maximum exposure under the facility.",
+      "downstream_use": "Limit setting and exposure reporting.",
+      "typical_location": "Definitions; commitment schedule",
+      "data_type": "money",
+      "repeatable": true,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "lender_commitment",
+      "display_name": "Commitment",
+      "aliases": [],
+      "business_meaning": "The amount an individual lender has committed.",
+      "credit_risk_relevance": "Allocation of exposure across the syndicate.",
+      "downstream_use": "Per-lender allocation; checks that commitments sum to the total.",
+      "typical_location": "Commitment schedule (Schedule 2.01 or similar)",
+      "data_type": "money",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "lender",
+          "kind": "slug",
+          "choices": {},
+          "slug_from": "qualifier"
+        }
+      ],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "incremental_facility_amount",
+      "display_name": "Incremental Facility Amount",
+      "aliases": [
+        {
+          "surface_form": "Accordion",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The additional amount by which commitments may be increased without full lender consent.",
+      "credit_risk_relevance": "Potential future exposure above current commitments.",
+      "downstream_use": "Headroom analysis.",
+      "typical_location": "Article II (incremental commitments)",
+      "data_type": "money",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "letter_of_credit_sublimit",
+      "display_name": "Letter of Credit Sublimit",
+      "aliases": [
+        {
+          "surface_form": "L/C Sublimit",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The maximum amount of the facility that can be used for letters of credit.",
+      "credit_risk_relevance": "Contingent exposure within the facility.",
+      "downstream_use": "Sub-limit monitoring.",
+      "typical_location": "Definitions",
+      "data_type": "money",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "swingline_sublimit",
+      "display_name": "Swingline Sublimit",
+      "aliases": [
+        {
+          "surface_form": "Swing Line Sublimit",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The maximum amount available as short-notice swingline loans.",
+      "credit_risk_relevance": "Short-term exposure concentrated in the swingline lender.",
+      "downstream_use": "Sub-limit monitoring.",
+      "typical_location": "Definitions",
+      "data_type": "money",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "benchmark_rate",
+      "display_name": "Benchmark Rate",
+      "aliases": [],
+      "business_meaning": "The floating reference rate interest is calculated on (e.g. Term SOFR, LIBOR, Base Rate).",
+      "credit_risk_relevance": "Determines interest cost sensitivity and benchmark-transition exposure.",
+      "downstream_use": "Pricing and rate-risk reporting.",
+      "typical_location": "Definitions; interest article",
+      "data_type": "text",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "rate",
+          "kind": "choice",
+          "choices": {
+            "term_sofr_daily": [
+              "term sofr daily"
+            ],
+            "alt_currency_daily": [
+              "alternative currency daily"
+            ],
+            "alt_currency_term": [
+              "alternative currency term"
+            ],
+            "base_rate": [
+              "base rate"
+            ],
+            "term_sofr": [
+              "term sofr"
+            ]
+          },
+          "slug_from": "qualifier"
+        }
+      ],
+      "value_guidance": "the name of the rate option as the agreement names it (e.g. Term SOFR), not its definition",
+      "value_is_name": true,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 3
+    },
+    {
+      "canonical_name": "applicable_margin",
+      "display_name": "Applicable Margin",
+      "aliases": [
+        {
+          "surface_form": "Applicable Rate",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The spread added to the benchmark rate; often set by a pricing grid tied to leverage or rating.",
+      "credit_risk_relevance": "Core pricing term; changes signal repricing of risk.",
+      "downstream_use": "Pricing, profitability and repricing analysis.",
+      "typical_location": "Definitions; pricing grid",
+      "data_type": "table_ref",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "level",
+          "kind": "level",
+          "choices": {},
+          "slug_from": "qualifier"
+        },
+        {
+          "part": "rate",
+          "kind": "choice",
+          "choices": {
+            "base_rate": [
+              "base rate"
+            ],
+            "letter_of_credit_fee": [
+              "letter of credit fee",
+              "l/c fee"
+            ],
+            "facility_fee": [
+              "facility fee"
+            ],
+            "term_sofr": [
+              "term sofr",
+              "sofr"
+            ]
+          },
+          "slug_from": "qualifier"
+        }
+      ],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "commitment_fee_rate",
+      "display_name": "Commitment Fee Rate",
+      "aliases": [
+        {
+          "surface_form": "Unused Fee Rate",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "The fee charged on undrawn commitments.",
+      "credit_risk_relevance": "Pricing of undrawn exposure.",
+      "downstream_use": "Fee income and pricing analysis.",
+      "typical_location": "Definitions; fees section; pricing grid",
+      "data_type": "percentage",
+      "repeatable": false,
+      "instance_rules": [
+        {
+          "part": "level",
+          "kind": "level",
+          "choices": {},
+          "slug_from": "qualifier"
+        }
+      ],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "default_rate",
+      "display_name": "Default Rate",
+      "aliases": [],
+      "business_meaning": "The increased interest rate that applies while an event of default is continuing.",
+      "credit_risk_relevance": "Penalty economics in a default scenario.",
+      "downstream_use": "Default-scenario modelling.",
+      "typical_location": "Definitions; interest article",
+      "data_type": "percentage",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "max_total_leverage_ratio",
+      "display_name": "Total Leverage Ratio",
+      "aliases": [
+        {
+          "surface_form": "Consolidated Total Leverage Ratio",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "Maximum permitted ratio of total debt to EBITDA, tested periodically.",
+      "credit_risk_relevance": "Primary leverage covenant; headroom indicates cushion before default.",
+      "downstream_use": "Covenant monitoring and headroom tracking.",
+      "typical_location": "Financial covenants section",
+      "data_type": "ratio",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "step",
+          "kind": "choice",
+          "choices": {
+            "acquisition_step_up": [
+              "step-up",
+              "step up",
+              "increase",
+              "adjustment"
+            ]
+          },
+          "slug_from": "qualifier",
+          "default": "base"
+        }
+      ],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "max_senior_secured_leverage_ratio",
+      "display_name": "Senior Secured Leverage Ratio",
+      "aliases": [
+        {
+          "surface_form": "Consolidated Senior Secured Leverage Ratio",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "Maximum permitted ratio of senior secured debt to EBITDA.",
+      "credit_risk_relevance": "Limits secured debt ranking ahead of or alongside this facility.",
+      "downstream_use": "Covenant monitoring.",
+      "typical_location": "Financial covenants section",
+      "data_type": "ratio",
+      "repeatable": true,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "min_interest_coverage_ratio",
+      "display_name": "Interest Coverage Ratio",
+      "aliases": [
+        {
+          "surface_form": "Consolidated Interest Coverage Ratio",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "Minimum ratio of EBITDA (or EBIT) to interest expense.",
+      "credit_risk_relevance": "Measures ability to service interest from earnings.",
+      "downstream_use": "Covenant monitoring.",
+      "typical_location": "Financial covenants section",
+      "data_type": "ratio",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "step",
+          "kind": "choice",
+          "choices": {
+            "acquisition_step_up": [
+              "step-up",
+              "step up",
+              "increase",
+              "adjustment"
+            ]
+          },
+          "slug_from": "qualifier",
+          "default": "base"
+        }
+      ],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "min_fixed_charge_coverage_ratio",
+      "display_name": "Fixed Charge Coverage Ratio",
+      "aliases": [
+        {
+          "surface_form": "Consolidated Fixed Charge Coverage Ratio",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "Minimum ratio of earnings to fixed charges (interest, scheduled principal, rent, capex as defined).",
+      "credit_risk_relevance": "Broader debt-service capacity test than interest coverage.",
+      "downstream_use": "Covenant monitoring.",
+      "typical_location": "Financial covenants section",
+      "data_type": "ratio",
+      "repeatable": true,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "consolidated_ebitda_definition",
+      "display_name": "Consolidated EBITDA",
+      "aliases": [],
+      "business_meaning": "The agreement's own definition of EBITDA, including permitted add-backs.",
+      "credit_risk_relevance": "Add-backs inflate EBITDA and loosen every ratio covenant that uses it.",
+      "downstream_use": "Covenant calculation and add-back review.",
+      "typical_location": "Definitions",
+      "data_type": "text",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_guidance": "the opening words of the definition, from 'means' onward",
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 2
+    },
+    {
+      "canonical_name": "security",
+      "display_name": "Collateral",
+      "aliases": [
+        {
+          "surface_form": "Security",
+          "status": "approved",
+          "learned_via": "seed"
+        }
+      ],
+      "business_meaning": "Whether the facility is secured and, if so, over which assets.",
+      "credit_risk_relevance": "Secured vs unsecured materially changes recovery in default.",
+      "downstream_use": "Loss-given-default and collateral reporting.",
+      "typical_location": "Definitions; security article; collateral documents",
+      "data_type": "text",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "event_of_default",
+      "display_name": "Event of Default",
+      "aliases": [],
+      "business_meaning": "A circumstance that allows lenders to accelerate and terminate the facility.",
+      "credit_risk_relevance": "Defines the triggers for enforcement; cross-default thresholds are especially material.",
+      "downstream_use": "Early-warning monitoring.",
+      "typical_location": "Events of Default article",
+      "data_type": "text",
+      "repeatable": true,
+      "instance_rules": [
+        {
+          "part": "event",
+          "kind": "choice",
+          "choices": {
+            "non_payment_grace": [
+              "non-payment",
+              "nonpayment",
+              "non payment"
+            ],
+            "specific_covenants": [
+              "specific covenant"
+            ],
+            "other_defaults_grace": [
+              "other default"
+            ],
+            "cross_default_threshold": [
+              "cross-default",
+              "cross default",
+              "threshold amount"
+            ]
+          },
+          "slug_from": "qualifier"
+        }
+      ],
+      "value_guidance": "the operative term: grace or cure period, threshold amount, or the covenant references — never the event's heading",
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 3
+    },
+    {
+      "canonical_name": "change_of_control",
+      "display_name": "Change of Control",
+      "aliases": [],
+      "business_meaning": "The ownership change that triggers a default or mandatory prepayment.",
+      "credit_risk_relevance": "Protects lenders against a new owner re-leveraging the borrower.",
+      "downstream_use": "Event monitoring.",
+      "typical_location": "Definitions; Events of Default",
+      "data_type": "text",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": false,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    },
+    {
+      "canonical_name": "governing_law",
+      "display_name": "Governing Law",
+      "aliases": [],
+      "business_meaning": "The jurisdiction whose law governs the agreement.",
+      "credit_risk_relevance": "Affects enforceability and legal risk.",
+      "downstream_use": "Legal-risk classification.",
+      "typical_location": "Miscellaneous article",
+      "data_type": "text",
+      "repeatable": false,
+      "instance_rules": [],
+      "value_is_name": false,
+      "core": true,
+      "status": "approved",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "version": 1
+    }
+  ],
+  "confusable_pairs": [
+    [
+      "Consolidated EBITDA",
+      "Consolidated Adjusted EBITDA"
+    ],
+    [
+      "Total Leverage Ratio",
+      "Senior Secured Leverage Ratio"
+    ],
+    [
+      "Consolidated Total Leverage Ratio",
+      "Consolidated Senior Secured Leverage Ratio"
+    ],
+    [
+      "Consolidated Leverage Ratio",
+      "Consolidated Senior Secured Leverage Ratio"
+    ],
+    [
+      "Interest Coverage Ratio",
+      "Fixed Charge Coverage Ratio"
+    ],
+    [
+      "Base Rate Margin",
+      "SOFR Margin"
+    ],
+    [
+      "Commitment",
+      "Commitment Fee Rate"
+    ],
+    [
+      "Closing Date",
+      "Effective Date"
+    ],
+    [
+      "Maturity Date",
+      "Closing Date"
+    ]
+  ]
+}

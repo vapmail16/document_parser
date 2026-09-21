@@ -1,0 +1,199 @@
+{
+ "page": 24,
+ "model_key": "frontier",
+ "prompt_version": "v2",
+ "prompt_sha256": "ffcc6fa944d0bcf954dc09f86c57269364cc4020bbf12e07c98bc47912dc7acb",
+ "status": "failed",
+ "bands": [],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1793,
+    "scale": 0.9185,
+    "effective_dpi": 275.6
+   },
+   "bands_on_page": 2,
+   "cache_key": "de571d9f18820d407a936d2b66d58076587de9e9d4f86ae8da301550dd112f8d",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38     Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Daily Simple SOFR",
+       "text": "“Daily Simple SOFR” with respect to any applicable determination date means the SOFR published on such date on the Federal Reserve Bank of New York’s website (or any successor source).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Debt Rating",
+       "text": "“Debt Rating” means, as of any date of determination, the rating as determined by any of S&P, Moody’s or Fitch of the Company’s non-credit-enhanced, senior unsecured long-term debt.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Debtor Relief Laws",
+       "text": "“Debtor Relief Laws” means the Bankruptcy Code of the United States, and all other liquidation, conservatorship, bankruptcy, assignment for the benefit of creditors, moratorium, rearrangement, receivership, insolvency, reorganization, or similar debtor relief Laws of the United States or other applicable jurisdictions from time to time in effect and affecting the rights of creditors generally.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Default",
+       "text": "“Default” means any event or condition that constitutes an Event of Default or that, with the giving of any notice, the passage of time, or both, would be an Event of Default.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Default Rate",
+       "text": "“Default Rate” means (a) when used with respect to Obligations other than Letter of Credit Fees, an interest rate equal to (i) the Base Rate plus (ii) the Applicable Rate, if any, applicable to Base Rate Loans plus (iii) 2% per annum; provided, however, that with respect to a Term SOFR Loan, a Term SOFR Daily Floating Rate Loan or an Alternative Currency Loan, the Default Rate shall be an interest rate equal to the interest rate (including any Applicable Rate) otherwise applicable to such Loan plus 2% per annum, and (b) when used with respect to Letter of Credit Fees, a rate equal to the Applicable Rate plus 2% per annum.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Defaulting Lender",
+       "text": "“Defaulting Lender” means, subject to Section 2.17(b), any Lender that (a) has failed to (i) fund all or any portion of its Loans within two Business Days of the date such Loans were required to be funded hereunder unless such Lender notifies the Administrative Agent and the Company in writing that such failure is the result of such Lender’s determination that one or more conditions precedent to funding (each of which conditions precedent, together with any applicable default, shall be specifically identified in such writing) has not been satisfied, or (ii) pay to the Administrative Agent, the L/C Issuer, the Swing Line Lender or any other Lender any other amount required to be paid",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Default Rate (Obligations other than Letter of Credit Fees)",
+       "raw_value": "2% per annum",
+       "source_text": "an interest rate equal to (i) the Base Rate plus (ii) the Applicable Rate, if any, applicable to Base Rate Loans plus (iii) 2% per annum",
+       "confidence": 0.95,
+       "block_index": 5
+      },
+      {
+       "name": "Default Rate (Letter of Credit Fees)",
+       "raw_value": "the Applicable Rate plus 2% per annum",
+       "source_text": "when used with respect to Letter of Credit Fees, a rate equal to the Applicable Rate plus 2% per annum.",
+       "confidence": 0.94,
+       "block_index": 5
+      },
+      {
+       "name": "Defaulting Lender funding grace period",
+       "raw_value": "two Business Days",
+       "source_text": "has failed to (i) fund all or any portion of its Loans within two Business Days of the date such Loans were required to be funded hereunder",
+       "confidence": 0.95,
+       "block_index": 6
+      },
+      {
+       "name": "Defaulting Lender cross-reference",
+       "raw_value": "Section 2.17(b)",
+       "source_text": "“Defaulting Lender” means, subject to Section 2.17(b), any Lender that",
+       "confidence": 0.94,
+       "block_index": 6
+      },
+      {
+       "name": "Debt Rating agencies",
+       "raw_value": "S&P, Moody’s or Fitch",
+       "source_text": "the rating as determined by any of S&P, Moody’s or Fitch of the Company’s non-credit-enhanced, senior unsecured long-term debt",
+       "confidence": 0.93,
+       "block_index": 2
+      },
+      {
+       "name": "Daily Simple SOFR source",
+       "raw_value": "the Federal Reserve Bank of New York’s website (or any successor source)",
+       "source_text": "means the SOFR published on such date on the Federal Reserve Bank of New York’s website (or any successor source).",
+       "confidence": 0.93,
+       "block_index": 1
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38     Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Daily Simple SOFR\",\"text\":\"“Daily Simple SOFR” with respect to any applicable determination date means the SOFR published on such date on the Federal Reserve Bank of New York’s website (or any successor source).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Debt Rating\",\"text\":\"“Debt Rating” means, as of any date of determination, the rating as determined by any of S&P, Moody’s or Fitch of the Company’s non-credit-enhanced, senior unsecured long-term debt.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Debtor Relief Laws\",\"text\":\"“Debtor Relief Laws” means the Bankruptcy Code of the United States, and all other liquidation, conservatorship, bankruptcy, assignment for the benefit of creditors, moratorium, rearrangement, receivership, insolvency, reorganization, or similar debtor relief Laws of the United States or other applicable jurisdictions from time to time in effect and affecting the rights of creditors generally.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Default\",\"text\":\"“Default” means any event or condition that constitutes an Event of Default or that, with the giving of any notice, the passage of time, or both, would be an Event of Default.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Default Rate\",\"text\":\"“Default Rate” means (a) when used with respect to Obligations other than Letter of Credit Fees, an interest rate equal to (i) the Base Rate plus (ii) the Applicable Rate, if any, applicable to Base Rate Loans plus (iii) 2% per annum; provided, however, that with respect to a Term SOFR Loan, a Term SOFR Daily Floating Rate Loan or an Alternative Currency Loan, the Default Rate shall be an interest rate equal to the interest rate (including any Applicable Rate) otherwise applicable to such Loan plus 2% per annum, and (b) when used with respect to Letter of Credit Fees, a rate equal to the Applicable Rate plus 2% per annum.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Defaulting Lender\",\"text\":\"“Defaulting Lender” means, subject to Section 2.17(b), any Lender that (a) has failed to (i) fund all or any portion of its Loans within two Business Days of the date such Loans were required to be funded hereunder unless such Lender notifies the Administrative Agent and the Company in writing that such failure is the result of such Lender’s determination that one or more conditions precedent to funding (each of which conditions precedent, together with any applicable default, shall be specifically identified in such writing) has not been satisfied, or (ii) pay to the Administrative Agent, the L/C Issuer, the Swing Line Lender or any other Lender any other amount required to be paid\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Default Rate (Obligations other than Letter of Credit Fees)\",\"raw_value\":\"2% per annum\",\"source_text\":\"an interest rate equal to (i) the Base Rate plus (ii) the Applicable Rate, if any, applicable to Base Rate Loans plus (iii) 2% per annum\",\"confidence\":0.95,\"block_index\":5},{\"name\":\"Default Rate (Letter of Credit Fees)\",\"raw_value\":\"the Applicable Rate plus 2% per annum\",\"source_text\":\"when used with respect to Letter of Credit Fees, a rate equal to the Applicable Rate plus 2% per annum.\",\"confidence\":0.94,\"block_index\":5},{\"name\":\"Defaulting Lender funding grace period\",\"raw_value\":\"two Business Days\",\"source_text\":\"has failed to (i) fund all or any portion of its Loans within two Business Days of the date such Loans were required to be funded hereunder\",\"confidence\":0.95,\"block_index\":6},{\"name\":\"Defaulting Lender cross-reference\",\"raw_value\":\"Section 2.17(b)\",\"source_text\":\"“Defaulting Lender” means, subject to Section 2.17(b), any Lender that\",\"confidence\":0.94,\"block_index\":6},{\"name\":\"Debt Rating agencies\",\"raw_value\":\"S&P, Moody’s or Fitch\",\"source_text\":\"the rating as determined by any of S&P, Moody’s or Fitch of the Company’s non-credit-enhanced, senior unsecured long-term debt\",\"confidence\":0.93,\"block_index\":2},{\"name\":\"Daily Simple SOFR source\",\"raw_value\":\"the Federal Reserve Bank of New York’s website (or any successor source)\",\"source_text\":\"means the SOFR published on such date on the Federal Reserve Bank of New York’s website (or any successor source).\",\"confidence\":0.93,\"block_index\":1}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1935,
+     "cost_usd": 0.087645
+    },
+    "latency_s": 19.328274865998537,
+    "request_id": "req_011CfGW1uqXXFEuSkf3hgv6w"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1656,
+    "y1": 3508,
+    "scale": 0.9038,
+    "effective_dpi": 271.1
+   },
+   "bands_on_page": 2,
+   "cache_key": "95ad7a211f1b4b622826ca42fbe46f17fd9cd50983dc93ba51934d710a4b7610",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": null,
+    "stop_reason": null,
+    "envelope": null,
+    "raw_text": null,
+    "failure": "api_error",
+    "detail": "HTTP 400: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Output blocked by content filtering policy'}, 'request_id': 'req_011CfGW3MRw3bmeaCuzLA3J4'}",
+    "usage": {
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cost_usd": null
+    },
+    "latency_s": 10.03823913299857,
+    "request_id": "req_011CfGW3MRw3bmeaCuzLA3J4"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1656,
+    "y1": 3508,
+    "scale": 0.9038,
+    "effective_dpi": 271.1
+   },
+   "bands_on_page": 2,
+   "cache_key": "95ad7a211f1b4b622826ca42fbe46f17fd9cd50983dc93ba51934d710a4b7610",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": null,
+    "stop_reason": null,
+    "envelope": null,
+    "raw_text": null,
+    "failure": "api_error",
+    "detail": "HTTP 400: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Output blocked by content filtering policy'}, 'request_id': 'req_011CfGW47RqhAPDvauvrfH7z'}",
+    "usage": {
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cost_usd": null
+    },
+    "latency_s": 10.383745689003263,
+    "request_id": "req_011CfGW47RqhAPDvauvrfH7z"
+   }
+  }
+ ]
+}

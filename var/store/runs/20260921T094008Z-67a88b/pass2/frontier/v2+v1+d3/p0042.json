@@ -1,0 +1,231 @@
+{
+ "page": 42,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "e4a47f083e1d93eafbdae86697f0d30b692b51609dde1057ef3d3235ae9be5a8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "“Term SOFR” means:",
+       "confidence": 0.85,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "“Term SOFR Daily Floating Rate” means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date",
+       "confidence": 0.8,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (base rate)",
+       "raw_value": "Base Rate Loan",
+       "source_text": "for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"“Term SOFR” means:\",\"confidence\":0.85},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"“Term SOFR Daily Floating Rate” means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date\",\"confidence\":0.8},{\"name\":\"benchmark_rate (base rate)\",\"raw_value\":\"Base Rate Loan\",\"source_text\":\"for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9048,
+     "output_tokens": 286,
+     "cost_usd": 0.05239
+    },
+    "latency_s": 5.646789291000459,
+    "request_id": "req_011CfGZgZzcNXSn6ro5zmA6h"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "b163a341db5298a54d6b40c1fc9b31294fa8449714cc24a535c4ba8dbf8529c5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (cross-default)",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.55,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "\"Term SOFR Loan\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.",
+       "confidence": 0.4,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (cross-default)\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.55,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"\\\"Term SOFR Loan\\\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.\",\"confidence\":0.4,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.\",\"confidence\":0.4,\"block_index\":null}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8965,
+     "output_tokens": 602,
+     "cost_usd": 0.059875
+    },
+    "latency_s": 8.759996125998441,
+    "request_id": "req_011CfGZh1EAMXFvq5YZdXQJ6"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "e4a47f083e1d93eafbdae86697f0d30b692b51609dde1057ef3d3235ae9be5a8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "“Term SOFR” means:",
+       "confidence": 0.85,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "“Term SOFR Daily Floating Rate” means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date",
+       "confidence": 0.8,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (base rate)",
+       "raw_value": "Base Rate Loan",
+       "source_text": "for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"“Term SOFR” means:\",\"confidence\":0.85},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"“Term SOFR Daily Floating Rate” means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date\",\"confidence\":0.8},{\"name\":\"benchmark_rate (base rate)\",\"raw_value\":\"Base Rate Loan\",\"source_text\":\"for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9048,
+     "output_tokens": 286,
+     "cost_usd": 0.05239
+    },
+    "latency_s": 5.646789291000459,
+    "request_id": "req_011CfGZgZzcNXSn6ro5zmA6h"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "b163a341db5298a54d6b40c1fc9b31294fa8449714cc24a535c4ba8dbf8529c5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (cross-default)",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.55,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr)",
+       "raw_value": "Term SOFR",
+       "source_text": "\"Term SOFR Loan\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.",
+       "confidence": 0.4,
+       "block_index": null
+      },
+      {
+       "name": "benchmark_rate (term sofr daily)",
+       "raw_value": "Term SOFR Daily Floating Rate",
+       "source_text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (cross-default)\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.55,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr)\",\"raw_value\":\"Term SOFR\",\"source_text\":\"\\\"Term SOFR Loan\\\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR.\",\"confidence\":0.4,\"block_index\":null},{\"name\":\"benchmark_rate (term sofr daily)\",\"raw_value\":\"Term SOFR Daily Floating Rate\",\"source_text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate.\",\"confidence\":0.4,\"block_index\":null}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8965,
+     "output_tokens": 602,
+     "cost_usd": 0.059875
+    },
+    "latency_s": 8.759996125998441,
+    "request_id": "req_011CfGZh1EAMXFvq5YZdXQJ6"
+   }
+  }
+ ]
+}

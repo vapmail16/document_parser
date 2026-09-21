@@ -1,0 +1,1005 @@
+{
+ "document_id": "albemarle",
+ "version_label": "2022-AR",
+ "revision": 3,
+ "effective_date": "2022-10-28",
+ "execution_status": "executed",
+ "document_kind": "restatement",
+ "parties": [
+  {
+   "name": "ALBEMARLE CORPORATION",
+   "role": "Company",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "THE LENDERS PARTY HERETO",
+   "role": "Lenders",
+   "keys": [
+    "lender"
+   ]
+  },
+  {
+   "name": "BANK OF AMERICA, N.A.",
+   "role": "Administrative Agent and Swing Line Lender",
+   "keys": [
+    "administrative_agent"
+   ]
+  },
+  {
+   "name": "ALBEMARLE EUROPE SRL",
+   "role": "Belgian Borrower",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "the Lenders",
+   "role": "Lenders",
+   "keys": [
+    "lender"
+   ]
+  },
+  {
+   "name": "Bank of America",
+   "role": "Administrative Agent",
+   "keys": [
+    "administrative_agent"
+   ]
+  },
+  {
+   "name": "BAS",
+   "role": "party to Administrative Agent Fee Letter",
+   "keys": [
+    "administrative_agent"
+   ]
+  },
+  {
+   "name": "the Company",
+   "role": "Company",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "Administrative Agent",
+   "role": "Administrative Agent",
+   "keys": [
+    "administrative_agent"
+   ]
+  },
+  {
+   "name": "Lenders",
+   "role": "Lender",
+   "keys": [
+    "lender"
+   ]
+  },
+  {
+   "name": "Company",
+   "role": "Company",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "Lender",
+   "role": "Lender",
+   "keys": [
+    "lender"
+   ]
+  },
+  {
+   "name": "Swing Line Lender",
+   "role": "Swing Line Lender",
+   "keys": [
+    "lender"
+   ]
+  },
+  {
+   "name": "Belgian Borrower",
+   "role": "Non-Domestic Borrower",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "Domestic Borrower",
+   "role": "Borrower",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "Borrowers",
+   "role": "Borrower",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "BORROWER",
+   "role": "Borrower",
+   "keys": [
+    "borrower"
+   ]
+  },
+  {
+   "name": "Bank of China, New York Branch",
+   "role": "Lender",
+   "keys": [
+    "lender"
+   ]
+  },
+  {
+   "name": "The Northern Trust Company",
+   "role": "Lender",
+   "keys": [
+    "lender"
+   ]
+  }
+ ],
+ "values": [
+  {
+   "key": "agreement_date",
+   "instance": null,
+   "value": {
+    "type": "date",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": "2022-10-28",
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "October 28, 2022",
+   "page": 1,
+   "quote": "Dated as of October 28, 2022",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "agreement_date",
+   "instance": null,
+   "value": {
+    "type": "date",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": "2022-10-28",
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "October 28, 2022",
+   "page": 14,
+   "quote": "This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "total_commitments",
+   "instance": null,
+   "value": {
+    "type": "money",
+    "amount": "1500000000",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000)",
+   "page": 15,
+   "quote": "The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "letter_of_credit_sublimit",
+   "instance": null,
+   "value": {
+    "type": "money",
+    "amount": "100000000",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+   "page": 32,
+   "quote": "means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "maturity_date",
+   "instance": null,
+   "value": {
+    "type": "date",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": "2027-10-28",
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "October 28, 2027",
+   "page": 33,
+   "quote": "“Maturity Date” means the later of (a) October 28, 2027 and (b) if maturity is extended pursuant to Section 2.15",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "swingline_sublimit",
+   "instance": null,
+   "value": {
+    "type": "money",
+    "amount": "150000000",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000)",
+   "page": 41,
+   "quote": "“Swing Line Sublimit” means the lesser of (a) ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000) and (b) the Aggregate Commitments.",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "governing_law",
+   "instance": null,
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "THE LAW OF THE STATE OF NEW YORK",
+    "ref_id": null
+   },
+   "raw_value": "THE LAW OF THE STATE OF NEW YORK",
+   "page": 141,
+   "quote": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "total_commitments",
+   "instance": null,
+   "value": {
+    "type": "money",
+    "amount": "1500000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$1,500,000,000.00",
+   "page": 154,
+   "quote": "Total $1,500,000,000.00 100.000000000%",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "bank_of_america_n_a",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Bank of America, N.A.",
+    "ref_id": null
+   },
+   "raw_value": "Bank of America, N.A.",
+   "page": 154,
+   "quote": "Bank of America, N.A.",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "bank_of_america_n_a",
+   "value": {
+    "type": "money",
+    "amount": "170000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$170,000,000.00",
+   "page": 154,
+   "quote": "$170,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "jpmorgan_chase_bank_n_a",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "JPMorgan Chase Bank, N.A.",
+    "ref_id": null
+   },
+   "raw_value": "JPMorgan Chase Bank, N.A.",
+   "page": 154,
+   "quote": "JPMorgan Chase Bank, N.A.",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "jpmorgan_chase_bank_n_a",
+   "value": {
+    "type": "money",
+    "amount": "170000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$170,000,000.00",
+   "page": 154,
+   "quote": "$170,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "hsbc_bank_usa_national_association",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "HSBC Bank USA, National Association",
+    "ref_id": null
+   },
+   "raw_value": "HSBC Bank USA, National Association",
+   "page": 154,
+   "quote": "HSBC Bank USA, National Association",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "hsbc_bank_usa_national_association",
+   "value": {
+    "type": "money",
+    "amount": "170000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$170,000,000.00",
+   "page": 154,
+   "quote": "$170,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "mizuho_bank_ltd",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Mizuho Bank, Ltd.",
+    "ref_id": null
+   },
+   "raw_value": "Mizuho Bank, Ltd.",
+   "page": 154,
+   "quote": "Mizuho Bank, Ltd.",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "mizuho_bank_ltd",
+   "value": {
+    "type": "money",
+    "amount": "170000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$170,000,000.00",
+   "page": 154,
+   "quote": "$170,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "banco_santander_s_a_new_york_branch",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Banco Santander, S.A., New York Branch",
+    "ref_id": null
+   },
+   "raw_value": "Banco Santander, S.A., New York Branch",
+   "page": 154,
+   "quote": "Banco Santander, S.A., New York Branch",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "banco_santander_s_a_new_york_branch",
+   "value": {
+    "type": "money",
+    "amount": "120000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$120,000,000.00",
+   "page": 154,
+   "quote": "$120,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "goldman_sachs_bank_usa",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Goldman Sachs Bank USA",
+    "ref_id": null
+   },
+   "raw_value": "Goldman Sachs Bank USA",
+   "page": 154,
+   "quote": "Goldman Sachs Bank USA",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "goldman_sachs_bank_usa",
+   "value": {
+    "type": "money",
+    "amount": "120000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$120,000,000.00",
+   "page": 154,
+   "quote": "$120,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "mufg_bank_ltd",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "MUFG Bank, Ltd.",
+    "ref_id": null
+   },
+   "raw_value": "MUFG Bank, Ltd.",
+   "page": 154,
+   "quote": "MUFG Bank, Ltd.",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "mufg_bank_ltd",
+   "value": {
+    "type": "money",
+    "amount": "120000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$120,000,000.00",
+   "page": 154,
+   "quote": "$120,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "sumitomo_mitsui_banking_corporation",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Sumitomo Mitsui Banking Corporation",
+    "ref_id": null
+   },
+   "raw_value": "Sumitomo Mitsui Banking Corporation",
+   "page": 154,
+   "quote": "Sumitomo Mitsui Banking Corporation",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "sumitomo_mitsui_banking_corporation",
+   "value": {
+    "type": "money",
+    "amount": "120000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$120,000,000.00",
+   "page": 154,
+   "quote": "$120,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "truist_bank",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Truist Bank",
+    "ref_id": null
+   },
+   "raw_value": "Truist Bank",
+   "page": 154,
+   "quote": "Truist Bank",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "truist_bank",
+   "value": {
+    "type": "money",
+    "amount": "120000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$120,000,000.00",
+   "page": 154,
+   "quote": "$120,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "u_s_bank_national_association",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "U.S. Bank National Association",
+    "ref_id": null
+   },
+   "raw_value": "U.S. Bank National Association",
+   "page": 154,
+   "quote": "U.S. Bank National Association",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "u_s_bank_national_association",
+   "value": {
+    "type": "money",
+    "amount": "120000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$120,000,000.00",
+   "page": 154,
+   "quote": "$120,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "bank_of_china_new_york_branch",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Bank of China, New York Branch",
+    "ref_id": null
+   },
+   "raw_value": "Bank of China, New York Branch",
+   "page": 154,
+   "quote": "Bank of China, New York Branch",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "bank_of_china_new_york_branch",
+   "value": {
+    "type": "money",
+    "amount": "50000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$50,000,000.00",
+   "page": 154,
+   "quote": "$50,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "the_northern_trust_company",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "The Northern Trust Company",
+    "ref_id": null
+   },
+   "raw_value": "The Northern Trust Company",
+   "page": 154,
+   "quote": "The Northern Trust Company",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender_commitment",
+   "instance": "the_northern_trust_company",
+   "value": {
+    "type": "money",
+    "amount": "50000000.00",
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": null,
+    "ref_id": null
+   },
+   "raw_value": "$50,000,000.00",
+   "page": 154,
+   "quote": "$50,000,000.00",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "borrower",
+   "instance": "albemarle_corporation",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "ALBEMARLE CORPORATION",
+    "ref_id": null
+   },
+   "raw_value": "ALBEMARLE CORPORATION",
+   "page": 1,
+   "quote": "ALBEMARLE CORPORATION, (the \"Company\"),",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "administrative_agent",
+   "instance": null,
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "BANK OF AMERICA, N.A.",
+    "ref_id": null
+   },
+   "raw_value": "BANK OF AMERICA, N.A.",
+   "page": 1,
+   "quote": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "borrower",
+   "instance": "albemarle_corporation",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "ALBEMARLE CORPORATION",
+    "ref_id": null
+   },
+   "raw_value": "ALBEMARLE CORPORATION",
+   "page": 14,
+   "quote": "ALBEMARLE CORPORATION, a Virginia corporation (the \"Company\")",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "borrower",
+   "instance": "albemarle_europe_srl",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "ALBEMARLE EUROPE SRL",
+    "ref_id": null
+   },
+   "raw_value": "ALBEMARLE EUROPE SRL",
+   "page": 14,
+   "quote": "ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the \"Belgian Borrower\"",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "administrative_agent",
+   "instance": null,
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "BANK OF AMERICA, N.A.",
+    "ref_id": null
+   },
+   "raw_value": "BANK OF AMERICA, N.A.",
+   "page": 14,
+   "quote": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "administrative_agent",
+   "instance": null,
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "Bank of America",
+    "ref_id": null
+   },
+   "raw_value": "Bank of America",
+   "page": 14,
+   "quote": "“Administrative Agent” means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "consolidated_ebitda_definition",
+   "instance": null,
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following",
+    "ref_id": null
+   },
+   "raw_value": "means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following",
+   "page": 22,
+   "quote": "\"Consolidated EBITDA\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "hsbc_bank_usa_national_association",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "HSBC BANK USA, NATIONAL ASSOCIATION",
+    "ref_id": null
+   },
+   "raw_value": "HSBC BANK USA, NATIONAL ASSOCIATION",
+   "page": 150,
+   "quote": "HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "jpmorgan_chase_bank_n_a",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "JPMORGAN CHASE BANK, N.A.",
+    "ref_id": null
+   },
+   "raw_value": "JPMORGAN CHASE BANK, N.A.",
+   "page": 150,
+   "quote": "JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  },
+  {
+   "key": "lender",
+   "instance": "mizuho_bank_ltd",
+   "value": {
+    "type": "text",
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "date_value": null,
+    "bool_value": null,
+    "text": "MIZUHO BANK, LTD.",
+    "ref_id": null
+   },
+   "raw_value": "MIZUHO BANK, LTD.",
+   "page": 150,
+   "quote": "MIZUHO BANK, LTD., as a Lender and L/C Issuer",
+   "grounding": "verified",
+   "status": "auto_accepted",
+   "origin": "model"
+  }
+ ],
+ "withheld_pending_review": 53,
+ "provenance": {
+  "source_sha256": "6913e1b833800ee3706406cf4f1d9b95f8140a89935fe9f6947cb4683a99c088",
+  "page_count": 211,
+  "pipeline_version": "0.1.0",
+  "model_id": "frontier",
+  "model_params": {
+   "model_name": "claude-opus-5",
+   "effort": "medium"
+  },
+  "prompt_versions": {
+   "pass1_extraction": "v2",
+   "pass2_schema_hint": "v1"
+  },
+  "dictionary_version": 3,
+  "ocr_engine": "tesseract 5.5.3 lang=eng psm=3",
+  "run_id": "20260921T094008Z-67a88b",
+  "extracted_at": "2026-09-21T11:59:35.573427Z"
+ },
+ "emitted_at": "2026-09-21T12:04:53.757706Z"
+}

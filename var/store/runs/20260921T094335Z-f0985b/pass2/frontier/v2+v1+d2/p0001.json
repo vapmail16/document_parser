@@ -1,0 +1,367 @@
+{
+ "page": 1,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 3,
+   "cache_key": "60ede024102cfa3a167bd96b214dfe3e6bb355c90da1d7ddacedcf2733ef6a89",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "borrower",
+       "raw_value": "ALBEMARLE CORPORATION",
+       "source_text": "ALBEMARLE CORPORATION, (the \"Company\"),",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "administrative_agent",
+       "raw_value": "BANK OF AMERICA, N.A.",
+       "source_text": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "agreement_date",
+       "raw_value": "October 28, 2022",
+       "source_text": "Dated as of October 28, 2022",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "BANK OF AMERICA, N.A.",
+       "source_text": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,",
+       "confidence": 0.6,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "JPMORGAN CHASE BANK, N.A.",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as Syndication Agent",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"borrower\",\"raw_value\":\"ALBEMARLE CORPORATION\",\"source_text\":\"ALBEMARLE CORPORATION, (the \\\"Company\\\"),\",\"confidence\":0.9},{\"name\":\"administrative_agent\",\"raw_value\":\"BANK OF AMERICA, N.A.\",\"source_text\":\"BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,\",\"confidence\":0.95},{\"name\":\"agreement_date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"Dated as of October 28, 2022\",\"confidence\":0.95},{\"name\":\"lender\",\"raw_value\":\"BANK OF AMERICA, N.A.\",\"source_text\":\"BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,\",\"confidence\":0.6},{\"name\":\"lender\",\"raw_value\":\"JPMORGAN CHASE BANK, N.A.\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as Syndication Agent\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8769,
+     "output_tokens": 381,
+     "cost_usd": 0.05337
+    },
+    "latency_s": 8.303289990995836,
+    "request_id": "req_011CfGX4SxxGT9mzdNhn8JSH"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1684,
+    "y1": 3498,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 3,
+   "cache_key": "479724e91027b92af97c89a367d260d4b3c2243200bc64fedd932c428f0207c6",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "JPMORGAN CHASE BANK, N.A.",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as Syndication Agent",
+       "confidence": 0.5,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "GOLDMAN SACHS BANK USA",
+       "source_text": "GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "MUFG BANK, LTD.",
+       "source_text": "GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "SUMITOMO MITSUI BANKING CORPORATION",
+       "source_text": "SUMITOMO MITSUI BANKING CORPORATION, TRUIST BANK and U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "U.S. BANK NATIONAL ASSOCIATION",
+       "source_text": "U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "MIZUHO BANK, LTD.",
+       "source_text": "MIZUHO BANK, LTD., as Joint Lead Arrangers and Joint Bookrunners",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"JPMORGAN CHASE BANK, N.A.\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as Syndication Agent\",\"confidence\":0.5},{\"name\":\"lender\",\"raw_value\":\"GOLDMAN SACHS BANK USA\",\"source_text\":\"GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"MUFG BANK, LTD.\",\"source_text\":\"GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"SUMITOMO MITSUI BANKING CORPORATION\",\"source_text\":\"SUMITOMO MITSUI BANKING CORPORATION, TRUIST BANK and U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"U.S. BANK NATIONAL ASSOCIATION\",\"source_text\":\"U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"MIZUHO BANK, LTD.\",\"source_text\":\"MIZUHO BANK, LTD., as Joint Lead Arrangers and Joint Bookrunners\",\"confidence\":0.4}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8739,
+     "output_tokens": 580,
+     "cost_usd": 0.058195
+    },
+    "latency_s": 9.224998439000046,
+    "request_id": "req_011CfGX55p18BezoKjnj11Ga"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3378,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "92b0fbd6a6fc358f68b9f5aaa7e28f29185ddf7ed5dc5ff3918cc9494731373a",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4405,
+     "output_tokens": 29,
+     "cost_usd": 0.02275
+    },
+    "latency_s": 2.1300857269961853,
+    "request_id": "req_011CfGX5mgNY1ijC353Qs2aR"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 3,
+   "cache_key": "60ede024102cfa3a167bd96b214dfe3e6bb355c90da1d7ddacedcf2733ef6a89",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "borrower",
+       "raw_value": "ALBEMARLE CORPORATION",
+       "source_text": "ALBEMARLE CORPORATION, (the \"Company\"),",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "administrative_agent",
+       "raw_value": "BANK OF AMERICA, N.A.",
+       "source_text": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "agreement_date",
+       "raw_value": "October 28, 2022",
+       "source_text": "Dated as of October 28, 2022",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "BANK OF AMERICA, N.A.",
+       "source_text": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,",
+       "confidence": 0.6,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "JPMORGAN CHASE BANK, N.A.",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as Syndication Agent",
+       "confidence": 0.5,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"borrower\",\"raw_value\":\"ALBEMARLE CORPORATION\",\"source_text\":\"ALBEMARLE CORPORATION, (the \\\"Company\\\"),\",\"confidence\":0.9},{\"name\":\"administrative_agent\",\"raw_value\":\"BANK OF AMERICA, N.A.\",\"source_text\":\"BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,\",\"confidence\":0.95},{\"name\":\"agreement_date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"Dated as of October 28, 2022\",\"confidence\":0.95},{\"name\":\"lender\",\"raw_value\":\"BANK OF AMERICA, N.A.\",\"source_text\":\"BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,\",\"confidence\":0.6},{\"name\":\"lender\",\"raw_value\":\"JPMORGAN CHASE BANK, N.A.\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as Syndication Agent\",\"confidence\":0.5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8769,
+     "output_tokens": 381,
+     "cost_usd": 0.05337
+    },
+    "latency_s": 8.303289990995836,
+    "request_id": "req_011CfGX4SxxGT9mzdNhn8JSH"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1684,
+    "y1": 3498,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 3,
+   "cache_key": "479724e91027b92af97c89a367d260d4b3c2243200bc64fedd932c428f0207c6",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "JPMORGAN CHASE BANK, N.A.",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as Syndication Agent",
+       "confidence": 0.5,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "GOLDMAN SACHS BANK USA",
+       "source_text": "GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "MUFG BANK, LTD.",
+       "source_text": "GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "SUMITOMO MITSUI BANKING CORPORATION",
+       "source_text": "SUMITOMO MITSUI BANKING CORPORATION, TRUIST BANK and U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "U.S. BANK NATIONAL ASSOCIATION",
+       "source_text": "U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents",
+       "confidence": 0.45,
+       "block_index": null
+      },
+      {
+       "name": "lender",
+       "raw_value": "MIZUHO BANK, LTD.",
+       "source_text": "MIZUHO BANK, LTD., as Joint Lead Arrangers and Joint Bookrunners",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"JPMORGAN CHASE BANK, N.A.\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as Syndication Agent\",\"confidence\":0.5},{\"name\":\"lender\",\"raw_value\":\"GOLDMAN SACHS BANK USA\",\"source_text\":\"GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"MUFG BANK, LTD.\",\"source_text\":\"GOLDMAN SACHS BANK USA, MUFG BANK, LTD., BANCO SANTANDER, S.A., NEW YORK BRANCH,\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"SUMITOMO MITSUI BANKING CORPORATION\",\"source_text\":\"SUMITOMO MITSUI BANKING CORPORATION, TRUIST BANK and U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"U.S. BANK NATIONAL ASSOCIATION\",\"source_text\":\"U.S. BANK NATIONAL ASSOCIATION, as Co-Documentation Agents\",\"confidence\":0.45},{\"name\":\"lender\",\"raw_value\":\"MIZUHO BANK, LTD.\",\"source_text\":\"MIZUHO BANK, LTD., as Joint Lead Arrangers and Joint Bookrunners\",\"confidence\":0.4}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8739,
+     "output_tokens": 580,
+     "cost_usd": 0.058195
+    },
+    "latency_s": 9.224998439000046,
+    "request_id": "req_011CfGX55p18BezoKjnj11Ga"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3378,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "92b0fbd6a6fc358f68b9f5aaa7e28f29185ddf7ed5dc5ff3918cc9494731373a",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4405,
+     "output_tokens": 29,
+     "cost_usd": 0.02275
+    },
+    "latency_s": 2.1300857269961853,
+    "request_id": "req_011CfGX5mgNY1ijC353Qs2aR"
+   }
+  }
+ ]
+}

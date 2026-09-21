@@ -1,0 +1,30 @@
+{
+  "run_id": "20260921T094335Z-f0985b",
+  "model_key": "frontier",
+  "prompt_version": "v1",
+  "pass1_prompt_version": "v2",
+  "dictionary_version": 2,
+  "pages": [
+    1,
+    14,
+    15,
+    17,
+    18,
+    22,
+    32,
+    33,
+    41,
+    42,
+    108,
+    110,
+    141,
+    150,
+    154
+  ],
+  "ok": 15,
+  "failed": [],
+  "calls": 38,
+  "cached_calls": 0,
+  "fields_reported": 85,
+  "cost_usd": 1.7701
+}

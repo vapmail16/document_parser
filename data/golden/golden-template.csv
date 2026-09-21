@@ -1,0 +1,18 @@
+document_id,version_label,canonical_name,instance_key,expected_value,source_page,labelled_by,notes
+albemarle,2022-AR,borrower,,,,,
+albemarle,2022-AR,administrative_agent,,,,,
+albemarle,2022-AR,lender,,,,,one row per lender; instance_key = lender name
+albemarle,2022-AR,agreement_date,,,,,
+albemarle,2022-AR,maturity_date,,,,,one row per facility if more than one; instance_key = facility
+albemarle,2022-AR,facility_type,,,,,one row per facility
+albemarle,2022-AR,total_commitments,,,,,instance_key = facility if more than one
+albemarle,2022-AR,lender_commitment,,,,,"one row per lender; instance_key = lender name; value e.g. $125,000,000"
+albemarle,2022-AR,benchmark_rate,,,,,e.g. Term SOFR; one row per rate option
+albemarle,2022-AR,applicable_margin,,,,,grid: one row per pricing level x rate type; instance_key e.g. level1|term_sofr; value e.g. 0.910%
+albemarle,2022-AR,commitment_fee_rate,,,,,
+albemarle,2022-AR,max_total_leverage_ratio,,,,,instance_key = test period if it steps down; value e.g. 3.50 to 1.00
+albemarle,2022-AR,min_interest_coverage_ratio,,,,,instance_key = test period if it changes
+albemarle,2022-AR,consolidated_ebitda_definition,,,,,
+albemarle,2022-AR,security,,,,,
+albemarle,2022-AR,event_of_default,,,,,one row per event; instance_key = short label (e.g. non_payment); value = key threshold/grace period
+albemarle,2022-AR,governing_law,,,,,

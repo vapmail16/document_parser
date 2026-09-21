@@ -1,0 +1,225 @@
+{
+ "page": 22,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1784,
+    "scale": 0.9208,
+    "effective_dpi": 276.2
+   },
+   "bands_on_page": 3,
+   "cache_key": "2bc2592ce8ce90d154f31a8560b0d32470ad8768cc53bb40c7670d601f74a363",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "consolidated_ebitda_definition",
+       "raw_value": "means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following",
+       "source_text": "\"Consolidated EBITDA\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"consolidated_ebitda_definition\",\"raw_value\":\"means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following\",\"source_text\":\"\\\"Consolidated EBITDA\\\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8941,
+     "output_tokens": 217,
+     "cost_usd": 0.05013
+    },
+    "latency_s": 4.969976293003128,
+    "request_id": "req_011CfGZfYmuiWnjERuKS2dJi"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1646,
+    "y1": 3460,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "551d797aaad6e7f39a4500e542a363094ffb93f9ad0853e9f34562292aaa1c1e",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8968,
+     "output_tokens": 111,
+     "cost_usd": 0.047615
+    },
+    "latency_s": 5.132218213999295,
+    "request_id": "req_011CfGZfwLy9wcEsifXEAN4P"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3340,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "e7132871208a70d670d30be56784e0f5a31500cd2df0836901dc4bd6048da933",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4696,
+     "output_tokens": 29,
+     "cost_usd": 0.024205
+    },
+    "latency_s": 3.1512907189971884,
+    "request_id": "req_011CfGZgKF6vuXds2zfa5NBU"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1784,
+    "scale": 0.9208,
+    "effective_dpi": 276.2
+   },
+   "bands_on_page": 3,
+   "cache_key": "2bc2592ce8ce90d154f31a8560b0d32470ad8768cc53bb40c7670d601f74a363",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "consolidated_ebitda_definition",
+       "raw_value": "means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following",
+       "source_text": "\"Consolidated EBITDA\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"consolidated_ebitda_definition\",\"raw_value\":\"means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following\",\"source_text\":\"\\\"Consolidated EBITDA\\\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8941,
+     "output_tokens": 217,
+     "cost_usd": 0.05013
+    },
+    "latency_s": 4.969976293003128,
+    "request_id": "req_011CfGZfYmuiWnjERuKS2dJi"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1646,
+    "y1": 3460,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "551d797aaad6e7f39a4500e542a363094ffb93f9ad0853e9f34562292aaa1c1e",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8968,
+     "output_tokens": 111,
+     "cost_usd": 0.047615
+    },
+    "latency_s": 5.132218213999295,
+    "request_id": "req_011CfGZfwLy9wcEsifXEAN4P"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3340,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "e7132871208a70d670d30be56784e0f5a31500cd2df0836901dc4bd6048da933",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4696,
+     "output_tokens": 29,
+     "cost_usd": 0.024205
+    },
+    "latency_s": 3.1512907189971884,
+    "request_id": "req_011CfGZgKF6vuXds2zfa5NBU"
+   }
+  }
+ ]
+}

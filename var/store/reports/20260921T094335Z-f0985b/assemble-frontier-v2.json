@@ -1,0 +1,24 @@
+{
+  "run_id": "20260921T094335Z-f0985b",
+  "model_key": "frontier",
+  "prompt_version": "v2",
+  "furniture": [
+    "##/##/####, ##:## document",
+    "https://www.sec.gov/archives/edgar/data/# ### ##/##### ### ######## ##/exhibit#############g-htm #/###"
+  ],
+  "pages_extracted": 16,
+  "pages_by_status": {
+    "ok": 15,
+    "not_extracted": 195,
+    "failed": 1
+  },
+  "low_coverage_pages": [],
+  "blocks": 139,
+  "clauses": 125,
+  "sections": 3,
+  "fields": 212,
+  "tables": 2,
+  "parties": 38,
+  "execution_status": "executed",
+  "document_kind": "restatement"
+}

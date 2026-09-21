@@ -1,0 +1,647 @@
+{
+ "page": 14,
+ "model_key": "frontier",
+ "prompt_version": "v2",
+ "prompt_sha256": "ffcc6fa944d0bcf954dc09f86c57269364cc4020bbf12e07c98bc47912dc7acb",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1804,
+    "scale": 0.9155,
+    "effective_dpi": 274.7
+   },
+   "bands_on_page": 2,
+   "cache_key": "5d40d9876f2993cf8cc3eb7f7a775ed7b790e73127b34bcf9f9bb5a4cd45f297",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38    Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": null,
+       "heading": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "text": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION, a Virginia corporation (the “Company”), ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower” and together with the Company and any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”), the Lenders (defined herein), and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": null,
+       "heading": "RECITALS",
+       "text": "RECITALS",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so on the terms and conditions set forth herein.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "The revolving credit facility and the transactions contemplated hereunder are in the corporate interests of the Borrowers.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "In consideration of the mutual covenants and agreements herein contained, the parties hereto covenant and agree as follows:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "ARTICLE I.",
+       "heading": "DEFINITIONS AND ACCOUNTING TERMS",
+       "text": "ARTICLE I.\n\nDEFINITIONS AND ACCOUNTING TERMS",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "1.01",
+       "heading": "Defined Terms",
+       "text": "As used in this Agreement, the following terms shall have the meanings set forth below:",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Agreement Date",
+       "raw_value": "October 28, 2022",
+       "source_text": "This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION",
+       "confidence": 0.98,
+       "block_index": 2
+      },
+      {
+       "name": "Company jurisdiction",
+       "raw_value": "a Virginia corporation",
+       "source_text": "ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)",
+       "confidence": 0.96,
+       "block_index": 2
+      },
+      {
+       "name": "Belgian Borrower jurisdiction",
+       "raw_value": "organized under the laws of Belgium",
+       "source_text": "a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Additional Borrower joinder provision",
+       "raw_value": "Section 2.14",
+       "source_text": "any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Facility type",
+       "raw_value": "a revolving credit facility",
+       "source_text": "The Company has requested that the Lenders provide a revolving credit facility",
+       "confidence": 0.95,
+       "block_index": 4
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "ALBEMARLE CORPORATION",
+       "role": "Company / Borrower",
+       "source_text": "ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)"
+      },
+      {
+       "name": "ALBEMARLE EUROPE SRL",
+       "role": "Belgian Borrower",
+       "source_text": "ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”"
+      },
+      {
+       "name": "BANK OF AMERICA, N.A.",
+       "role": "Administrative Agent and Swing Line Lender",
+       "source_text": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender."
+      },
+      {
+       "name": "the Lenders",
+       "role": "Lenders",
+       "source_text": "the Lenders (defined herein)"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38    Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":null,\"heading\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"text\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION, a Virginia corporation (the “Company”), ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower” and together with the Company and any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”), the Lenders (defined herein), and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":null,\"heading\":\"RECITALS\",\"text\":\"RECITALS\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so on the terms and conditions set forth herein.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"The revolving credit facility and the transactions contemplated hereunder are in the corporate interests of the Borrowers.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"In consideration of the mutual covenants and agreements herein contained, the parties hereto covenant and agree as follows:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"ARTICLE I.\",\"heading\":\"DEFINITIONS AND ACCOUNTING TERMS\",\"text\":\"ARTICLE I.\\n\\nDEFINITIONS AND ACCOUNTING TERMS\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"1.01\",\"heading\":\"Defined Terms\",\"text\":\"As used in this Agreement, the following terms shall have the meanings set forth below:\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Agreement Date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION\",\"confidence\":0.98,\"block_index\":2},{\"name\":\"Company jurisdiction\",\"raw_value\":\"a Virginia corporation\",\"source_text\":\"ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)\",\"confidence\":0.96,\"block_index\":2},{\"name\":\"Belgian Borrower jurisdiction\",\"raw_value\":\"organized under the laws of Belgium\",\"source_text\":\"a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Additional Borrower joinder provision\",\"raw_value\":\"Section 2.14\",\"source_text\":\"any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Facility type\",\"raw_value\":\"a revolving credit facility\",\"source_text\":\"The Company has requested that the Lenders provide a revolving credit facility\",\"confidence\":0.95,\"block_index\":4}],\"tables\":[],\"parties\":[{\"name\":\"ALBEMARLE CORPORATION\",\"role\":\"Company / Borrower\",\"source_text\":\"ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)\"},{\"name\":\"ALBEMARLE EUROPE SRL\",\"role\":\"Belgian Borrower\",\"source_text\":\"ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”\"},{\"name\":\"BANK OF AMERICA, N.A.\",\"role\":\"Administrative Agent and Swing Line Lender\",\"source_text\":\"BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.\"},{\"name\":\"the Lenders\",\"role\":\"Lenders\",\"source_text\":\"the Lenders (defined herein)\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1632,
+     "cost_usd": 0.08007
+    },
+    "latency_s": 18.795037025993224,
+    "request_id": "req_011CfGW6xoWcX4Q6y5rmn4gd"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1684,
+    "y1": 3508,
+    "scale": 0.9105,
+    "effective_dpi": 273.1
+   },
+   "bands_on_page": 2,
+   "cache_key": "ee8eff5205bcfb82f5f61ddbf4e1639ee5b28d7b41470869c13a918a0c4e0fa8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "As used in this Agreement, the following terms shall have the meanings set forth below:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Acquisition",
+       "text": "\"Acquisition\" by any Person means the acquisition by such Person, in a single transaction or in a series of related transactions, of all or substantially all of the assets of, or of a business unit or division of, another Person or at least a majority of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent of another Person, in each case whether or not involving a merger or consolidation with such other Person and whether for cash, property, services, assumption of Indebtedness, securities or otherwise.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Additional Commitment Lender",
+       "text": "\"Additional Commitment Lender\" has the meaning specified in Section 2.15.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Agent",
+       "text": "\"Administrative Agent\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Agent Fee Letter",
+       "text": "\"Administrative Agent Fee Letter\" means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Agent's Office",
+       "text": "\"Administrative Agent's Office\" means, with respect to any currency, the Administrative Agent's address and, as appropriate, account as set forth on Schedule 11.02 with respect to such currency or such other address or account with respect to such currency as the Administrative Agent may from time to time notify the Company and the Lenders.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Questionnaire",
+       "text": "\"Administrative Questionnaire\" means an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent.",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    14/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Additional Commitment Lender cross-reference",
+       "raw_value": "Section 2.15",
+       "source_text": "\"Additional Commitment Lender\" has the meaning specified in Section 2.15.",
+       "confidence": 0.97,
+       "block_index": 2
+      },
+      {
+       "name": "Administrative Agent Fee Letter date",
+       "raw_value": "October 5, 2022",
+       "source_text": "means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS",
+       "confidence": 0.96,
+       "block_index": 4
+      },
+      {
+       "name": "Administrative Agent's Office schedule reference",
+       "raw_value": "Schedule 11.02",
+       "source_text": "as appropriate, account as set forth on Schedule 11.02 with respect to such currency",
+       "confidence": 0.96,
+       "block_index": 5
+      },
+      {
+       "name": "Administrative Questionnaire form reference",
+       "raw_value": "Exhibit F",
+       "source_text": "an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent",
+       "confidence": 0.95,
+       "block_index": 6
+      },
+      {
+       "name": "Page number",
+       "raw_value": "14/211",
+       "source_text": "exhibit1010930202210q.htm    14/211",
+       "confidence": 0.9,
+       "block_index": 7
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Bank of America",
+       "role": "Administrative Agent",
+       "source_text": "\"Administrative Agent\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent."
+      },
+      {
+       "name": "BAS",
+       "role": "party to Administrative Agent Fee Letter",
+       "source_text": "dated October 5, 2022 among the Company, the Administrative Agent and BAS"
+      },
+      {
+       "name": "the Company",
+       "role": "Company",
+       "source_text": "among the Company, the Administrative Agent and BAS"
+      },
+      {
+       "name": "the Lenders",
+       "role": "Lenders",
+       "source_text": "may from time to time notify the Company and the Lenders"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"As used in this Agreement, the following terms shall have the meanings set forth below:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Acquisition\",\"text\":\"\\\"Acquisition\\\" by any Person means the acquisition by such Person, in a single transaction or in a series of related transactions, of all or substantially all of the assets of, or of a business unit or division of, another Person or at least a majority of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent of another Person, in each case whether or not involving a merger or consolidation with such other Person and whether for cash, property, services, assumption of Indebtedness, securities or otherwise.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Additional Commitment Lender\",\"text\":\"\\\"Additional Commitment Lender\\\" has the meaning specified in Section 2.15.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Agent\",\"text\":\"\\\"Administrative Agent\\\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Agent Fee Letter\",\"text\":\"\\\"Administrative Agent Fee Letter\\\" means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Agent's Office\",\"text\":\"\\\"Administrative Agent's Office\\\" means, with respect to any currency, the Administrative Agent's address and, as appropriate, account as set forth on Schedule 11.02 with respect to such currency or such other address or account with respect to such currency as the Administrative Agent may from time to time notify the Company and the Lenders.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Questionnaire\",\"text\":\"\\\"Administrative Questionnaire\\\" means an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent.\",\"continues_from_previous\":false,\"continues_on_next\":true},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    14/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Additional Commitment Lender cross-reference\",\"raw_value\":\"Section 2.15\",\"source_text\":\"\\\"Additional Commitment Lender\\\" has the meaning specified in Section 2.15.\",\"confidence\":0.97,\"block_index\":2},{\"name\":\"Administrative Agent Fee Letter date\",\"raw_value\":\"October 5, 2022\",\"source_text\":\"means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS\",\"confidence\":0.96,\"block_index\":4},{\"name\":\"Administrative Agent's Office schedule reference\",\"raw_value\":\"Schedule 11.02\",\"source_text\":\"as appropriate, account as set forth on Schedule 11.02 with respect to such currency\",\"confidence\":0.96,\"block_index\":5},{\"name\":\"Administrative Questionnaire form reference\",\"raw_value\":\"Exhibit F\",\"source_text\":\"an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent\",\"confidence\":0.95,\"block_index\":6},{\"name\":\"Page number\",\"raw_value\":\"14/211\",\"source_text\":\"exhibit1010930202210q.htm    14/211\",\"confidence\":0.9,\"block_index\":7}],\"tables\":[],\"parties\":[{\"name\":\"Bank of America\",\"role\":\"Administrative Agent\",\"source_text\":\"\\\"Administrative Agent\\\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.\"},{\"name\":\"BAS\",\"role\":\"party to Administrative Agent Fee Letter\",\"source_text\":\"dated October 5, 2022 among the Company, the Administrative Agent and BAS\"},{\"name\":\"the Company\",\"role\":\"Company\",\"source_text\":\"among the Company, the Administrative Agent and BAS\"},{\"name\":\"the Lenders\",\"role\":\"Lenders\",\"source_text\":\"may from time to time notify the Company and the Lenders\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1577,
+     "cost_usd": 0.078695
+    },
+    "latency_s": 16.962838218001707,
+    "request_id": "req_011CfGW8NXoKGmWRXXMfobpR"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1804,
+    "scale": 0.9155,
+    "effective_dpi": 274.7
+   },
+   "bands_on_page": 2,
+   "cache_key": "5d40d9876f2993cf8cc3eb7f7a775ed7b790e73127b34bcf9f9bb5a4cd45f297",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38    Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": null,
+       "heading": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "text": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION, a Virginia corporation (the “Company”), ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower” and together with the Company and any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”), the Lenders (defined herein), and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": null,
+       "heading": "RECITALS",
+       "text": "RECITALS",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so on the terms and conditions set forth herein.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "The revolving credit facility and the transactions contemplated hereunder are in the corporate interests of the Borrowers.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "In consideration of the mutual covenants and agreements herein contained, the parties hereto covenant and agree as follows:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "ARTICLE I.",
+       "heading": "DEFINITIONS AND ACCOUNTING TERMS",
+       "text": "ARTICLE I.\n\nDEFINITIONS AND ACCOUNTING TERMS",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "1.01",
+       "heading": "Defined Terms",
+       "text": "As used in this Agreement, the following terms shall have the meanings set forth below:",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Agreement Date",
+       "raw_value": "October 28, 2022",
+       "source_text": "This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION",
+       "confidence": 0.98,
+       "block_index": 2
+      },
+      {
+       "name": "Company jurisdiction",
+       "raw_value": "a Virginia corporation",
+       "source_text": "ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)",
+       "confidence": 0.96,
+       "block_index": 2
+      },
+      {
+       "name": "Belgian Borrower jurisdiction",
+       "raw_value": "organized under the laws of Belgium",
+       "source_text": "a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Additional Borrower joinder provision",
+       "raw_value": "Section 2.14",
+       "source_text": "any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Facility type",
+       "raw_value": "a revolving credit facility",
+       "source_text": "The Company has requested that the Lenders provide a revolving credit facility",
+       "confidence": 0.95,
+       "block_index": 4
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "ALBEMARLE CORPORATION",
+       "role": "Company / Borrower",
+       "source_text": "ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)"
+      },
+      {
+       "name": "ALBEMARLE EUROPE SRL",
+       "role": "Belgian Borrower",
+       "source_text": "ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”"
+      },
+      {
+       "name": "BANK OF AMERICA, N.A.",
+       "role": "Administrative Agent and Swing Line Lender",
+       "source_text": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender."
+      },
+      {
+       "name": "the Lenders",
+       "role": "Lenders",
+       "source_text": "the Lenders (defined herein)"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38    Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":null,\"heading\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"text\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION, a Virginia corporation (the “Company”), ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower” and together with the Company and any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”), the Lenders (defined herein), and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":null,\"heading\":\"RECITALS\",\"text\":\"RECITALS\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so on the terms and conditions set forth herein.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"The revolving credit facility and the transactions contemplated hereunder are in the corporate interests of the Borrowers.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"In consideration of the mutual covenants and agreements herein contained, the parties hereto covenant and agree as follows:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"ARTICLE I.\",\"heading\":\"DEFINITIONS AND ACCOUNTING TERMS\",\"text\":\"ARTICLE I.\\n\\nDEFINITIONS AND ACCOUNTING TERMS\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"1.01\",\"heading\":\"Defined Terms\",\"text\":\"As used in this Agreement, the following terms shall have the meanings set forth below:\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Agreement Date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION\",\"confidence\":0.98,\"block_index\":2},{\"name\":\"Company jurisdiction\",\"raw_value\":\"a Virginia corporation\",\"source_text\":\"ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)\",\"confidence\":0.96,\"block_index\":2},{\"name\":\"Belgian Borrower jurisdiction\",\"raw_value\":\"organized under the laws of Belgium\",\"source_text\":\"a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Additional Borrower joinder provision\",\"raw_value\":\"Section 2.14\",\"source_text\":\"any other Subsidiary of the Company party hereto pursuant to Section 2.14, collectively, the “Borrowers”\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Facility type\",\"raw_value\":\"a revolving credit facility\",\"source_text\":\"The Company has requested that the Lenders provide a revolving credit facility\",\"confidence\":0.95,\"block_index\":4}],\"tables\":[],\"parties\":[{\"name\":\"ALBEMARLE CORPORATION\",\"role\":\"Company / Borrower\",\"source_text\":\"ALBEMARLE CORPORATION, a Virginia corporation (the “Company”)\"},{\"name\":\"ALBEMARLE EUROPE SRL\",\"role\":\"Belgian Borrower\",\"source_text\":\"ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the “Belgian Borrower”\"},{\"name\":\"BANK OF AMERICA, N.A.\",\"role\":\"Administrative Agent and Swing Line Lender\",\"source_text\":\"BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.\"},{\"name\":\"the Lenders\",\"role\":\"Lenders\",\"source_text\":\"the Lenders (defined herein)\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1632,
+     "cost_usd": 0.08007
+    },
+    "latency_s": 18.795037025993224,
+    "request_id": "req_011CfGW6xoWcX4Q6y5rmn4gd"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1684,
+    "y1": 3508,
+    "scale": 0.9105,
+    "effective_dpi": 273.1
+   },
+   "bands_on_page": 2,
+   "cache_key": "ee8eff5205bcfb82f5f61ddbf4e1639ee5b28d7b41470869c13a918a0c4e0fa8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "As used in this Agreement, the following terms shall have the meanings set forth below:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Acquisition",
+       "text": "\"Acquisition\" by any Person means the acquisition by such Person, in a single transaction or in a series of related transactions, of all or substantially all of the assets of, or of a business unit or division of, another Person or at least a majority of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent of another Person, in each case whether or not involving a merger or consolidation with such other Person and whether for cash, property, services, assumption of Indebtedness, securities or otherwise.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Additional Commitment Lender",
+       "text": "\"Additional Commitment Lender\" has the meaning specified in Section 2.15.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Agent",
+       "text": "\"Administrative Agent\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Agent Fee Letter",
+       "text": "\"Administrative Agent Fee Letter\" means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Agent's Office",
+       "text": "\"Administrative Agent's Office\" means, with respect to any currency, the Administrative Agent's address and, as appropriate, account as set forth on Schedule 11.02 with respect to such currency or such other address or account with respect to such currency as the Administrative Agent may from time to time notify the Company and the Lenders.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Administrative Questionnaire",
+       "text": "\"Administrative Questionnaire\" means an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent.",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    14/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Additional Commitment Lender cross-reference",
+       "raw_value": "Section 2.15",
+       "source_text": "\"Additional Commitment Lender\" has the meaning specified in Section 2.15.",
+       "confidence": 0.97,
+       "block_index": 2
+      },
+      {
+       "name": "Administrative Agent Fee Letter date",
+       "raw_value": "October 5, 2022",
+       "source_text": "means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS",
+       "confidence": 0.96,
+       "block_index": 4
+      },
+      {
+       "name": "Administrative Agent's Office schedule reference",
+       "raw_value": "Schedule 11.02",
+       "source_text": "as appropriate, account as set forth on Schedule 11.02 with respect to such currency",
+       "confidence": 0.96,
+       "block_index": 5
+      },
+      {
+       "name": "Administrative Questionnaire form reference",
+       "raw_value": "Exhibit F",
+       "source_text": "an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent",
+       "confidence": 0.95,
+       "block_index": 6
+      },
+      {
+       "name": "Page number",
+       "raw_value": "14/211",
+       "source_text": "exhibit1010930202210q.htm    14/211",
+       "confidence": 0.9,
+       "block_index": 7
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Bank of America",
+       "role": "Administrative Agent",
+       "source_text": "\"Administrative Agent\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent."
+      },
+      {
+       "name": "BAS",
+       "role": "party to Administrative Agent Fee Letter",
+       "source_text": "dated October 5, 2022 among the Company, the Administrative Agent and BAS"
+      },
+      {
+       "name": "the Company",
+       "role": "Company",
+       "source_text": "among the Company, the Administrative Agent and BAS"
+      },
+      {
+       "name": "the Lenders",
+       "role": "Lenders",
+       "source_text": "may from time to time notify the Company and the Lenders"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"As used in this Agreement, the following terms shall have the meanings set forth below:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Acquisition\",\"text\":\"\\\"Acquisition\\\" by any Person means the acquisition by such Person, in a single transaction or in a series of related transactions, of all or substantially all of the assets of, or of a business unit or division of, another Person or at least a majority of the securities having ordinary voting power for the election of directors, managing general partners or the equivalent of another Person, in each case whether or not involving a merger or consolidation with such other Person and whether for cash, property, services, assumption of Indebtedness, securities or otherwise.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Additional Commitment Lender\",\"text\":\"\\\"Additional Commitment Lender\\\" has the meaning specified in Section 2.15.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Agent\",\"text\":\"\\\"Administrative Agent\\\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Agent Fee Letter\",\"text\":\"\\\"Administrative Agent Fee Letter\\\" means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Agent's Office\",\"text\":\"\\\"Administrative Agent's Office\\\" means, with respect to any currency, the Administrative Agent's address and, as appropriate, account as set forth on Schedule 11.02 with respect to such currency or such other address or account with respect to such currency as the Administrative Agent may from time to time notify the Company and the Lenders.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Administrative Questionnaire\",\"text\":\"\\\"Administrative Questionnaire\\\" means an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent.\",\"continues_from_previous\":false,\"continues_on_next\":true},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    14/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Additional Commitment Lender cross-reference\",\"raw_value\":\"Section 2.15\",\"source_text\":\"\\\"Additional Commitment Lender\\\" has the meaning specified in Section 2.15.\",\"confidence\":0.97,\"block_index\":2},{\"name\":\"Administrative Agent Fee Letter date\",\"raw_value\":\"October 5, 2022\",\"source_text\":\"means the letter agreement, dated October 5, 2022 among the Company, the Administrative Agent and BAS\",\"confidence\":0.96,\"block_index\":4},{\"name\":\"Administrative Agent's Office schedule reference\",\"raw_value\":\"Schedule 11.02\",\"source_text\":\"as appropriate, account as set forth on Schedule 11.02 with respect to such currency\",\"confidence\":0.96,\"block_index\":5},{\"name\":\"Administrative Questionnaire form reference\",\"raw_value\":\"Exhibit F\",\"source_text\":\"an Administrative Questionnaire substantially in the form of Exhibit F or any other form approved by the Administrative Agent\",\"confidence\":0.95,\"block_index\":6},{\"name\":\"Page number\",\"raw_value\":\"14/211\",\"source_text\":\"exhibit1010930202210q.htm    14/211\",\"confidence\":0.9,\"block_index\":7}],\"tables\":[],\"parties\":[{\"name\":\"Bank of America\",\"role\":\"Administrative Agent\",\"source_text\":\"\\\"Administrative Agent\\\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.\"},{\"name\":\"BAS\",\"role\":\"party to Administrative Agent Fee Letter\",\"source_text\":\"dated October 5, 2022 among the Company, the Administrative Agent and BAS\"},{\"name\":\"the Company\",\"role\":\"Company\",\"source_text\":\"among the Company, the Administrative Agent and BAS\"},{\"name\":\"the Lenders\",\"role\":\"Lenders\",\"source_text\":\"may from time to time notify the Company and the Lenders\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1577,
+     "cost_usd": 0.078695
+    },
+    "latency_s": 16.962838218001707,
+    "request_id": "req_011CfGW8NXoKGmWRXXMfobpR"
+   }
+  }
+ ]
+}

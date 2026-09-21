@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+.env.*
+
+# Local tooling and OS files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+.DS_Store
+
+# Regenerable bulk (recreated by `cae ingest` / `cae degrade --seed 0`)
+data/**/*.degraded-*.pdf
+var/store/pages/**/*.png
+var/store/cache/
+var/store/blobs/
+# ...except the clean source PDF's stored copy, which grounding re-reads (same file as data/sec/)
+!var/store/blobs/
+var/store/blobs/*/
+!var/store/blobs/69/
+var/store/blobs/69/*
+!var/store/blobs/69/6913e1b833800ee3706406cf4f1d9b95f8140a89935fe9f6947cb4683a99c088.pdf

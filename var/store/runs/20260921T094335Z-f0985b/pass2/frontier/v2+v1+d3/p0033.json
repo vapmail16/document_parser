@@ -1,0 +1,225 @@
+{
+ "page": 33,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1780,
+    "scale": 0.9217,
+    "effective_dpi": 276.5
+   },
+   "bands_on_page": 3,
+   "cache_key": "c9bfad7e1ccb2e52519775b73e62517ff6b24d97227db6d6b1623d15675ab0a3",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "maturity_date",
+       "raw_value": "October 28, 2027",
+       "source_text": "\"Maturity Date\" means the later of (a) October 28, 2027 and (b) if maturity is extended pursuant to Section 2.15",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"maturity_date\",\"raw_value\":\"October 28, 2027\",\"source_text\":\"\\\"Maturity Date\\\" means the later of (a) October 28, 2027 and (b) if maturity is extended pursuant to Section 2.15\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8971,
+     "output_tokens": 115,
+     "cost_usd": 0.04773
+    },
+    "latency_s": 6.045987486002559,
+    "request_id": "req_011CfGZvFJc1i6N9KvQQJUiP"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1660,
+    "y1": 3474,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 3,
+   "cache_key": "2381218b8b44f29e1163e973b1fa539290448fff59632ae14ccb82f9e29dd6fd",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9045,
+     "output_tokens": 152,
+     "cost_usd": 0.049025
+    },
+    "latency_s": 7.996676472997933,
+    "request_id": "req_011CfGZvnGSeJVYwe8tiJLXP"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3354,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "649d806f011b2f290a144747af1035a1fd04ab800c66e9e020f70487046569b5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4696,
+     "output_tokens": 29,
+     "cost_usd": 0.024205
+    },
+    "latency_s": 2.9540162990015233,
+    "request_id": "req_011CfGZwNEMbYnxtAGnrDuar"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1780,
+    "scale": 0.9217,
+    "effective_dpi": 276.5
+   },
+   "bands_on_page": 3,
+   "cache_key": "c9bfad7e1ccb2e52519775b73e62517ff6b24d97227db6d6b1623d15675ab0a3",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "maturity_date",
+       "raw_value": "October 28, 2027",
+       "source_text": "\"Maturity Date\" means the later of (a) October 28, 2027 and (b) if maturity is extended pursuant to Section 2.15",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"maturity_date\",\"raw_value\":\"October 28, 2027\",\"source_text\":\"\\\"Maturity Date\\\" means the later of (a) October 28, 2027 and (b) if maturity is extended pursuant to Section 2.15\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8971,
+     "output_tokens": 115,
+     "cost_usd": 0.04773
+    },
+    "latency_s": 6.045987486002559,
+    "request_id": "req_011CfGZvFJc1i6N9KvQQJUiP"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1660,
+    "y1": 3474,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 3,
+   "cache_key": "2381218b8b44f29e1163e973b1fa539290448fff59632ae14ccb82f9e29dd6fd",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9045,
+     "output_tokens": 152,
+     "cost_usd": 0.049025
+    },
+    "latency_s": 7.996676472997933,
+    "request_id": "req_011CfGZvnGSeJVYwe8tiJLXP"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3354,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "649d806f011b2f290a144747af1035a1fd04ab800c66e9e020f70487046569b5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4696,
+     "output_tokens": 29,
+     "cost_usd": 0.024205
+    },
+    "latency_s": 2.9540162990015233,
+    "request_id": "req_011CfGZwNEMbYnxtAGnrDuar"
+   }
+  }
+ ]
+}

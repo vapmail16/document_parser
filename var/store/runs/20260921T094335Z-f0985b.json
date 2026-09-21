@@ -1,0 +1,30 @@
+{
+  "run_id": "20260921T094335Z-f0985b",
+  "document_id": "albemarle",
+  "version_label": "2022-AR",
+  "effective_date": "2022-10-28",
+  "input_variant": "degraded",
+  "source_sha256": "a83062b57870c97bc0a7ff46b00a5c734fb69c37bfafb1514ecf5c9dc06927f8",
+  "source_filename": "albemarle-2022-AR.degraded-s0.pdf",
+  "page_count": 211,
+  "manifest_path": "pages/a83062b57870c97bc0a7ff46b00a5c734fb69c37bfafb1514ecf5c9dc06927f8/300dpi-gray/manifest.json",
+  "dictionary_version": 1,
+  "pipeline_version": "0.1.0",
+  "created_at": "2026-09-21T09:43:35.420352Z",
+  "stages": [
+    {
+      "stage": "ingest",
+      "status": "ok",
+      "started_at": "2026-09-21T09:43:35.420352Z",
+      "finished_at": "2026-09-21T09:43:36.546441Z",
+      "detail": "sha256=a83062b57870c97bc0a7ff46b00a5c734fb69c37bfafb1514ecf5c9dc06927f8"
+    },
+    {
+      "stage": "rasterise",
+      "status": "ok",
+      "started_at": "2026-09-21T09:43:36.546441Z",
+      "finished_at": "2026-09-21T09:45:27.034726Z",
+      "detail": "211 pages at 300 DPI; 211 with no text layer"
+    }
+  ]
+}

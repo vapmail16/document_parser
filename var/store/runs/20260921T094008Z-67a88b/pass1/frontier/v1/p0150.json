@@ -1,0 +1,337 @@
+{
+ "page": 150,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "6a2be2f6d377b87bed2ccd348d1970678ec7422206db7f8e3ae7999190adf06b",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7e65786eb780d8d918bac6402d737139b83878272413665aaa006c7009c2f248",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "HSBC BANK USA, NATIONAL ASSOCIATION,\nas a Lender and L/C Issuer\n\nBy: /s/ Peggy Yip\nName: Peggy Yip\nTitle: Director",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "JPMORGAN CHASE BANK, N.A.,\nas a Lender and L/C Issuer\n\nBy: /s/ Peter S. Predun\nName: Peter S. Predun\nTitle: Executive Director",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "MIZUHO BANK, LTD.,\nas a Lender and L/C Issuer\n\nBy: /s/ Donna DeMagistris\nName: Donna DeMagistris",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [],
+     "tables": [],
+     "parties": [
+      {
+       "name": "HSBC BANK USA, NATIONAL ASSOCIATION",
+       "role": "Lender and L/C Issuer",
+       "source_text": "HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer"
+      },
+      {
+       "name": "JPMORGAN CHASE BANK, N.A.",
+       "role": "Lender and L/C Issuer",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer"
+      },
+      {
+       "name": "MIZUHO BANK, LTD.",
+       "role": "Lender and L/C Issuer",
+       "source_text": "MIZUHO BANK, LTD., as a Lender and L/C Issuer"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"HSBC BANK USA, NATIONAL ASSOCIATION,\\nas a Lender and L/C Issuer\\n\\nBy: /s/ Peggy Yip\\nName: Peggy Yip\\nTitle: Director\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"JPMORGAN CHASE BANK, N.A.,\\nas a Lender and L/C Issuer\\n\\nBy: /s/ Peter S. Predun\\nName: Peter S. Predun\\nTitle: Executive Director\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"MIZUHO BANK, LTD.,\\nas a Lender and L/C Issuer\\n\\nBy: /s/ Donna DeMagistris\\nName: Donna DeMagistris\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[],\"tables\":[],\"parties\":[{\"name\":\"HSBC BANK USA, NATIONAL ASSOCIATION\",\"role\":\"Lender and L/C Issuer\",\"source_text\":\"HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer\"},{\"name\":\"JPMORGAN CHASE BANK, N.A.\",\"role\":\"Lender and L/C Issuer\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer\"},{\"name\":\"MIZUHO BANK, LTD.\",\"role\":\"Lender and L/C Issuer\",\"source_text\":\"MIZUHO BANK, LTD., as a Lender and L/C Issuer\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 657,
+     "cost_usd": 0.05519
+    },
+    "latency_s": 7.085049656001502,
+    "request_id": "req_011CfGQXntxRu11KGSithn2u"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4162d44e2b8685d6ff7248e4e992df7654c9a54076329d49da7034afb783f54f",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "By: /s/ Donna DeMagistris\nName: Donna DeMagistris\nTitle: Executive Director",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "150/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Signatory Name",
+       "raw_value": "Donna DeMagistris",
+       "source_text": "Name: Donna DeMagistris",
+       "confidence": 0.97,
+       "block_index": 0
+      },
+      {
+       "name": "Signatory Title",
+       "raw_value": "Executive Director",
+       "source_text": "Title: Executive Director",
+       "confidence": 0.97,
+       "block_index": 0
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"By: /s/ Donna DeMagistris\\nName: Donna DeMagistris\\nTitle: Executive Director\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"150/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Signatory Name\",\"raw_value\":\"Donna DeMagistris\",\"source_text\":\"Name: Donna DeMagistris\",\"confidence\":0.97,\"block_index\":0},{\"name\":\"Signatory Title\",\"raw_value\":\"Executive Director\",\"source_text\":\"Title: Executive Director\",\"confidence\":0.97,\"block_index\":0}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 324,
+     "cost_usd": 0.046865
+    },
+    "latency_s": 5.845572145000915,
+    "request_id": "req_011CfGQYKXCWSHTzZxooB2cz"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7e65786eb780d8d918bac6402d737139b83878272413665aaa006c7009c2f248",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "HSBC BANK USA, NATIONAL ASSOCIATION,\nas a Lender and L/C Issuer\n\nBy: /s/ Peggy Yip\nName: Peggy Yip\nTitle: Director",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "JPMORGAN CHASE BANK, N.A.,\nas a Lender and L/C Issuer\n\nBy: /s/ Peter S. Predun\nName: Peter S. Predun\nTitle: Executive Director",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "MIZUHO BANK, LTD.,\nas a Lender and L/C Issuer\n\nBy: /s/ Donna DeMagistris\nName: Donna DeMagistris",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [],
+     "tables": [],
+     "parties": [
+      {
+       "name": "HSBC BANK USA, NATIONAL ASSOCIATION",
+       "role": "Lender and L/C Issuer",
+       "source_text": "HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer"
+      },
+      {
+       "name": "JPMORGAN CHASE BANK, N.A.",
+       "role": "Lender and L/C Issuer",
+       "source_text": "JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer"
+      },
+      {
+       "name": "MIZUHO BANK, LTD.",
+       "role": "Lender and L/C Issuer",
+       "source_text": "MIZUHO BANK, LTD., as a Lender and L/C Issuer"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"HSBC BANK USA, NATIONAL ASSOCIATION,\\nas a Lender and L/C Issuer\\n\\nBy: /s/ Peggy Yip\\nName: Peggy Yip\\nTitle: Director\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"JPMORGAN CHASE BANK, N.A.,\\nas a Lender and L/C Issuer\\n\\nBy: /s/ Peter S. Predun\\nName: Peter S. Predun\\nTitle: Executive Director\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"MIZUHO BANK, LTD.,\\nas a Lender and L/C Issuer\\n\\nBy: /s/ Donna DeMagistris\\nName: Donna DeMagistris\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[],\"tables\":[],\"parties\":[{\"name\":\"HSBC BANK USA, NATIONAL ASSOCIATION\",\"role\":\"Lender and L/C Issuer\",\"source_text\":\"HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer\"},{\"name\":\"JPMORGAN CHASE BANK, N.A.\",\"role\":\"Lender and L/C Issuer\",\"source_text\":\"JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer\"},{\"name\":\"MIZUHO BANK, LTD.\",\"role\":\"Lender and L/C Issuer\",\"source_text\":\"MIZUHO BANK, LTD., as a Lender and L/C Issuer\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 657,
+     "cost_usd": 0.05519
+    },
+    "latency_s": 7.085049656001502,
+    "request_id": "req_011CfGQXntxRu11KGSithn2u"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4162d44e2b8685d6ff7248e4e992df7654c9a54076329d49da7034afb783f54f",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "By: /s/ Donna DeMagistris\nName: Donna DeMagistris\nTitle: Executive Director",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "150/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Signatory Name",
+       "raw_value": "Donna DeMagistris",
+       "source_text": "Name: Donna DeMagistris",
+       "confidence": 0.97,
+       "block_index": 0
+      },
+      {
+       "name": "Signatory Title",
+       "raw_value": "Executive Director",
+       "source_text": "Title: Executive Director",
+       "confidence": 0.97,
+       "block_index": 0
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"By: /s/ Donna DeMagistris\\nName: Donna DeMagistris\\nTitle: Executive Director\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"150/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Signatory Name\",\"raw_value\":\"Donna DeMagistris\",\"source_text\":\"Name: Donna DeMagistris\",\"confidence\":0.97,\"block_index\":0},{\"name\":\"Signatory Title\",\"raw_value\":\"Executive Director\",\"source_text\":\"Title: Executive Director\",\"confidence\":0.97,\"block_index\":0}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 324,
+     "cost_usd": 0.046865
+    },
+    "latency_s": 5.845572145000915,
+    "request_id": "req_011CfGQYKXCWSHTzZxooB2cz"
+   }
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "page": 110,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1805,
+    "scale": 0.9155,
+    "effective_dpi": 274.6
+   },
+   "bands_on_page": 3,
+   "cache_key": "365e5de53ed1d5d0d9e2fe3c6681bcd07e0f0a0af226076b93ee227ccc4b1cad",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8961,
+     "output_tokens": 29,
+     "cost_usd": 0.04553
+    },
+    "latency_s": 4.363820111000678,
+    "request_id": "req_011CfGZhTWxU9z4iiqJ2buCZ"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1685,
+    "y1": 3499,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "79c44b0c24092b942fd13c954bc07bf21c028ae75df69394d07b6defcab4100d",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (non-payment)",
+       "raw_value": "within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder",
+       "source_text": "(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (specific covenant)",
+       "raw_value": "Section 7.03, 7.05 or 7.11 or Article VIII",
+       "source_text": "agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "confidence": 0.92,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (other default)",
+       "raw_value": "thirty days",
+       "source_text": "such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent",
+       "confidence": 0.9,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (non-payment)\",\"raw_value\":\"within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder\",\"source_text\":\"(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder\",\"confidence\":0.9},{\"name\":\"event_of_default (specific covenant)\",\"raw_value\":\"Section 7.03, 7.05 or 7.11 or Article VIII\",\"source_text\":\"agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"confidence\":0.92},{\"name\":\"event_of_default (other default)\",\"raw_value\":\"thirty days\",\"source_text\":\"such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent\",\"confidence\":0.9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8992,
+     "output_tokens": 337,
+     "cost_usd": 0.053385
+    },
+    "latency_s": 7.5112191310036,
+    "request_id": "req_011CfGZhoU1K9gH5vn9ycz2n"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3379,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "51b91a15ea7312497ef905285a707acbec710bb4d4e7ac20388f59eb472d26b4",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4607,
+     "output_tokens": 29,
+     "cost_usd": 0.02376
+    },
+    "latency_s": 2.4448819090030156,
+    "request_id": "req_011CfGZiMLfJEPXrwhfRW89m"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1805,
+    "scale": 0.9155,
+    "effective_dpi": 274.6
+   },
+   "bands_on_page": 3,
+   "cache_key": "365e5de53ed1d5d0d9e2fe3c6681bcd07e0f0a0af226076b93ee227ccc4b1cad",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8961,
+     "output_tokens": 29,
+     "cost_usd": 0.04553
+    },
+    "latency_s": 4.363820111000678,
+    "request_id": "req_011CfGZhTWxU9z4iiqJ2buCZ"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1685,
+    "y1": 3499,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "79c44b0c24092b942fd13c954bc07bf21c028ae75df69394d07b6defcab4100d",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "event_of_default (non-payment)",
+       "raw_value": "within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder",
+       "source_text": "(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder",
+       "confidence": 0.9,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (specific covenant)",
+       "raw_value": "Section 7.03, 7.05 or 7.11 or Article VIII",
+       "source_text": "agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "confidence": 0.92,
+       "block_index": null
+      },
+      {
+       "name": "event_of_default (other default)",
+       "raw_value": "thirty days",
+       "source_text": "such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent",
+       "confidence": 0.9,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"event_of_default (non-payment)\",\"raw_value\":\"within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder\",\"source_text\":\"(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder\",\"confidence\":0.9},{\"name\":\"event_of_default (specific covenant)\",\"raw_value\":\"Section 7.03, 7.05 or 7.11 or Article VIII\",\"source_text\":\"agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"confidence\":0.92},{\"name\":\"event_of_default (other default)\",\"raw_value\":\"thirty days\",\"source_text\":\"such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent\",\"confidence\":0.9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8992,
+     "output_tokens": 337,
+     "cost_usd": 0.053385
+    },
+    "latency_s": 7.5112191310036,
+    "request_id": "req_011CfGZhoU1K9gH5vn9ycz2n"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3379,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "51b91a15ea7312497ef905285a707acbec710bb4d4e7ac20388f59eb472d26b4",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4607,
+     "output_tokens": 29,
+     "cost_usd": 0.02376
+    },
+    "latency_s": 2.4448819090030156,
+    "request_id": "req_011CfGZiMLfJEPXrwhfRW89m"
+   }
+  }
+ ]
+}

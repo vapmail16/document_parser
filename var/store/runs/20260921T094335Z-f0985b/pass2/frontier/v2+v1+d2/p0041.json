@@ -1,0 +1,175 @@
+{
+ "page": 41,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "384ac9523a3a6d1dac10647916206d532e8b841b20b28598ad5bdc34a736b049",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "Bank of America",
+       "source_text": "\"Swing Line Lender\" means Bank of America in its capacity as provider of Swing Line Loans, or any successor swing line lender hereunder.",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"Bank of America\",\"source_text\":\"\\\"Swing Line Lender\\\" means Bank of America in its capacity as provider of Swing Line Loans, or any successor swing line lender hereunder.\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8804,
+     "output_tokens": 113,
+     "cost_usd": 0.046845
+    },
+    "latency_s": 5.614433244001702,
+    "request_id": "req_011CfGX6ptsbUsvswybHQTuk"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1795,
+    "y1": 3508,
+    "scale": 0.9395,
+    "effective_dpi": 281.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "a46b0ded026b00ff7538af925800562232e1dd15e230735d92a0181372347907",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "swingline_sublimit",
+       "raw_value": "ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000)",
+       "source_text": "\"Swing Line Sublimit\" means the lesser of (a) ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000) and (b) the Aggregate Commitments.",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"swingline_sublimit\",\"raw_value\":\"ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000)\",\"source_text\":\"\\\"Swing Line Sublimit\\\" means the lesser of (a) ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000) and (b) the Aggregate Commitments.\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8708,
+     "output_tokens": 166,
+     "cost_usd": 0.04769
+    },
+    "latency_s": 4.266376787003537,
+    "request_id": "req_011CfGX7JkvrHRjsC73ubZtx"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "384ac9523a3a6d1dac10647916206d532e8b841b20b28598ad5bdc34a736b049",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "Bank of America",
+       "source_text": "\"Swing Line Lender\" means Bank of America in its capacity as provider of Swing Line Loans, or any successor swing line lender hereunder.",
+       "confidence": 0.6,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"Bank of America\",\"source_text\":\"\\\"Swing Line Lender\\\" means Bank of America in its capacity as provider of Swing Line Loans, or any successor swing line lender hereunder.\",\"confidence\":0.6}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8804,
+     "output_tokens": 113,
+     "cost_usd": 0.046845
+    },
+    "latency_s": 5.614433244001702,
+    "request_id": "req_011CfGX6ptsbUsvswybHQTuk"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1795,
+    "y1": 3508,
+    "scale": 0.9395,
+    "effective_dpi": 281.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "a46b0ded026b00ff7538af925800562232e1dd15e230735d92a0181372347907",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "swingline_sublimit",
+       "raw_value": "ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000)",
+       "source_text": "\"Swing Line Sublimit\" means the lesser of (a) ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000) and (b) the Aggregate Commitments.",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"swingline_sublimit\",\"raw_value\":\"ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000)\",\"source_text\":\"\\\"Swing Line Sublimit\\\" means the lesser of (a) ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000) and (b) the Aggregate Commitments.\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8708,
+     "output_tokens": 166,
+     "cost_usd": 0.04769
+    },
+    "latency_s": 4.266376787003537,
+    "request_id": "req_011CfGX7JkvrHRjsC73ubZtx"
+   }
+  }
+ ]
+}

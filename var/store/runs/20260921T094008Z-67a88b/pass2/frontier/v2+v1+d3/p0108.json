@@ -1,0 +1,239 @@
+{
+ "page": 108,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1796,
+    "scale": 0.9177,
+    "effective_dpi": 275.3
+   },
+   "bands_on_page": 3,
+   "cache_key": "736e922718be524ed556c614a51b3d499ded72321934f4d76b1dcc7f80d97bc2",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8945,
+     "output_tokens": 29,
+     "cost_usd": 0.04545
+    },
+    "latency_s": 4.2132972280014656,
+    "request_id": "req_011CfGZhHafRdBJNxGL1ZGQm"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1676,
+    "y1": 3490,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "c6f34b63f1b156e965933fe9d7231dcb7ed3117496d63dc458ad7f5a3531b0c2",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "max_total_leverage_ratio",
+       "raw_value": "3.50 to 1.0",
+       "source_text": "Permit the Consolidated Leverage Ratio as of the end of any fiscal quarter of the Company to be greater than 3.50 to 1.0",
+       "confidence": 0.88,
+       "block_index": null
+      },
+      {
+       "name": "max_total_leverage_ratio (step-up)",
+       "raw_value": "0.50:1.00",
+       "source_text": "the otherwise applicable maximum Consolidated Leverage Ratio, at the election of the Company (with prior written notice to the Administrative Agent), shall increase by 0.50:1.00 for four consecutive fiscal quarters",
+       "confidence": 0.8,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"max_total_leverage_ratio\",\"raw_value\":\"3.50 to 1.0\",\"source_text\":\"Permit the Consolidated Leverage Ratio as of the end of any fiscal quarter of the Company to be greater than 3.50 to 1.0\",\"confidence\":0.88},{\"name\":\"max_total_leverage_ratio (step-up)\",\"raw_value\":\"0.50:1.00\",\"source_text\":\"the otherwise applicable maximum Consolidated Leverage Ratio, at the election of the Company (with prior written notice to the Administrative Agent), shall increase by 0.50:1.00 for four consecutive fiscal quarters\",\"confidence\":0.8}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9008,
+     "output_tokens": 251,
+     "cost_usd": 0.051315
+    },
+    "latency_s": 5.860285876995476,
+    "request_id": "req_011CfGZhcfNgEq1Tkmti2u8p"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3370,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "1c336f5f9f33ca6efa6394e59b331b44c76d931d6ab1ae56bf73d87047e77e64",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4607,
+     "output_tokens": 29,
+     "cost_usd": 0.02376
+    },
+    "latency_s": 4.255870300999959,
+    "request_id": "req_011CfGZi3oxtyi4qRQw6zzf5"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1796,
+    "scale": 0.9177,
+    "effective_dpi": 275.3
+   },
+   "bands_on_page": 3,
+   "cache_key": "736e922718be524ed556c614a51b3d499ded72321934f4d76b1dcc7f80d97bc2",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8945,
+     "output_tokens": 29,
+     "cost_usd": 0.04545
+    },
+    "latency_s": 4.2132972280014656,
+    "request_id": "req_011CfGZhHafRdBJNxGL1ZGQm"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1676,
+    "y1": 3490,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "c6f34b63f1b156e965933fe9d7231dcb7ed3117496d63dc458ad7f5a3531b0c2",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "max_total_leverage_ratio",
+       "raw_value": "3.50 to 1.0",
+       "source_text": "Permit the Consolidated Leverage Ratio as of the end of any fiscal quarter of the Company to be greater than 3.50 to 1.0",
+       "confidence": 0.88,
+       "block_index": null
+      },
+      {
+       "name": "max_total_leverage_ratio (step-up)",
+       "raw_value": "0.50:1.00",
+       "source_text": "the otherwise applicable maximum Consolidated Leverage Ratio, at the election of the Company (with prior written notice to the Administrative Agent), shall increase by 0.50:1.00 for four consecutive fiscal quarters",
+       "confidence": 0.8,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"max_total_leverage_ratio\",\"raw_value\":\"3.50 to 1.0\",\"source_text\":\"Permit the Consolidated Leverage Ratio as of the end of any fiscal quarter of the Company to be greater than 3.50 to 1.0\",\"confidence\":0.88},{\"name\":\"max_total_leverage_ratio (step-up)\",\"raw_value\":\"0.50:1.00\",\"source_text\":\"the otherwise applicable maximum Consolidated Leverage Ratio, at the election of the Company (with prior written notice to the Administrative Agent), shall increase by 0.50:1.00 for four consecutive fiscal quarters\",\"confidence\":0.8}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9008,
+     "output_tokens": 251,
+     "cost_usd": 0.051315
+    },
+    "latency_s": 5.860285876995476,
+    "request_id": "req_011CfGZhcfNgEq1Tkmti2u8p"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3370,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "1c336f5f9f33ca6efa6394e59b331b44c76d931d6ab1ae56bf73d87047e77e64",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4607,
+     "output_tokens": 29,
+     "cost_usd": 0.02376
+    },
+    "latency_s": 4.255870300999959,
+    "request_id": "req_011CfGZi3oxtyi4qRQw6zzf5"
+   }
+  }
+ ]
+}

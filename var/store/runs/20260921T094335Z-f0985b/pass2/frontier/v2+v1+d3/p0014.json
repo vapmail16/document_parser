@@ -1,0 +1,231 @@
+{
+ "page": 14,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1804,
+    "scale": 0.9155,
+    "effective_dpi": 274.7
+   },
+   "bands_on_page": 2,
+   "cache_key": "e75eef0a6767fdc9cff1cc36ded49eac67e82a7aa6af19a4dd04283f0903e2a3",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "agreement_date",
+       "raw_value": "October 28, 2022",
+       "source_text": "This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "borrower",
+       "raw_value": "ALBEMARLE CORPORATION",
+       "source_text": "among ALBEMARLE CORPORATION, a Virginia corporation (the \"Company\")",
+       "confidence": 0.94,
+       "block_index": null
+      },
+      {
+       "name": "borrower",
+       "raw_value": "ALBEMARLE EUROPE SRL",
+       "source_text": "ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the \"Belgian Borrower\"",
+       "confidence": 0.93,
+       "block_index": null
+      },
+      {
+       "name": "administrative_agent",
+       "raw_value": "BANK OF AMERICA, N.A.",
+       "source_text": "and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "revolving credit facility",
+       "source_text": "The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so",
+       "confidence": 0.92,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"agreement_date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION\",\"confidence\":0.95},{\"name\":\"borrower\",\"raw_value\":\"ALBEMARLE CORPORATION\",\"source_text\":\"among ALBEMARLE CORPORATION, a Virginia corporation (the \\\"Company\\\")\",\"confidence\":0.94},{\"name\":\"borrower\",\"raw_value\":\"ALBEMARLE EUROPE SRL\",\"source_text\":\"ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the \\\"Belgian Borrower\\\"\",\"confidence\":0.93},{\"name\":\"administrative_agent\",\"raw_value\":\"BANK OF AMERICA, N.A.\",\"source_text\":\"and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.\",\"confidence\":0.95},{\"name\":\"facility_type\",\"raw_value\":\"revolving credit facility\",\"source_text\":\"The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so\",\"confidence\":0.92}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8984,
+     "output_tokens": 452,
+     "cost_usd": 0.05622
+    },
+    "latency_s": 9.136755932995584,
+    "request_id": "req_011CfGZsxci3h5W3tUS33Y7Q"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1684,
+    "y1": 3508,
+    "scale": 0.9105,
+    "effective_dpi": 273.1
+   },
+   "bands_on_page": 2,
+   "cache_key": "cb37125d5f68e5a4da7a8097f8ee8fdd8f0037b56f9354c2f60264a4af040db0",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "administrative_agent",
+       "raw_value": "Bank of America",
+       "source_text": "\"Administrative Agent\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.",
+       "confidence": 0.9,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"administrative_agent\",\"raw_value\":\"Bank of America\",\"source_text\":\"\\\"Administrative Agent\\\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.\",\"confidence\":0.9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9000,
+     "output_tokens": 116,
+     "cost_usd": 0.0479
+    },
+    "latency_s": 7.087783632996434,
+    "request_id": "req_011CfGZthGziuJ8hSv3MSqUQ"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1804,
+    "scale": 0.9155,
+    "effective_dpi": 274.7
+   },
+   "bands_on_page": 2,
+   "cache_key": "e75eef0a6767fdc9cff1cc36ded49eac67e82a7aa6af19a4dd04283f0903e2a3",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "agreement_date",
+       "raw_value": "October 28, 2022",
+       "source_text": "This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "borrower",
+       "raw_value": "ALBEMARLE CORPORATION",
+       "source_text": "among ALBEMARLE CORPORATION, a Virginia corporation (the \"Company\")",
+       "confidence": 0.94,
+       "block_index": null
+      },
+      {
+       "name": "borrower",
+       "raw_value": "ALBEMARLE EUROPE SRL",
+       "source_text": "ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the \"Belgian Borrower\"",
+       "confidence": 0.93,
+       "block_index": null
+      },
+      {
+       "name": "administrative_agent",
+       "raw_value": "BANK OF AMERICA, N.A.",
+       "source_text": "and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.",
+       "confidence": 0.95,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "revolving credit facility",
+       "source_text": "The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so",
+       "confidence": 0.92,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"agreement_date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"This AMENDED AND RESTATED CREDIT AGREEMENT is entered into as of October 28, 2022 among ALBEMARLE CORPORATION\",\"confidence\":0.95},{\"name\":\"borrower\",\"raw_value\":\"ALBEMARLE CORPORATION\",\"source_text\":\"among ALBEMARLE CORPORATION, a Virginia corporation (the \\\"Company\\\")\",\"confidence\":0.94},{\"name\":\"borrower\",\"raw_value\":\"ALBEMARLE EUROPE SRL\",\"source_text\":\"ALBEMARLE EUROPE SRL, a société à responsabilité limitée organized under the laws of Belgium (the \\\"Belgian Borrower\\\"\",\"confidence\":0.93},{\"name\":\"administrative_agent\",\"raw_value\":\"BANK OF AMERICA, N.A.\",\"source_text\":\"and BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender.\",\"confidence\":0.95},{\"name\":\"facility_type\",\"raw_value\":\"revolving credit facility\",\"source_text\":\"The Company has requested that the Lenders provide a revolving credit facility, and the Lenders are willing to do so\",\"confidence\":0.92}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8984,
+     "output_tokens": 452,
+     "cost_usd": 0.05622
+    },
+    "latency_s": 9.136755932995584,
+    "request_id": "req_011CfGZsxci3h5W3tUS33Y7Q"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1684,
+    "y1": 3508,
+    "scale": 0.9105,
+    "effective_dpi": 273.1
+   },
+   "bands_on_page": 2,
+   "cache_key": "cb37125d5f68e5a4da7a8097f8ee8fdd8f0037b56f9354c2f60264a4af040db0",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "administrative_agent",
+       "raw_value": "Bank of America",
+       "source_text": "\"Administrative Agent\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.",
+       "confidence": 0.9,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"administrative_agent\",\"raw_value\":\"Bank of America\",\"source_text\":\"\\\"Administrative Agent\\\" means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.\",\"confidence\":0.9}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 9000,
+     "output_tokens": 116,
+     "cost_usd": 0.0479
+    },
+    "latency_s": 7.087783632996434,
+    "request_id": "req_011CfGZthGziuJ8hSv3MSqUQ"
+   }
+  }
+ ]
+}

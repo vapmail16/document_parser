@@ -1,0 +1,633 @@
+{
+ "page": 32,
+ "model_key": "frontier",
+ "prompt_version": "v2",
+ "prompt_sha256": "ffcc6fa944d0bcf954dc09f86c57269364cc4020bbf12e07c98bc47912dc7acb",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7964cc732c2e9c3787740a3d20909cf12c83936d8f349d274d2e8c1c1b90e483",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38\tDocument",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "L/C Obligations",
+       "text": "“L/C Obligations” means as of any date of determination, the aggregate undrawn amount of all outstanding Letters of Credit, plus the aggregate amount of all Unreimbursed Amounts in respect of Letters of Credit, including L/C Borrowings. For purposes of computing the undrawn amount under any Letter of Credit, the amount of such Letter of Credit shall be determined in accordance with Section 1.07. For all purposes of this Agreement, if on any date of determination a Letter of Credit has expired by its terms but any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP, such Letter of Credit shall be deemed to be “outstanding” in the amount so remaining available to be drawn.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Lender",
+       "text": "“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement and their successors and assigns and, unless the context requires otherwise, includes the Swing Line Lender.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Lender Parties",
+       "text": "“Lender Parties” means, collectively, the Lenders, the Swing Line Lender and the L/C Issuer.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Lending Office",
+       "text": "“Lending Office” means, as to any Lender, the office or offices of such Lender described as such in such Lender’s Administrative Questionnaire, or such other office or offices as a Lender may from time to time notify the Company and the Administrative Agent which office may include any Affiliate of such Lender or any domestic or foreign branch of such Lender or such Affiliate. Unless the context otherwise requires each reference to a Lender shall include its applicable Lending Office.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Letter of Credit",
+       "text": "“Letter of Credit” means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit; provided, however, that any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft. Notwithstanding anything to the contrary contained herein, a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof) shall not be a “Letter of Credit” for purposes of the Loan Documents until such time as the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Letter of Credit amount determination reference",
+       "raw_value": "Section 1.07",
+       "source_text": "the amount of such Letter of Credit shall be determined in accordance with Section 1.07",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "ISP rule for expired Letters of Credit",
+       "raw_value": "Rule 3.14 of the ISP",
+       "source_text": "any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Commercial Letter of Credit payment requirement",
+       "raw_value": "cash payment upon presentation of a sight draft",
+       "source_text": "any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft",
+       "confidence": 0.92,
+       "block_index": 5
+      },
+      {
+       "name": "Letter of Credit Sublimit confirmation requirement",
+       "raw_value": "has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit",
+       "source_text": "the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer",
+       "confidence": 0.88,
+       "block_index": 5
+      },
+      {
+       "name": "Document date/time stamp",
+       "raw_value": "21/09/2026, 10:38",
+       "source_text": "21/09/2026, 10:38\tDocument",
+       "confidence": 0.97,
+       "block_index": 0
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Bank of America",
+       "role": "L/C Issuer",
+       "source_text": "a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof)"
+      },
+      {
+       "name": "the Company",
+       "role": "Company",
+       "source_text": "as a Lender may from time to time notify the Company and the Administrative Agent"
+      },
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "notify the Company and the Administrative Agent"
+      },
+      {
+       "name": "Swing Line Lender",
+       "role": "Swing Line Lender",
+       "source_text": "unless the context requires otherwise, includes the Swing Line Lender"
+      },
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38\\tDocument\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"L/C Obligations\",\"text\":\"“L/C Obligations” means as of any date of determination, the aggregate undrawn amount of all outstanding Letters of Credit, plus the aggregate amount of all Unreimbursed Amounts in respect of Letters of Credit, including L/C Borrowings. For purposes of computing the undrawn amount under any Letter of Credit, the amount of such Letter of Credit shall be determined in accordance with Section 1.07. For all purposes of this Agreement, if on any date of determination a Letter of Credit has expired by its terms but any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP, such Letter of Credit shall be deemed to be “outstanding” in the amount so remaining available to be drawn.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Lender\",\"text\":\"“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement and their successors and assigns and, unless the context requires otherwise, includes the Swing Line Lender.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Lender Parties\",\"text\":\"“Lender Parties” means, collectively, the Lenders, the Swing Line Lender and the L/C Issuer.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Lending Office\",\"text\":\"“Lending Office” means, as to any Lender, the office or offices of such Lender described as such in such Lender’s Administrative Questionnaire, or such other office or offices as a Lender may from time to time notify the Company and the Administrative Agent which office may include any Affiliate of such Lender or any domestic or foreign branch of such Lender or such Affiliate. Unless the context otherwise requires each reference to a Lender shall include its applicable Lending Office.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Letter of Credit\",\"text\":\"“Letter of Credit” means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit; provided, however, that any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft. Notwithstanding anything to the contrary contained herein, a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof) shall not be a “Letter of Credit” for purposes of the Loan Documents until such time as the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Letter of Credit amount determination reference\",\"raw_value\":\"Section 1.07\",\"source_text\":\"the amount of such Letter of Credit shall be determined in accordance with Section 1.07\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"ISP rule for expired Letters of Credit\",\"raw_value\":\"Rule 3.14 of the ISP\",\"source_text\":\"any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Commercial Letter of Credit payment requirement\",\"raw_value\":\"cash payment upon presentation of a sight draft\",\"source_text\":\"any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft\",\"confidence\":0.92,\"block_index\":5},{\"name\":\"Letter of Credit Sublimit confirmation requirement\",\"raw_value\":\"has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit\",\"source_text\":\"the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer\",\"confidence\":0.88,\"block_index\":5},{\"name\":\"Document date/time stamp\",\"raw_value\":\"21/09/2026, 10:38\",\"source_text\":\"21/09/2026, 10:38\\tDocument\",\"confidence\":0.97,\"block_index\":0}],\"tables\":[],\"parties\":[{\"name\":\"Bank of America\",\"role\":\"L/C Issuer\",\"source_text\":\"a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof)\"},{\"name\":\"the Company\",\"role\":\"Company\",\"source_text\":\"as a Lender may from time to time notify the Company and the Administrative Agent\"},{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"notify the Company and the Administrative Agent\"},{\"name\":\"Swing Line Lender\",\"role\":\"Swing Line Lender\",\"source_text\":\"unless the context requires otherwise, includes the Swing Line Lender\"},{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 2021,
+     "cost_usd": 0.089795
+    },
+    "latency_s": 20.490191778000735,
+    "request_id": "req_011CfGW1uo3wDde7KAQxHYvX"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "77c871183c561f8fcc0030881235398e04622f4450d878c913e1e35505beba5c",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Application\" means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Expiration Date\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Fee\" means any of the fees described in clause (i) of Section 2.09(b).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Report\" means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments; provided that, with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01. The Letter of Credit Sublimit is part of, and not in addition to, the Aggregate Commitments.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "19",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    32/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Letter of Credit Expiration Date",
+       "raw_value": "seven days prior to the Maturity Date then in effect",
+       "source_text": "\"Letter of Credit Expiration Date\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Letter of Credit Fee",
+       "raw_value": "clause (i) of Section 2.09(b)",
+       "source_text": "\"Letter of Credit Fee\" means any of the fees described in clause (i) of Section 2.09(b).",
+       "confidence": 0.94,
+       "block_index": 3
+      },
+      {
+       "name": "Letter of Credit Sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.97,
+       "block_index": 5
+      },
+      {
+       "name": "Letter of Credit Commitment schedule reference",
+       "raw_value": "Schedule 2.01",
+       "source_text": "the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01",
+       "confidence": 0.94,
+       "block_index": 5
+      },
+      {
+       "name": "Letter of Credit Report form",
+       "raw_value": "Exhibit I",
+       "source_text": "means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent",
+       "confidence": 0.93,
+       "block_index": 4
+      },
+      {
+       "name": "Page number",
+       "raw_value": "19",
+       "source_text": "19",
+       "confidence": 0.9,
+       "block_index": 6
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Bank of America",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "JPMorgan",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "HSBC",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "Mizuho",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "or any other form approved by the Administrative Agent"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Application\\\" means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Expiration Date\\\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Fee\\\" means any of the fees described in clause (i) of Section 2.09(b).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Report\\\" means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments; provided that, with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01. The Letter of Credit Sublimit is part of, and not in addition to, the Aggregate Commitments.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"19\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    32/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Letter of Credit Expiration Date\",\"raw_value\":\"seven days prior to the Maturity Date then in effect\",\"source_text\":\"\\\"Letter of Credit Expiration Date\\\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Letter of Credit Fee\",\"raw_value\":\"clause (i) of Section 2.09(b)\",\"source_text\":\"\\\"Letter of Credit Fee\\\" means any of the fees described in clause (i) of Section 2.09(b).\",\"confidence\":0.94,\"block_index\":3},{\"name\":\"Letter of Credit Sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.97,\"block_index\":5},{\"name\":\"Letter of Credit Commitment schedule reference\",\"raw_value\":\"Schedule 2.01\",\"source_text\":\"the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01\",\"confidence\":0.94,\"block_index\":5},{\"name\":\"Letter of Credit Report form\",\"raw_value\":\"Exhibit I\",\"source_text\":\"means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent\",\"confidence\":0.93,\"block_index\":4},{\"name\":\"Page number\",\"raw_value\":\"19\",\"source_text\":\"19\",\"confidence\":0.9,\"block_index\":6}],\"tables\":[],\"parties\":[{\"name\":\"Bank of America\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"JPMorgan\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"HSBC\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"Mizuho\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"or any other form approved by the Administrative Agent\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1809,
+     "cost_usd": 0.084495
+    },
+    "latency_s": 17.550150597999163,
+    "request_id": "req_011CfGW3S2knq4Xr4qeSZQYm"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "7964cc732c2e9c3787740a3d20909cf12c83936d8f349d274d2e8c1c1b90e483",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38\tDocument",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "L/C Obligations",
+       "text": "“L/C Obligations” means as of any date of determination, the aggregate undrawn amount of all outstanding Letters of Credit, plus the aggregate amount of all Unreimbursed Amounts in respect of Letters of Credit, including L/C Borrowings. For purposes of computing the undrawn amount under any Letter of Credit, the amount of such Letter of Credit shall be determined in accordance with Section 1.07. For all purposes of this Agreement, if on any date of determination a Letter of Credit has expired by its terms but any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP, such Letter of Credit shall be deemed to be “outstanding” in the amount so remaining available to be drawn.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Lender",
+       "text": "“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement and their successors and assigns and, unless the context requires otherwise, includes the Swing Line Lender.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Lender Parties",
+       "text": "“Lender Parties” means, collectively, the Lenders, the Swing Line Lender and the L/C Issuer.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Lending Office",
+       "text": "“Lending Office” means, as to any Lender, the office or offices of such Lender described as such in such Lender’s Administrative Questionnaire, or such other office or offices as a Lender may from time to time notify the Company and the Administrative Agent which office may include any Affiliate of such Lender or any domestic or foreign branch of such Lender or such Affiliate. Unless the context otherwise requires each reference to a Lender shall include its applicable Lending Office.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Letter of Credit",
+       "text": "“Letter of Credit” means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit; provided, however, that any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft. Notwithstanding anything to the contrary contained herein, a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof) shall not be a “Letter of Credit” for purposes of the Loan Documents until such time as the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Letter of Credit amount determination reference",
+       "raw_value": "Section 1.07",
+       "source_text": "the amount of such Letter of Credit shall be determined in accordance with Section 1.07",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "ISP rule for expired Letters of Credit",
+       "raw_value": "Rule 3.14 of the ISP",
+       "source_text": "any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Commercial Letter of Credit payment requirement",
+       "raw_value": "cash payment upon presentation of a sight draft",
+       "source_text": "any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft",
+       "confidence": 0.92,
+       "block_index": 5
+      },
+      {
+       "name": "Letter of Credit Sublimit confirmation requirement",
+       "raw_value": "has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit",
+       "source_text": "the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer",
+       "confidence": 0.88,
+       "block_index": 5
+      },
+      {
+       "name": "Document date/time stamp",
+       "raw_value": "21/09/2026, 10:38",
+       "source_text": "21/09/2026, 10:38\tDocument",
+       "confidence": 0.97,
+       "block_index": 0
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Bank of America",
+       "role": "L/C Issuer",
+       "source_text": "a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof)"
+      },
+      {
+       "name": "the Company",
+       "role": "Company",
+       "source_text": "as a Lender may from time to time notify the Company and the Administrative Agent"
+      },
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "notify the Company and the Administrative Agent"
+      },
+      {
+       "name": "Swing Line Lender",
+       "role": "Swing Line Lender",
+       "source_text": "unless the context requires otherwise, includes the Swing Line Lender"
+      },
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38\\tDocument\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"L/C Obligations\",\"text\":\"“L/C Obligations” means as of any date of determination, the aggregate undrawn amount of all outstanding Letters of Credit, plus the aggregate amount of all Unreimbursed Amounts in respect of Letters of Credit, including L/C Borrowings. For purposes of computing the undrawn amount under any Letter of Credit, the amount of such Letter of Credit shall be determined in accordance with Section 1.07. For all purposes of this Agreement, if on any date of determination a Letter of Credit has expired by its terms but any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP, such Letter of Credit shall be deemed to be “outstanding” in the amount so remaining available to be drawn.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Lender\",\"text\":\"“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement and their successors and assigns and, unless the context requires otherwise, includes the Swing Line Lender.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Lender Parties\",\"text\":\"“Lender Parties” means, collectively, the Lenders, the Swing Line Lender and the L/C Issuer.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Lending Office\",\"text\":\"“Lending Office” means, as to any Lender, the office or offices of such Lender described as such in such Lender’s Administrative Questionnaire, or such other office or offices as a Lender may from time to time notify the Company and the Administrative Agent which office may include any Affiliate of such Lender or any domestic or foreign branch of such Lender or such Affiliate. Unless the context otherwise requires each reference to a Lender shall include its applicable Lending Office.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Letter of Credit\",\"text\":\"“Letter of Credit” means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit; provided, however, that any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft. Notwithstanding anything to the contrary contained herein, a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof) shall not be a “Letter of Credit” for purposes of the Loan Documents until such time as the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Letter of Credit amount determination reference\",\"raw_value\":\"Section 1.07\",\"source_text\":\"the amount of such Letter of Credit shall be determined in accordance with Section 1.07\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"ISP rule for expired Letters of Credit\",\"raw_value\":\"Rule 3.14 of the ISP\",\"source_text\":\"any amount may still be drawn thereunder by reason of the operation of Rule 3.14 of the ISP\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Commercial Letter of Credit payment requirement\",\"raw_value\":\"cash payment upon presentation of a sight draft\",\"source_text\":\"any commercial letter of credit issued hereunder shall provide solely for cash payment upon presentation of a sight draft\",\"confidence\":0.92,\"block_index\":5},{\"name\":\"Letter of Credit Sublimit confirmation requirement\",\"raw_value\":\"has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit\",\"source_text\":\"the Administrative Agent has been notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer\",\"confidence\":0.88,\"block_index\":5},{\"name\":\"Document date/time stamp\",\"raw_value\":\"21/09/2026, 10:38\",\"source_text\":\"21/09/2026, 10:38\\tDocument\",\"confidence\":0.97,\"block_index\":0}],\"tables\":[],\"parties\":[{\"name\":\"Bank of America\",\"role\":\"L/C Issuer\",\"source_text\":\"a letter of credit issued by an L/C Issuer other than Bank of America (or a designated Affiliate thereof)\"},{\"name\":\"the Company\",\"role\":\"Company\",\"source_text\":\"as a Lender may from time to time notify the Company and the Administrative Agent\"},{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"notify the Company and the Administrative Agent\"},{\"name\":\"Swing Line Lender\",\"role\":\"Swing Line Lender\",\"source_text\":\"unless the context requires otherwise, includes the Swing Line Lender\"},{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"“Lender” means each of the Persons identified as a “Lender” on the signature pages hereto\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 2021,
+     "cost_usd": 0.089795
+    },
+    "latency_s": 20.490191778000735,
+    "request_id": "req_011CfGW1uo3wDde7KAQxHYvX"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "77c871183c561f8fcc0030881235398e04622f4450d878c913e1e35505beba5c",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Application\" means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Expiration Date\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Fee\" means any of the fees described in clause (i) of Section 2.09(b).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Report\" means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments; provided that, with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01. The Letter of Credit Sublimit is part of, and not in addition to, the Aggregate Commitments.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "19",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    32/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Letter of Credit Expiration Date",
+       "raw_value": "seven days prior to the Maturity Date then in effect",
+       "source_text": "\"Letter of Credit Expiration Date\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Letter of Credit Fee",
+       "raw_value": "clause (i) of Section 2.09(b)",
+       "source_text": "\"Letter of Credit Fee\" means any of the fees described in clause (i) of Section 2.09(b).",
+       "confidence": 0.94,
+       "block_index": 3
+      },
+      {
+       "name": "Letter of Credit Sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.97,
+       "block_index": 5
+      },
+      {
+       "name": "Letter of Credit Commitment schedule reference",
+       "raw_value": "Schedule 2.01",
+       "source_text": "the amount set forth as its \"Letter of Credit Commitment\" on Schedule 2.01",
+       "confidence": 0.94,
+       "block_index": 5
+      },
+      {
+       "name": "Letter of Credit Report form",
+       "raw_value": "Exhibit I",
+       "source_text": "means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent",
+       "confidence": 0.93,
+       "block_index": 4
+      },
+      {
+       "name": "Page number",
+       "raw_value": "19",
+       "source_text": "19",
+       "confidence": 0.9,
+       "block_index": 6
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Bank of America",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "JPMorgan",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "HSBC",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "Mizuho",
+       "role": "L/C Issuer",
+       "source_text": "with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer"
+      },
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "or any other form approved by the Administrative Agent"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"notified of the issuance thereof by the applicable L/C Issuer and has confirmed availability under the Aggregate Commitments and the Letter of Credit Sublimit with the applicable L/C Issuer.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Application\\\" means an application and agreement for the issuance or amendment of a Letter of Credit in the form from time to time in use by the L/C Issuer.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Expiration Date\\\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Fee\\\" means any of the fees described in clause (i) of Section 2.09(b).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Report\\\" means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments; provided that, with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer, such L/C Issuer shall not be obligated to issue Letters of Credit in an amount greater than the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01. The Letter of Credit Sublimit is part of, and not in addition to, the Aggregate Commitments.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"19\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    32/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Letter of Credit Expiration Date\",\"raw_value\":\"seven days prior to the Maturity Date then in effect\",\"source_text\":\"\\\"Letter of Credit Expiration Date\\\" means the day that is seven days prior to the Maturity Date then in effect (or, if such day is not a Business Day, the next preceding Business Day).\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Letter of Credit Fee\",\"raw_value\":\"clause (i) of Section 2.09(b)\",\"source_text\":\"\\\"Letter of Credit Fee\\\" means any of the fees described in clause (i) of Section 2.09(b).\",\"confidence\":0.94,\"block_index\":3},{\"name\":\"Letter of Credit Sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.97,\"block_index\":5},{\"name\":\"Letter of Credit Commitment schedule reference\",\"raw_value\":\"Schedule 2.01\",\"source_text\":\"the amount set forth as its \\\"Letter of Credit Commitment\\\" on Schedule 2.01\",\"confidence\":0.94,\"block_index\":5},{\"name\":\"Letter of Credit Report form\",\"raw_value\":\"Exhibit I\",\"source_text\":\"means a certificate substantially the form of Exhibit I or any other form approved by the Administrative Agent\",\"confidence\":0.93,\"block_index\":4},{\"name\":\"Page number\",\"raw_value\":\"19\",\"source_text\":\"19\",\"confidence\":0.9,\"block_index\":6}],\"tables\":[],\"parties\":[{\"name\":\"Bank of America\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"JPMorgan\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"HSBC\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"Mizuho\",\"role\":\"L/C Issuer\",\"source_text\":\"with respect to each of Bank of America, JPMorgan, HSBC and Mizuho, in its capacity as an L/C Issuer\"},{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"or any other form approved by the Administrative Agent\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1809,
+     "cost_usd": 0.084495
+    },
+    "latency_s": 17.550150597999163,
+    "request_id": "req_011CfGW3S2knq4Xr4qeSZQYm"
+   }
+  }
+ ]
+}

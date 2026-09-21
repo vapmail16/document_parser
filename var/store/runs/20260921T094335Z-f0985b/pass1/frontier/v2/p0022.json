@@ -1,0 +1,395 @@
+{
+ "page": 22,
+ "model_key": "frontier",
+ "prompt_version": "v2",
+ "prompt_sha256": "ffcc6fa944d0bcf954dc09f86c57269364cc4020bbf12e07c98bc47912dc7acb",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "cc4f04273913c03fa15faa61ee58b5c92cb427e40a860b38854bc388d1f94b51",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Company\" has the meaning specified in the introductory paragraph hereto.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Compliance Certificate\" means a certificate substantially in the form of Exhibit D.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Conforming Changes\" means, with respect to the use, administration of or any conventions associated with BBSY, CDOR, EURIBOR, SONIA, TIBOR, SOFR, Term SOFR or any proposed Successor Rate for an Applicable Currency, as applicable, any conforming changes to the definitions of \"Base Rate\", \"BBSY\", \"CDOR\", \"EURIBOR\", \"SONIA\", \"TIBOR\", \"SOFR\", \"Term SOFR\", \"Term SOFR Daily Floating Rate\", \"Interest Period\", the timing and frequency of determining rates and making payments of interest and other technical, administrative or operational matters (including, for the avoidance of doubt, the definitions of \"Business Day\" and \"U.S. Government Securities Business Day\", timing of borrowing requests or prepayment, conversion or continuation notices and length of lookback periods) as may be appropriate, in the discretion of the Administrative Agent, to reflect the adoption and implementation of such applicable rate(s) and to permit the administration thereof by the Administrative Agent in a manner substantially consistent with market practice for such Applicable Currency (or, if the Administrative Agent determines that adoption of any portion of such market practice is not administratively feasible or that no market practice for the administration of such rate for such Applicable Currency exists, in such other manner of administration as the Administrative Agent determines is reasonably necessary in connection with the administration of this Agreement and any other Loan Document).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Consolidated EBITDA\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period, (ii) the provision for federal, state, local and foreign income taxes payable by the Consolidated Group for such period, (iii) the amount of depreciation and amortization expense for such period, (iv) non-cash expenses for such period (excluding any non-cash expense to the extent that it represents an accrual of or reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Compliance Certificate form reference",
+       "raw_value": "Exhibit D",
+       "source_text": "\"Compliance Certificate\" means a certificate substantially in the form of Exhibit D.",
+       "confidence": 0.95,
+       "block_index": 3
+      },
+      {
+       "name": "Accounting standard for pension liability valuation",
+       "raw_value": "Accounting Standards Codification 715 (ASC 715)",
+       "source_text": "in accordance with Accounting Standards Codification 715 (ASC 715)",
+       "confidence": 0.9,
+       "block_index": 5
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Company\\\" has the meaning specified in the introductory paragraph hereto.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Compliance Certificate\\\" means a certificate substantially in the form of Exhibit D.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Conforming Changes\\\" means, with respect to the use, administration of or any conventions associated with BBSY, CDOR, EURIBOR, SONIA, TIBOR, SOFR, Term SOFR or any proposed Successor Rate for an Applicable Currency, as applicable, any conforming changes to the definitions of \\\"Base Rate\\\", \\\"BBSY\\\", \\\"CDOR\\\", \\\"EURIBOR\\\", \\\"SONIA\\\", \\\"TIBOR\\\", \\\"SOFR\\\", \\\"Term SOFR\\\", \\\"Term SOFR Daily Floating Rate\\\", \\\"Interest Period\\\", the timing and frequency of determining rates and making payments of interest and other technical, administrative or operational matters (including, for the avoidance of doubt, the definitions of \\\"Business Day\\\" and \\\"U.S. Government Securities Business Day\\\", timing of borrowing requests or prepayment, conversion or continuation notices and length of lookback periods) as may be appropriate, in the discretion of the Administrative Agent, to reflect the adoption and implementation of such applicable rate(s) and to permit the administration thereof by the Administrative Agent in a manner substantially consistent with market practice for such Applicable Currency (or, if the Administrative Agent determines that adoption of any portion of such market practice is not administratively feasible or that no market practice for the administration of such rate for such Applicable Currency exists, in such other manner of administration as the Administrative Agent determines is reasonably necessary in connection with the administration of this Agreement and any other Loan Document).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Consolidated EBITDA\\\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period, (ii) the provision for federal, state, local and foreign income taxes payable by the Consolidated Group for such period, (iii) the amount of depreciation and amortization expense for such period, (iv) non-cash expenses for such period (excluding any non-cash expense to the extent that it represents an accrual of or reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Compliance Certificate form reference\",\"raw_value\":\"Exhibit D\",\"source_text\":\"\\\"Compliance Certificate\\\" means a certificate substantially in the form of Exhibit D.\",\"confidence\":0.95,\"block_index\":3},{\"name\":\"Accounting standard for pension liability valuation\",\"raw_value\":\"Accounting Standards Codification 715 (ASC 715)\",\"source_text\":\"in accordance with Accounting Standards Codification 715 (ASC 715)\",\"confidence\":0.9,\"block_index\":5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1366,
+     "cost_usd": 0.07342
+    },
+    "latency_s": 17.873949927001377,
+    "request_id": "req_011CfGTFbbTUc2DyqS26hLtK"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "a18d254d0c815cb1364a5cb24cc9b1dc7ee2eb5235bb0a49d44b6e733d3fa554",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715), (vii) any fees, expenses or charges (other than depreciation or amortization expense) related to any Acquisition, Disposition, issuance of equity interests, other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement (including any refinancing or amendment thereof) (in each case, whether or not consummated), including, but not limited to, such fees, expenses or charges related to this Agreement and the other Loan Documents and any amendment or other modification of this Agreement or the other Loan Documents, (viii) any expense to the extent that a corresponding amount is received during such period in cash by the Company or any of its Subsidiaries under any agreement providing for indemnification or reimbursement of such expenses, (ix) any expense with respect to liability or casualty events or business interruption to the extent reimbursed to the Company or any of its Subsidiaries during such period by third party insurance, and (x) the amount of dividends or distributions or other payments (including any ordinary course dividend, distribution or other payment) that are actually received in cash (or converted into cash) for such period by a member of the Consolidated Group from any Person that is not a member of the Consolidated Group or otherwise in respect of any unconsolidated investment, minus (c) to the extent included in calculating such Consolidated Net Income, (i) non-cash income during such period (excluding any non-cash income to the extent that it represents cash receipts in any future period) and (ii) any non-cash gains attributable to the mark-to-market adjustments in the valuation of pension liabilities in accordance with Accounting Standards Codification 715 (ASC 715), all as determined in accordance with GAAP.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Consolidated Funded Debt",
+       "text": "“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "9",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    22/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Accounting standard referenced (pension mark-to-market)",
+       "raw_value": "Accounting Standards Codification 715 (ASC 715)",
+       "source_text": "resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)",
+       "confidence": 0.96,
+       "block_index": 0
+      },
+      {
+       "name": "Permitted transactions cross-reference",
+       "raw_value": "Section 8.02",
+       "source_text": "other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement",
+       "confidence": 0.95,
+       "block_index": 0
+      },
+      {
+       "name": "Consolidated Funded Debt",
+       "raw_value": "Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP",
+       "source_text": "“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Page number",
+       "raw_value": "9",
+       "source_text": "9",
+       "confidence": 0.9,
+       "block_index": 2
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715), (vii) any fees, expenses or charges (other than depreciation or amortization expense) related to any Acquisition, Disposition, issuance of equity interests, other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement (including any refinancing or amendment thereof) (in each case, whether or not consummated), including, but not limited to, such fees, expenses or charges related to this Agreement and the other Loan Documents and any amendment or other modification of this Agreement or the other Loan Documents, (viii) any expense to the extent that a corresponding amount is received during such period in cash by the Company or any of its Subsidiaries under any agreement providing for indemnification or reimbursement of such expenses, (ix) any expense with respect to liability or casualty events or business interruption to the extent reimbursed to the Company or any of its Subsidiaries during such period by third party insurance, and (x) the amount of dividends or distributions or other payments (including any ordinary course dividend, distribution or other payment) that are actually received in cash (or converted into cash) for such period by a member of the Consolidated Group from any Person that is not a member of the Consolidated Group or otherwise in respect of any unconsolidated investment, minus (c) to the extent included in calculating such Consolidated Net Income, (i) non-cash income during such period (excluding any non-cash income to the extent that it represents cash receipts in any future period) and (ii) any non-cash gains attributable to the mark-to-market adjustments in the valuation of pension liabilities in accordance with Accounting Standards Codification 715 (ASC 715), all as determined in accordance with GAAP.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Consolidated Funded Debt\",\"text\":\"“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"9\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    22/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Accounting standard referenced (pension mark-to-market)\",\"raw_value\":\"Accounting Standards Codification 715 (ASC 715)\",\"source_text\":\"resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)\",\"confidence\":0.96,\"block_index\":0},{\"name\":\"Permitted transactions cross-reference\",\"raw_value\":\"Section 8.02\",\"source_text\":\"other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement\",\"confidence\":0.95,\"block_index\":0},{\"name\":\"Consolidated Funded Debt\",\"raw_value\":\"Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP\",\"source_text\":\"“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Page number\",\"raw_value\":\"9\",\"source_text\":\"9\",\"confidence\":0.9,\"block_index\":2}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1368,
+     "cost_usd": 0.07347
+    },
+    "latency_s": 16.764308192003227,
+    "request_id": "req_011CfGTGyPutXFjjuTDrz3KX"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "cc4f04273913c03fa15faa61ee58b5c92cb427e40a860b38854bc388d1f94b51",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Company\" has the meaning specified in the introductory paragraph hereto.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Compliance Certificate\" means a certificate substantially in the form of Exhibit D.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Conforming Changes\" means, with respect to the use, administration of or any conventions associated with BBSY, CDOR, EURIBOR, SONIA, TIBOR, SOFR, Term SOFR or any proposed Successor Rate for an Applicable Currency, as applicable, any conforming changes to the definitions of \"Base Rate\", \"BBSY\", \"CDOR\", \"EURIBOR\", \"SONIA\", \"TIBOR\", \"SOFR\", \"Term SOFR\", \"Term SOFR Daily Floating Rate\", \"Interest Period\", the timing and frequency of determining rates and making payments of interest and other technical, administrative or operational matters (including, for the avoidance of doubt, the definitions of \"Business Day\" and \"U.S. Government Securities Business Day\", timing of borrowing requests or prepayment, conversion or continuation notices and length of lookback periods) as may be appropriate, in the discretion of the Administrative Agent, to reflect the adoption and implementation of such applicable rate(s) and to permit the administration thereof by the Administrative Agent in a manner substantially consistent with market practice for such Applicable Currency (or, if the Administrative Agent determines that adoption of any portion of such market practice is not administratively feasible or that no market practice for the administration of such rate for such Applicable Currency exists, in such other manner of administration as the Administrative Agent determines is reasonably necessary in connection with the administration of this Agreement and any other Loan Document).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Consolidated EBITDA\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period, (ii) the provision for federal, state, local and foreign income taxes payable by the Consolidated Group for such period, (iii) the amount of depreciation and amortization expense for such period, (iv) non-cash expenses for such period (excluding any non-cash expense to the extent that it represents an accrual of or reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Compliance Certificate form reference",
+       "raw_value": "Exhibit D",
+       "source_text": "\"Compliance Certificate\" means a certificate substantially in the form of Exhibit D.",
+       "confidence": 0.95,
+       "block_index": 3
+      },
+      {
+       "name": "Accounting standard for pension liability valuation",
+       "raw_value": "Accounting Standards Codification 715 (ASC 715)",
+       "source_text": "in accordance with Accounting Standards Codification 715 (ASC 715)",
+       "confidence": 0.9,
+       "block_index": 5
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Company\\\" has the meaning specified in the introductory paragraph hereto.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Compliance Certificate\\\" means a certificate substantially in the form of Exhibit D.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Conforming Changes\\\" means, with respect to the use, administration of or any conventions associated with BBSY, CDOR, EURIBOR, SONIA, TIBOR, SOFR, Term SOFR or any proposed Successor Rate for an Applicable Currency, as applicable, any conforming changes to the definitions of \\\"Base Rate\\\", \\\"BBSY\\\", \\\"CDOR\\\", \\\"EURIBOR\\\", \\\"SONIA\\\", \\\"TIBOR\\\", \\\"SOFR\\\", \\\"Term SOFR\\\", \\\"Term SOFR Daily Floating Rate\\\", \\\"Interest Period\\\", the timing and frequency of determining rates and making payments of interest and other technical, administrative or operational matters (including, for the avoidance of doubt, the definitions of \\\"Business Day\\\" and \\\"U.S. Government Securities Business Day\\\", timing of borrowing requests or prepayment, conversion or continuation notices and length of lookback periods) as may be appropriate, in the discretion of the Administrative Agent, to reflect the adoption and implementation of such applicable rate(s) and to permit the administration thereof by the Administrative Agent in a manner substantially consistent with market practice for such Applicable Currency (or, if the Administrative Agent determines that adoption of any portion of such market practice is not administratively feasible or that no market practice for the administration of such rate for such Applicable Currency exists, in such other manner of administration as the Administrative Agent determines is reasonably necessary in connection with the administration of this Agreement and any other Loan Document).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Consolidated EBITDA\\\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period, (ii) the provision for federal, state, local and foreign income taxes payable by the Consolidated Group for such period, (iii) the amount of depreciation and amortization expense for such period, (iv) non-cash expenses for such period (excluding any non-cash expense to the extent that it represents an accrual of or reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Compliance Certificate form reference\",\"raw_value\":\"Exhibit D\",\"source_text\":\"\\\"Compliance Certificate\\\" means a certificate substantially in the form of Exhibit D.\",\"confidence\":0.95,\"block_index\":3},{\"name\":\"Accounting standard for pension liability valuation\",\"raw_value\":\"Accounting Standards Codification 715 (ASC 715)\",\"source_text\":\"in accordance with Accounting Standards Codification 715 (ASC 715)\",\"confidence\":0.9,\"block_index\":5}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1366,
+     "cost_usd": 0.07342
+    },
+    "latency_s": 17.873949927001377,
+    "request_id": "req_011CfGTFbbTUc2DyqS26hLtK"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "a18d254d0c815cb1364a5cb24cc9b1dc7ee2eb5235bb0a49d44b6e733d3fa554",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715), (vii) any fees, expenses or charges (other than depreciation or amortization expense) related to any Acquisition, Disposition, issuance of equity interests, other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement (including any refinancing or amendment thereof) (in each case, whether or not consummated), including, but not limited to, such fees, expenses or charges related to this Agreement and the other Loan Documents and any amendment or other modification of this Agreement or the other Loan Documents, (viii) any expense to the extent that a corresponding amount is received during such period in cash by the Company or any of its Subsidiaries under any agreement providing for indemnification or reimbursement of such expenses, (ix) any expense with respect to liability or casualty events or business interruption to the extent reimbursed to the Company or any of its Subsidiaries during such period by third party insurance, and (x) the amount of dividends or distributions or other payments (including any ordinary course dividend, distribution or other payment) that are actually received in cash (or converted into cash) for such period by a member of the Consolidated Group from any Person that is not a member of the Consolidated Group or otherwise in respect of any unconsolidated investment, minus (c) to the extent included in calculating such Consolidated Net Income, (i) non-cash income during such period (excluding any non-cash income to the extent that it represents cash receipts in any future period) and (ii) any non-cash gains attributable to the mark-to-market adjustments in the valuation of pension liabilities in accordance with Accounting Standards Codification 715 (ASC 715), all as determined in accordance with GAAP.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "Consolidated Funded Debt",
+       "text": "“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "9",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    22/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Accounting standard referenced (pension mark-to-market)",
+       "raw_value": "Accounting Standards Codification 715 (ASC 715)",
+       "source_text": "resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)",
+       "confidence": 0.96,
+       "block_index": 0
+      },
+      {
+       "name": "Permitted transactions cross-reference",
+       "raw_value": "Section 8.02",
+       "source_text": "other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement",
+       "confidence": 0.95,
+       "block_index": 0
+      },
+      {
+       "name": "Consolidated Funded Debt",
+       "raw_value": "Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP",
+       "source_text": "“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Page number",
+       "raw_value": "9",
+       "source_text": "9",
+       "confidence": 0.9,
+       "block_index": 2
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"reserve for cash payments in any future period), (v) non-cash goodwill impairment charges, (vi) any non-cash loss attributable to the mark-to-market adjustments in the valuation of pension liabilities (to the extent the cash impact resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715), (vii) any fees, expenses or charges (other than depreciation or amortization expense) related to any Acquisition, Disposition, issuance of equity interests, other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement (including any refinancing or amendment thereof) (in each case, whether or not consummated), including, but not limited to, such fees, expenses or charges related to this Agreement and the other Loan Documents and any amendment or other modification of this Agreement or the other Loan Documents, (viii) any expense to the extent that a corresponding amount is received during such period in cash by the Company or any of its Subsidiaries under any agreement providing for indemnification or reimbursement of such expenses, (ix) any expense with respect to liability or casualty events or business interruption to the extent reimbursed to the Company or any of its Subsidiaries during such period by third party insurance, and (x) the amount of dividends or distributions or other payments (including any ordinary course dividend, distribution or other payment) that are actually received in cash (or converted into cash) for such period by a member of the Consolidated Group from any Person that is not a member of the Consolidated Group or otherwise in respect of any unconsolidated investment, minus (c) to the extent included in calculating such Consolidated Net Income, (i) non-cash income during such period (excluding any non-cash income to the extent that it represents cash receipts in any future period) and (ii) any non-cash gains attributable to the mark-to-market adjustments in the valuation of pension liabilities in accordance with Accounting Standards Codification 715 (ASC 715), all as determined in accordance with GAAP.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"Consolidated Funded Debt\",\"text\":\"“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"9\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    22/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Accounting standard referenced (pension mark-to-market)\",\"raw_value\":\"Accounting Standards Codification 715 (ASC 715)\",\"source_text\":\"resulting from such loss has not been realized) in accordance with Accounting Standards Codification 715 (ASC 715)\",\"confidence\":0.96,\"block_index\":0},{\"name\":\"Permitted transactions cross-reference\",\"raw_value\":\"Section 8.02\",\"source_text\":\"other transactions (excluding intercompany transactions) permitted by Section 8.02, or the incurrence of Indebtedness not prohibited by this Agreement\",\"confidence\":0.95,\"block_index\":0},{\"name\":\"Consolidated Funded Debt\",\"raw_value\":\"Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP\",\"source_text\":\"“Consolidated Funded Debt” means Funded Debt of the Consolidated Group determined on a consolidated basis in accordance with GAAP.\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Page number\",\"raw_value\":\"9\",\"source_text\":\"9\",\"confidence\":0.9,\"block_index\":2}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1368,
+     "cost_usd": 0.07347
+    },
+    "latency_s": 16.764308192003227,
+    "request_id": "req_011CfGTGyPutXFjjuTDrz3KX"
+   }
+  }
+ ]
+}

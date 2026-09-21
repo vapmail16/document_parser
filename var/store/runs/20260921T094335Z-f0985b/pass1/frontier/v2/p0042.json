@@ -1,0 +1,613 @@
+{
+ "page": 42,
+ "model_key": "frontier",
+ "prompt_version": "v2",
+ "prompt_sha256": "ffcc6fa944d0bcf954dc09f86c57269364cc4020bbf12e07c98bc47912dc7acb",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "df4d89ac4e0642d9345361ae63ec4396f68cd4f5e4d74c49740da68af95507b7",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "\"Term SOFR\"",
+       "text": "\"Term SOFR\" means:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(f)",
+       "heading": null,
+       "text": "(f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period with a term equivalent to such Interest Period; provided that if the rate is not published prior to 11:00 a.m. on such determination date then Term SOFR means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment for such Interest Period; and",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(g)",
+       "heading": null,
+       "text": "(g) for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate with a term of one month commencing that day;",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "provided that if the Term SOFR determined in accordance with either of the foregoing provisions (a) or (b) of this definition would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "\"Term SOFR Daily Floating Rate\"",
+       "text": "\"Term SOFR Daily Floating Rate\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date; provided, that if the rate is not published prior to 11:00 A.M. on such determination date then the Term SOFR Daily Floating Rate means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment; provided, further, that, if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero for purposes of this Agreement.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "\"Term SOFR Daily Floating Rate Loans\"",
+       "text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Term SOFR determination lookback",
+       "raw_value": "two U.S. Government Securities Business Days",
+       "source_text": "the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "confidence": 0.95,
+       "block_index": 3
+      },
+      {
+       "name": "Term SOFR publication cut-off time",
+       "raw_value": "11:00 a.m.",
+       "source_text": "provided that if the rate is not published prior to 11:00 a.m. on such determination date",
+       "confidence": 0.94,
+       "block_index": 3
+      },
+      {
+       "name": "Base Rate Loan Term SOFR term",
+       "raw_value": "one month",
+       "source_text": "equal to the Term SOFR Screen Rate with a term of one month commencing that day",
+       "confidence": 0.93,
+       "block_index": 4
+      },
+      {
+       "name": "Term SOFR floor",
+       "raw_value": "zero",
+       "source_text": "would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement",
+       "confidence": 0.93,
+       "block_index": 5
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate publication cut-off time",
+       "raw_value": "11:00 A.M.",
+       "source_text": "provided, that if the rate is not published prior to 11:00 A.M. on such determination date",
+       "confidence": 0.94,
+       "block_index": 6
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate term",
+       "raw_value": "one month",
+       "source_text": "with a term equivalent to one month beginning on that date",
+       "confidence": 0.92,
+       "block_index": 6
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate floor",
+       "raw_value": "zero",
+       "source_text": "if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero",
+       "confidence": 0.92,
+       "block_index": 6
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate Loans currency",
+       "raw_value": "Dollars",
+       "source_text": "All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.",
+       "confidence": 0.95,
+       "block_index": 7
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"\\\"Term SOFR\\\"\",\"text\":\"\\\"Term SOFR\\\" means:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(f)\",\"heading\":null,\"text\":\"(f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period with a term equivalent to such Interest Period; provided that if the rate is not published prior to 11:00 a.m. on such determination date then Term SOFR means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment for such Interest Period; and\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(g)\",\"heading\":null,\"text\":\"(g) for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate with a term of one month commencing that day;\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"provided that if the Term SOFR determined in accordance with either of the foregoing provisions (a) or (b) of this definition would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"\\\"Term SOFR Daily Floating Rate\\\"\",\"text\":\"\\\"Term SOFR Daily Floating Rate\\\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date; provided, that if the rate is not published prior to 11:00 A.M. on such determination date then the Term SOFR Daily Floating Rate means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment; provided, further, that, if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero for purposes of this Agreement.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"\\\"Term SOFR Daily Floating Rate Loans\\\"\",\"text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Term SOFR determination lookback\",\"raw_value\":\"two U.S. Government Securities Business Days\",\"source_text\":\"the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"confidence\":0.95,\"block_index\":3},{\"name\":\"Term SOFR publication cut-off time\",\"raw_value\":\"11:00 a.m.\",\"source_text\":\"provided that if the rate is not published prior to 11:00 a.m. on such determination date\",\"confidence\":0.94,\"block_index\":3},{\"name\":\"Base Rate Loan Term SOFR term\",\"raw_value\":\"one month\",\"source_text\":\"equal to the Term SOFR Screen Rate with a term of one month commencing that day\",\"confidence\":0.93,\"block_index\":4},{\"name\":\"Term SOFR floor\",\"raw_value\":\"zero\",\"source_text\":\"would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement\",\"confidence\":0.93,\"block_index\":5},{\"name\":\"Term SOFR Daily Floating Rate publication cut-off time\",\"raw_value\":\"11:00 A.M.\",\"source_text\":\"provided, that if the rate is not published prior to 11:00 A.M. on such determination date\",\"confidence\":0.94,\"block_index\":6},{\"name\":\"Term SOFR Daily Floating Rate term\",\"raw_value\":\"one month\",\"source_text\":\"with a term equivalent to one month beginning on that date\",\"confidence\":0.92,\"block_index\":6},{\"name\":\"Term SOFR Daily Floating Rate floor\",\"raw_value\":\"zero\",\"source_text\":\"if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero\",\"confidence\":0.92,\"block_index\":6},{\"name\":\"Term SOFR Daily Floating Rate Loans currency\",\"raw_value\":\"Dollars\",\"source_text\":\"All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.\",\"confidence\":0.95,\"block_index\":7}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1839,
+     "cost_usd": 0.085245
+    },
+    "latency_s": 17.873192469996866,
+    "request_id": "req_011CfGW9Zg3pB7bq5C571V2G"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1675,
+    "y1": 3508,
+    "scale": 0.9083,
+    "effective_dpi": 272.5
+   },
+   "bands_on_page": 2,
+   "cache_key": "a29179a70530fd9c669d9dc3dc4bf2dedd5bdaaa3dddb28a629bc47faa552dc2",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Term SOFR Loan\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR. All Term SOFR Loans shall be denominated in Dollars.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Term SOFR Screen Rate\" means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent) and published on the applicable Reuters screen page (or such other commercially available source providing such quotations as may be designated by the Agent from time to time).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Type\" means, with respect to a Committed Loan, its character as a Base Rate Loan, a Term SOFR Loan, a Term SOFR Daily Floating Rate Loan, an Alternative Currency Daily Rate Loan or an Alternative Currency Term Rate Loan.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"UCP\" means, with respect to any Letter of Credit, the Uniform Customs and Practice for Documentary Credits, International Chamber of Commerce (\"ICC\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"UK Financial Institution\" means any BRRD Undertaking (as such term is defined under the PRA Rulebook (as amended form time to time) promulgated by the United Kingdom Prudential Regulation Authority) or any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time) promulgated by the United Kingdom Financial Conduct Authority, which includes certain credit institutions and investment firms, and certain affiliates of such credit institutions or investment firms.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "28",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    42/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Threshold Amount",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.98,
+       "block_index": 3
+      },
+      {
+       "name": "UCP Publication No.",
+       "raw_value": "Publication No. 600",
+       "source_text": "International Chamber of Commerce (\"ICC\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance)",
+       "confidence": 0.96,
+       "block_index": 5
+      },
+      {
+       "name": "FCA Handbook reference",
+       "raw_value": "IFPRU 11.6",
+       "source_text": "any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time)",
+       "confidence": 0.94,
+       "block_index": 6
+      },
+      {
+       "name": "Page number",
+       "raw_value": "28",
+       "source_text": "28",
+       "confidence": 0.9,
+       "block_index": 7
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "CME",
+       "role": "Administrator of Term SOFR Screen Rate",
+       "source_text": "means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent)"
+      },
+      {
+       "name": "Agent",
+       "role": "Agent",
+       "source_text": "successor administrator satisfactory to the Agent"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Term SOFR Loan\\\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR. All Term SOFR Loans shall be denominated in Dollars.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Term SOFR Screen Rate\\\" means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent) and published on the applicable Reuters screen page (or such other commercially available source providing such quotations as may be designated by the Agent from time to time).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Type\\\" means, with respect to a Committed Loan, its character as a Base Rate Loan, a Term SOFR Loan, a Term SOFR Daily Floating Rate Loan, an Alternative Currency Daily Rate Loan or an Alternative Currency Term Rate Loan.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"UCP\\\" means, with respect to any Letter of Credit, the Uniform Customs and Practice for Documentary Credits, International Chamber of Commerce (\\\"ICC\\\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"UK Financial Institution\\\" means any BRRD Undertaking (as such term is defined under the PRA Rulebook (as amended form time to time) promulgated by the United Kingdom Prudential Regulation Authority) or any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time) promulgated by the United Kingdom Financial Conduct Authority, which includes certain credit institutions and investment firms, and certain affiliates of such credit institutions or investment firms.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"28\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    42/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Threshold Amount\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.98,\"block_index\":3},{\"name\":\"UCP Publication No.\",\"raw_value\":\"Publication No. 600\",\"source_text\":\"International Chamber of Commerce (\\\"ICC\\\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance)\",\"confidence\":0.96,\"block_index\":5},{\"name\":\"FCA Handbook reference\",\"raw_value\":\"IFPRU 11.6\",\"source_text\":\"any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time)\",\"confidence\":0.94,\"block_index\":6},{\"name\":\"Page number\",\"raw_value\":\"28\",\"source_text\":\"28\",\"confidence\":0.9,\"block_index\":7}],\"tables\":[],\"parties\":[{\"name\":\"CME\",\"role\":\"Administrator of Term SOFR Screen Rate\",\"source_text\":\"means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent)\"},{\"name\":\"Agent\",\"role\":\"Agent\",\"source_text\":\"successor administrator satisfactory to the Agent\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7795,
+     "output_tokens": 1554,
+     "cost_usd": 0.077825
+    },
+    "latency_s": 16.75519377800083,
+    "request_id": "req_011CfGWAxMqEsTLuLKxtXeEJ"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "df4d89ac4e0642d9345361ae63ec4396f68cd4f5e4d74c49740da68af95507b7",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "\"Term SOFR\"",
+       "text": "\"Term SOFR\" means:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(f)",
+       "heading": null,
+       "text": "(f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period with a term equivalent to such Interest Period; provided that if the rate is not published prior to 11:00 a.m. on such determination date then Term SOFR means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment for such Interest Period; and",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(g)",
+       "heading": null,
+       "text": "(g) for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate with a term of one month commencing that day;",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "provided that if the Term SOFR determined in accordance with either of the foregoing provisions (a) or (b) of this definition would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "\"Term SOFR Daily Floating Rate\"",
+       "text": "\"Term SOFR Daily Floating Rate\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date; provided, that if the rate is not published prior to 11:00 A.M. on such determination date then the Term SOFR Daily Floating Rate means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment; provided, further, that, if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero for purposes of this Agreement.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": "\"Term SOFR Daily Floating Rate Loans\"",
+       "text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Term SOFR determination lookback",
+       "raw_value": "two U.S. Government Securities Business Days",
+       "source_text": "the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period",
+       "confidence": 0.95,
+       "block_index": 3
+      },
+      {
+       "name": "Term SOFR publication cut-off time",
+       "raw_value": "11:00 a.m.",
+       "source_text": "provided that if the rate is not published prior to 11:00 a.m. on such determination date",
+       "confidence": 0.94,
+       "block_index": 3
+      },
+      {
+       "name": "Base Rate Loan Term SOFR term",
+       "raw_value": "one month",
+       "source_text": "equal to the Term SOFR Screen Rate with a term of one month commencing that day",
+       "confidence": 0.93,
+       "block_index": 4
+      },
+      {
+       "name": "Term SOFR floor",
+       "raw_value": "zero",
+       "source_text": "would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement",
+       "confidence": 0.93,
+       "block_index": 5
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate publication cut-off time",
+       "raw_value": "11:00 A.M.",
+       "source_text": "provided, that if the rate is not published prior to 11:00 A.M. on such determination date",
+       "confidence": 0.94,
+       "block_index": 6
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate term",
+       "raw_value": "one month",
+       "source_text": "with a term equivalent to one month beginning on that date",
+       "confidence": 0.92,
+       "block_index": 6
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate floor",
+       "raw_value": "zero",
+       "source_text": "if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero",
+       "confidence": 0.92,
+       "block_index": 6
+      },
+      {
+       "name": "Term SOFR Daily Floating Rate Loans currency",
+       "raw_value": "Dollars",
+       "source_text": "All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.",
+       "confidence": 0.95,
+       "block_index": 7
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"\\\"Term SOFR\\\"\",\"text\":\"\\\"Term SOFR\\\" means:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(f)\",\"heading\":null,\"text\":\"(f) for any Interest Period with respect to a Term SOFR Loan, the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period with a term equivalent to such Interest Period; provided that if the rate is not published prior to 11:00 a.m. on such determination date then Term SOFR means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment for such Interest Period; and\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(g)\",\"heading\":null,\"text\":\"(g) for any interest calculation with respect to a Base Rate Loan on any date, the rate per annum equal to the Term SOFR Screen Rate with a term of one month commencing that day;\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"provided that if the Term SOFR determined in accordance with either of the foregoing provisions (a) or (b) of this definition would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"\\\"Term SOFR Daily Floating Rate\\\"\",\"text\":\"\\\"Term SOFR Daily Floating Rate\\\" means for any interest calculation with respect to a Term SOFR Daily Floating Rate Loan on any date, a fluctuating rate of interest, which can change on each Business Day, equal to the Term SOFR Screen Rate, two U.S. Government Securities Business Days prior to such day, with a term equivalent to one month beginning on that date; provided, that if the rate is not published prior to 11:00 A.M. on such determination date then the Term SOFR Daily Floating Rate means the Term SOFR Screen Rate on the first U.S. Government Securities Business Day immediately prior thereto, in each case, plus the SOFR Adjustment; provided, further, that, if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero for purposes of this Agreement.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":\"\\\"Term SOFR Daily Floating Rate Loans\\\"\",\"text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Term SOFR determination lookback\",\"raw_value\":\"two U.S. Government Securities Business Days\",\"source_text\":\"the rate per annum equal to the Term SOFR Screen Rate two U.S. Government Securities Business Days prior to the commencement of such Interest Period\",\"confidence\":0.95,\"block_index\":3},{\"name\":\"Term SOFR publication cut-off time\",\"raw_value\":\"11:00 a.m.\",\"source_text\":\"provided that if the rate is not published prior to 11:00 a.m. on such determination date\",\"confidence\":0.94,\"block_index\":3},{\"name\":\"Base Rate Loan Term SOFR term\",\"raw_value\":\"one month\",\"source_text\":\"equal to the Term SOFR Screen Rate with a term of one month commencing that day\",\"confidence\":0.93,\"block_index\":4},{\"name\":\"Term SOFR floor\",\"raw_value\":\"zero\",\"source_text\":\"would otherwise be less than zero, the Term SOFR shall be deemed to be zero for purposes of this Agreement\",\"confidence\":0.93,\"block_index\":5},{\"name\":\"Term SOFR Daily Floating Rate publication cut-off time\",\"raw_value\":\"11:00 A.M.\",\"source_text\":\"provided, that if the rate is not published prior to 11:00 A.M. on such determination date\",\"confidence\":0.94,\"block_index\":6},{\"name\":\"Term SOFR Daily Floating Rate term\",\"raw_value\":\"one month\",\"source_text\":\"with a term equivalent to one month beginning on that date\",\"confidence\":0.92,\"block_index\":6},{\"name\":\"Term SOFR Daily Floating Rate floor\",\"raw_value\":\"zero\",\"source_text\":\"if the Term SOFR Daily Floating Rate shall be less than zero, such rate shall be deemed zero\",\"confidence\":0.92,\"block_index\":6},{\"name\":\"Term SOFR Daily Floating Rate Loans currency\",\"raw_value\":\"Dollars\",\"source_text\":\"All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.\",\"confidence\":0.95,\"block_index\":7}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7854,
+     "output_tokens": 1839,
+     "cost_usd": 0.085245
+    },
+    "latency_s": 17.873192469996866,
+    "request_id": "req_011CfGW9Zg3pB7bq5C571V2G"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1675,
+    "y1": 3508,
+    "scale": 0.9083,
+    "effective_dpi": 272.5
+   },
+   "bands_on_page": 2,
+   "cache_key": "a29179a70530fd9c669d9dc3dc4bf2dedd5bdaaa3dddb28a629bc47faa552dc2",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Term SOFR Daily Floating Rate Loans\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Term SOFR Loan\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR. All Term SOFR Loans shall be denominated in Dollars.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Term SOFR Screen Rate\" means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent) and published on the applicable Reuters screen page (or such other commercially available source providing such quotations as may be designated by the Agent from time to time).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"Type\" means, with respect to a Committed Loan, its character as a Base Rate Loan, a Term SOFR Loan, a Term SOFR Daily Floating Rate Loan, an Alternative Currency Daily Rate Loan or an Alternative Currency Term Rate Loan.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"UCP\" means, with respect to any Letter of Credit, the Uniform Customs and Practice for Documentary Credits, International Chamber of Commerce (\"ICC\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance).",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "\"UK Financial Institution\" means any BRRD Undertaking (as such term is defined under the PRA Rulebook (as amended form time to time) promulgated by the United Kingdom Prudential Regulation Authority) or any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time) promulgated by the United Kingdom Financial Conduct Authority, which includes certain credit institutions and investment firms, and certain affiliates of such credit institutions or investment firms.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "28",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    42/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Threshold Amount",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Threshold Amount\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).",
+       "confidence": 0.98,
+       "block_index": 3
+      },
+      {
+       "name": "UCP Publication No.",
+       "raw_value": "Publication No. 600",
+       "source_text": "International Chamber of Commerce (\"ICC\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance)",
+       "confidence": 0.96,
+       "block_index": 5
+      },
+      {
+       "name": "FCA Handbook reference",
+       "raw_value": "IFPRU 11.6",
+       "source_text": "any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time)",
+       "confidence": 0.94,
+       "block_index": 6
+      },
+      {
+       "name": "Page number",
+       "raw_value": "28",
+       "source_text": "28",
+       "confidence": 0.9,
+       "block_index": 7
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "CME",
+       "role": "Administrator of Term SOFR Screen Rate",
+       "source_text": "means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent)"
+      },
+      {
+       "name": "Agent",
+       "role": "Agent",
+       "source_text": "successor administrator satisfactory to the Agent"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Term SOFR Daily Floating Rate Loans\\\" means a Loan that bears interest based on the Term SOFR Daily Floating Rate. All Term SOFR Daily Floating Rate Loans shall be denominated in Dollars.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Term SOFR Loan\\\" means a Loan that bears interest at a rate based on clause (a) of the definition of Term SOFR. All Term SOFR Loans shall be denominated in Dollars.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Term SOFR Screen Rate\\\" means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent) and published on the applicable Reuters screen page (or such other commercially available source providing such quotations as may be designated by the Agent from time to time).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"Type\\\" means, with respect to a Committed Loan, its character as a Base Rate Loan, a Term SOFR Loan, a Term SOFR Daily Floating Rate Loan, an Alternative Currency Daily Rate Loan or an Alternative Currency Term Rate Loan.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"UCP\\\" means, with respect to any Letter of Credit, the Uniform Customs and Practice for Documentary Credits, International Chamber of Commerce (\\\"ICC\\\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance).\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"\\\"UK Financial Institution\\\" means any BRRD Undertaking (as such term is defined under the PRA Rulebook (as amended form time to time) promulgated by the United Kingdom Prudential Regulation Authority) or any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time) promulgated by the United Kingdom Financial Conduct Authority, which includes certain credit institutions and investment firms, and certain affiliates of such credit institutions or investment firms.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"28\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    42/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Threshold Amount\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Threshold Amount\\\" means ONE HUNDRED MILLION DOLLARS ($100,000,000).\",\"confidence\":0.98,\"block_index\":3},{\"name\":\"UCP Publication No.\",\"raw_value\":\"Publication No. 600\",\"source_text\":\"International Chamber of Commerce (\\\"ICC\\\") Publication No. 600 (or such later version thereof as may be in effect at the time of issuance)\",\"confidence\":0.96,\"block_index\":5},{\"name\":\"FCA Handbook reference\",\"raw_value\":\"IFPRU 11.6\",\"source_text\":\"any person subject to IFPRU 11.6 of the FCA Handbook (as amended from time to time)\",\"confidence\":0.94,\"block_index\":6},{\"name\":\"Page number\",\"raw_value\":\"28\",\"source_text\":\"28\",\"confidence\":0.9,\"block_index\":7}],\"tables\":[],\"parties\":[{\"name\":\"CME\",\"role\":\"Administrator of Term SOFR Screen Rate\",\"source_text\":\"means the forward-looking SOFR term rate administered by CME (or any successor administrator satisfactory to the Agent)\"},{\"name\":\"Agent\",\"role\":\"Agent\",\"source_text\":\"successor administrator satisfactory to the Agent\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7795,
+     "output_tokens": 1554,
+     "cost_usd": 0.077825
+    },
+    "latency_s": 16.75519377800083,
+    "request_id": "req_011CfGWAxMqEsTLuLKxtXeEJ"
+   }
+  }
+ ]
+}

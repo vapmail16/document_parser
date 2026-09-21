@@ -1,0 +1,565 @@
+{
+ "page": 110,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "6a2be2f6d377b87bed2ccd348d1970678ec7422206db7f8e3ae7999190adf06b",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "3391291b385140ce4206aa49560cf9b00f291acf09453a700fd85997c702e2ad",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38\tDocument",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(i)",
+       "heading": null,
+       "text": "to the extent constituting Indebtedness, lease obligations incurred in connection with any PILOT-Related Capital Lease.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.08",
+       "heading": "Sanctions",
+       "text": "11.08\tSanctions.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "11.08",
+       "heading": "Sanctions",
+       "text": "Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension, or lend, contribute or otherwise make available such Credit Extension or the proceeds of any Credit Extension to any Person, to fund any activities of or business with any Person, or in any Designated Jurisdiction, that, at the time of such funding, is the subject of Sanctions, or in any other manner that will result in a violation by any Person (including any Person participating in the transaction, whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions. Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person if and to the extent that it would result in a breach, by or in respect of that Person, of any applicable Blocking Law.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.09",
+       "heading": "Anti-Corruption Laws",
+       "text": "11.09\tAnti-Corruption Laws.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "11.09",
+       "heading": "Anti-Corruption Laws",
+       "text": "Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension for any purpose which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "ARTICLE IX.",
+       "heading": "EVENTS OF DEFAULT AND REMEDIES",
+       "text": "ARTICLE IX.\n\nEVENTS OF DEFAULT AND REMEDIES",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.01",
+       "heading": "Events of Default",
+       "text": "11.01\tEvents of Default.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "11.01",
+       "heading": null,
+       "text": "Any of the following shall constitute an Event of Default:",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Anti-Corruption Laws referenced",
+       "raw_value": "United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010",
+       "source_text": "which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation",
+       "confidence": 0.95,
+       "block_index": 5
+      },
+      {
+       "name": "Sanctions carve-out cross-references",
+       "raw_value": "Section 8.08 or Section 6.20",
+       "source_text": "Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person",
+       "confidence": 0.93,
+       "block_index": 3
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)"
+      },
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions"
+      },
+      {
+       "name": "Swing Line Lender",
+       "role": "Swing Line Lender",
+       "source_text": "Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions"
+      },
+      {
+       "name": "Company",
+       "role": "Company",
+       "source_text": "other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries."
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38\\tDocument\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(i)\",\"heading\":null,\"text\":\"to the extent constituting Indebtedness, lease obligations incurred in connection with any PILOT-Related Capital Lease.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.08\",\"heading\":\"Sanctions\",\"text\":\"11.08\\tSanctions.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"11.08\",\"heading\":\"Sanctions\",\"text\":\"Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension, or lend, contribute or otherwise make available such Credit Extension or the proceeds of any Credit Extension to any Person, to fund any activities of or business with any Person, or in any Designated Jurisdiction, that, at the time of such funding, is the subject of Sanctions, or in any other manner that will result in a violation by any Person (including any Person participating in the transaction, whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions. Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person if and to the extent that it would result in a breach, by or in respect of that Person, of any applicable Blocking Law.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.09\",\"heading\":\"Anti-Corruption Laws\",\"text\":\"11.09\\tAnti-Corruption Laws.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"11.09\",\"heading\":\"Anti-Corruption Laws\",\"text\":\"Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension for any purpose which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"ARTICLE IX.\",\"heading\":\"EVENTS OF DEFAULT AND REMEDIES\",\"text\":\"ARTICLE IX.\\n\\nEVENTS OF DEFAULT AND REMEDIES\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.01\",\"heading\":\"Events of Default\",\"text\":\"11.01\\tEvents of Default.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"11.01\",\"heading\":null,\"text\":\"Any of the following shall constitute an Event of Default:\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Anti-Corruption Laws referenced\",\"raw_value\":\"United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010\",\"source_text\":\"which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation\",\"confidence\":0.95,\"block_index\":5},{\"name\":\"Sanctions carve-out cross-references\",\"raw_value\":\"Section 8.08 or Section 6.20\",\"source_text\":\"Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person\",\"confidence\":0.93,\"block_index\":3}],\"tables\":[],\"parties\":[{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)\"},{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions\"},{\"name\":\"Swing Line Lender\",\"role\":\"Swing Line Lender\",\"source_text\":\"Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions\"},{\"name\":\"Company\",\"role\":\"Company\",\"source_text\":\"other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries.\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1584,
+     "cost_usd": 0.078365
+    },
+    "latency_s": 15.55772221799998,
+    "request_id": "req_011CfGQWdz9Ejgw7PGY8pFhw"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "e662e1621d5511108babc280f961dc3cb234232bdf33398dab2c2e98624e9ab8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "Any of the following shall constitute an Event of Default:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": "Non-Payment",
+       "text": "(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation, or (ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder, or (iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document; or",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(b)",
+       "heading": "Specific Covenants",
+       "text": "(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(c)",
+       "heading": "Other Defaults",
+       "text": "(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document on its part to be performed or observed and such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent or any Responsible Officer of a Borrower having actual knowledge of such failure; or",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(d)",
+       "heading": "Representations and Warranties",
+       "text": "(d) Representations and Warranties. Any representation, warranty, certification or statement of fact made or deemed made by or on behalf of the Company or any other Borrower herein, in any other Loan Document, or in any document delivered in connection herewith or therewith shall be incorrect or misleading in any material respect when made or deemed made; or",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "95",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 110/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Non-Payment grace period (interest and fees)",
+       "raw_value": "within five Business Days after the same becomes due",
+       "source_text": "(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Non-Payment grace period (other amounts)",
+       "raw_value": "within five Business Days after the same becomes due",
+       "source_text": "(iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Specific Covenants sections",
+       "raw_value": "Section 7.03, 7.05 or 7.11 or Article VIII",
+       "source_text": "agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Other Defaults cure period",
+       "raw_value": "thirty days",
+       "source_text": "such failure continues for thirty days after the earlier to occur of notice thereof",
+       "confidence": 0.95,
+       "block_index": 3
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "notice thereof from the Administrative Agent or any Responsible Officer of a Borrower"
+      },
+      {
+       "name": "the Company",
+       "role": "Borrower",
+       "source_text": "made or deemed made by or on behalf of the Company or any other Borrower herein"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"Any of the following shall constitute an Event of Default:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":\"Non-Payment\",\"text\":\"(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation, or (ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder, or (iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document; or\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(b)\",\"heading\":\"Specific Covenants\",\"text\":\"(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(c)\",\"heading\":\"Other Defaults\",\"text\":\"(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document on its part to be performed or observed and such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent or any Responsible Officer of a Borrower having actual knowledge of such failure; or\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(d)\",\"heading\":\"Representations and Warranties\",\"text\":\"(d) Representations and Warranties. Any representation, warranty, certification or statement of fact made or deemed made by or on behalf of the Company or any other Borrower herein, in any other Loan Document, or in any document delivered in connection herewith or therewith shall be incorrect or misleading in any material respect when made or deemed made; or\",\"continues_from_previous\":false,\"continues_on_next\":true},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"95\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 110/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Non-Payment grace period (interest and fees)\",\"raw_value\":\"within five Business Days after the same becomes due\",\"source_text\":\"(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Non-Payment grace period (other amounts)\",\"raw_value\":\"within five Business Days after the same becomes due\",\"source_text\":\"(iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Specific Covenants sections\",\"raw_value\":\"Section 7.03, 7.05 or 7.11 or Article VIII\",\"source_text\":\"agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Other Defaults cure period\",\"raw_value\":\"thirty days\",\"source_text\":\"such failure continues for thirty days after the earlier to occur of notice thereof\",\"confidence\":0.95,\"block_index\":3}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"notice thereof from the Administrative Agent or any Responsible Officer of a Borrower\"},{\"name\":\"the Company\",\"role\":\"Borrower\",\"source_text\":\"made or deemed made by or on behalf of the Company or any other Borrower herein\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1389,
+     "cost_usd": 0.07349
+    },
+    "latency_s": 14.432234617997892,
+    "request_id": "req_011CfGQXoYts7RPYYRU3TTWN"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "3391291b385140ce4206aa49560cf9b00f291acf09453a700fd85997c702e2ad",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38\tDocument",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(i)",
+       "heading": null,
+       "text": "to the extent constituting Indebtedness, lease obligations incurred in connection with any PILOT-Related Capital Lease.",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.08",
+       "heading": "Sanctions",
+       "text": "11.08\tSanctions.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "11.08",
+       "heading": "Sanctions",
+       "text": "Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension, or lend, contribute or otherwise make available such Credit Extension or the proceeds of any Credit Extension to any Person, to fund any activities of or business with any Person, or in any Designated Jurisdiction, that, at the time of such funding, is the subject of Sanctions, or in any other manner that will result in a violation by any Person (including any Person participating in the transaction, whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions. Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person if and to the extent that it would result in a breach, by or in respect of that Person, of any applicable Blocking Law.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.09",
+       "heading": "Anti-Corruption Laws",
+       "text": "11.09\tAnti-Corruption Laws.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "11.09",
+       "heading": "Anti-Corruption Laws",
+       "text": "Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension for any purpose which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "ARTICLE IX.",
+       "heading": "EVENTS OF DEFAULT AND REMEDIES",
+       "text": "ARTICLE IX.\n\nEVENTS OF DEFAULT AND REMEDIES",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": "11.01",
+       "heading": "Events of Default",
+       "text": "11.01\tEvents of Default.",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "11.01",
+       "heading": null,
+       "text": "Any of the following shall constitute an Event of Default:",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Anti-Corruption Laws referenced",
+       "raw_value": "United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010",
+       "source_text": "which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation",
+       "confidence": 0.95,
+       "block_index": 5
+      },
+      {
+       "name": "Sanctions carve-out cross-references",
+       "raw_value": "Section 8.08 or Section 6.20",
+       "source_text": "Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person",
+       "confidence": 0.93,
+       "block_index": 3
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Lender",
+       "role": "Lender",
+       "source_text": "whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)"
+      },
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)"
+      },
+      {
+       "name": "L/C Issuer",
+       "role": "L/C Issuer",
+       "source_text": "Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions"
+      },
+      {
+       "name": "Swing Line Lender",
+       "role": "Swing Line Lender",
+       "source_text": "Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions"
+      },
+      {
+       "name": "Company",
+       "role": "Company",
+       "source_text": "other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries."
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"21/09/2026, 10:38\\tDocument\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(i)\",\"heading\":null,\"text\":\"to the extent constituting Indebtedness, lease obligations incurred in connection with any PILOT-Related Capital Lease.\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.08\",\"heading\":\"Sanctions\",\"text\":\"11.08\\tSanctions.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"11.08\",\"heading\":\"Sanctions\",\"text\":\"Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension, or lend, contribute or otherwise make available such Credit Extension or the proceeds of any Credit Extension to any Person, to fund any activities of or business with any Person, or in any Designated Jurisdiction, that, at the time of such funding, is the subject of Sanctions, or in any other manner that will result in a violation by any Person (including any Person participating in the transaction, whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions. Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person if and to the extent that it would result in a breach, by or in respect of that Person, of any applicable Blocking Law.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.09\",\"heading\":\"Anti-Corruption Laws\",\"text\":\"11.09\\tAnti-Corruption Laws.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"11.09\",\"heading\":\"Anti-Corruption Laws\",\"text\":\"Directly, or knowingly indirectly, use any Credit Extension or the proceeds of any Credit Extension for any purpose which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"ARTICLE IX.\",\"heading\":\"EVENTS OF DEFAULT AND REMEDIES\",\"text\":\"ARTICLE IX.\\n\\nEVENTS OF DEFAULT AND REMEDIES\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"number\":\"11.01\",\"heading\":\"Events of Default\",\"text\":\"11.01\\tEvents of Default.\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"11.01\",\"heading\":null,\"text\":\"Any of the following shall constitute an Event of Default:\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Anti-Corruption Laws referenced\",\"raw_value\":\"United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010\",\"source_text\":\"which would breach the United States Foreign Corrupt Practices Act of 1977, the UK Bribery Act 2010 or other similar legislation\",\"confidence\":0.95,\"block_index\":5},{\"name\":\"Sanctions carve-out cross-references\",\"raw_value\":\"Section 8.08 or Section 6.20\",\"source_text\":\"Any provision of this Section 8.08 or Section 6.20 shall not apply to any Person\",\"confidence\":0.93,\"block_index\":3}],\"tables\":[],\"parties\":[{\"name\":\"Lender\",\"role\":\"Lender\",\"source_text\":\"whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)\"},{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"whether as Lender, lead arranger, Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise)\"},{\"name\":\"L/C Issuer\",\"role\":\"L/C Issuer\",\"source_text\":\"Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions\"},{\"name\":\"Swing Line Lender\",\"role\":\"Swing Line Lender\",\"source_text\":\"Administrative Agent, L/C Issuer, Swing Line Lender, or otherwise) of Sanctions\"},{\"name\":\"Company\",\"role\":\"Company\",\"source_text\":\"other similar legislation in other jurisdictions that are applicable to the Company or its Subsidiaries.\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1584,
+     "cost_usd": 0.078365
+    },
+    "latency_s": 15.55772221799998,
+    "request_id": "req_011CfGQWdz9Ejgw7PGY8pFhw"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "e662e1621d5511108babc280f961dc3cb234232bdf33398dab2c2e98624e9ab8",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "clause",
+       "number": null,
+       "heading": null,
+       "text": "Any of the following shall constitute an Event of Default:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(a)",
+       "heading": "Non-Payment",
+       "text": "(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation, or (ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder, or (iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document; or",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(b)",
+       "heading": "Specific Covenants",
+       "text": "(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(c)",
+       "heading": "Other Defaults",
+       "text": "(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document on its part to be performed or observed and such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent or any Responsible Officer of a Borrower having actual knowledge of such failure; or",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "clause",
+       "number": "(d)",
+       "heading": "Representations and Warranties",
+       "text": "(d) Representations and Warranties. Any representation, warranty, certification or statement of fact made or deemed made by or on behalf of the Company or any other Borrower herein, in any other Loan Document, or in any document delivered in connection herewith or therewith shall be incorrect or misleading in any material respect when made or deemed made; or",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "95",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 110/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [
+      {
+       "name": "Non-Payment grace period (interest and fees)",
+       "raw_value": "within five Business Days after the same becomes due",
+       "source_text": "(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Non-Payment grace period (other amounts)",
+       "raw_value": "within five Business Days after the same becomes due",
+       "source_text": "(iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document",
+       "confidence": 0.95,
+       "block_index": 1
+      },
+      {
+       "name": "Specific Covenants sections",
+       "raw_value": "Section 7.03, 7.05 or 7.11 or Article VIII",
+       "source_text": "agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or",
+       "confidence": 0.95,
+       "block_index": 2
+      },
+      {
+       "name": "Other Defaults cure period",
+       "raw_value": "thirty days",
+       "source_text": "such failure continues for thirty days after the earlier to occur of notice thereof",
+       "confidence": 0.95,
+       "block_index": 3
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Administrative Agent",
+       "role": "Administrative Agent",
+       "source_text": "notice thereof from the Administrative Agent or any Responsible Officer of a Borrower"
+      },
+      {
+       "name": "the Company",
+       "role": "Borrower",
+       "source_text": "made or deemed made by or on behalf of the Company or any other Borrower herein"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"clause\",\"number\":null,\"heading\":null,\"text\":\"Any of the following shall constitute an Event of Default:\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(a)\",\"heading\":\"Non-Payment\",\"text\":\"(a) Non-Payment. Any Borrower fails to pay (i) when and as required to be paid herein, in the currency required hereunder, any amount of principal of any Loan or any L/C Obligation, or (ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder, or (iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document; or\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(b)\",\"heading\":\"Specific Covenants\",\"text\":\"(b) Specific Covenants. Any Borrower fails to perform or observe any term, covenant or agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(c)\",\"heading\":\"Other Defaults\",\"text\":\"(c) Other Defaults. Any Borrower fails to perform or observe any other covenant or agreement (not specified in subsection (a) or (b) above) contained in any Loan Document on its part to be performed or observed and such failure continues for thirty days after the earlier to occur of notice thereof from the Administrative Agent or any Responsible Officer of a Borrower having actual knowledge of such failure; or\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"clause\",\"number\":\"(d)\",\"heading\":\"Representations and Warranties\",\"text\":\"(d) Representations and Warranties. Any representation, warranty, certification or statement of fact made or deemed made by or on behalf of the Company or any other Borrower herein, in any other Loan Document, or in any document delivered in connection herewith or therewith shall be incorrect or misleading in any material respect when made or deemed made; or\",\"continues_from_previous\":false,\"continues_on_next\":true},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"95\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"number\":null,\"heading\":null,\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm 110/211\",\"continues_from_previous\":false,\"continues_on_next\":false}],\"fields\":[{\"name\":\"Non-Payment grace period (interest and fees)\",\"raw_value\":\"within five Business Days after the same becomes due\",\"source_text\":\"(ii) within five Business Days after the same becomes due, any interest on any Loan or on any L/C Obligation, or any facility fee or other fee due hereunder\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Non-Payment grace period (other amounts)\",\"raw_value\":\"within five Business Days after the same becomes due\",\"source_text\":\"(iii) within five Business Days after the same becomes due, any other amount payable hereunder or under any other Loan Document\",\"confidence\":0.95,\"block_index\":1},{\"name\":\"Specific Covenants sections\",\"raw_value\":\"Section 7.03, 7.05 or 7.11 or Article VIII\",\"source_text\":\"agreement contained in any of Section 7.03, 7.05 or 7.11 or Article VIII; or\",\"confidence\":0.95,\"block_index\":2},{\"name\":\"Other Defaults cure period\",\"raw_value\":\"thirty days\",\"source_text\":\"such failure continues for thirty days after the earlier to occur of notice thereof\",\"confidence\":0.95,\"block_index\":3}],\"tables\":[],\"parties\":[{\"name\":\"Administrative Agent\",\"role\":\"Administrative Agent\",\"source_text\":\"notice thereof from the Administrative Agent or any Responsible Officer of a Borrower\"},{\"name\":\"the Company\",\"role\":\"Borrower\",\"source_text\":\"made or deemed made by or on behalf of the Company or any other Borrower herein\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1389,
+     "cost_usd": 0.07349
+    },
+    "latency_s": 14.432234617997892,
+    "request_id": "req_011CfGQXoYts7RPYYRU3TTWN"
+   }
+  }
+ ]
+}

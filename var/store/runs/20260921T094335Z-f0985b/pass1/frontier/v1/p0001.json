@@ -1,0 +1,675 @@
+{
+ "page": 1,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "6a2be2f6d377b87bed2ccd348d1970678ec7422206db7f8e3ae7999190adf06b",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "bc50d4b41c2a66f1bc61e08ea4ad8f1c54991f7e2238a76074e539b020e3c81b",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "EX-10.1 2 exhibit1010930202210q.htm EX-10.1",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Exhibit 10.1",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Execution Version",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Published CUSIP: 01265LAR2",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": null,
+       "heading": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "text": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Dated as of October 28, 2022",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "among",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "ALBEMARLE CORPORATION,\n(the \"Company\"),",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "THE LENDERS PARTY HERETO,",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "BANK OF AMERICA, N.A.,\nas Administrative Agent and Swing Line Lender,",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Agreement Date",
+       "raw_value": "October 28, 2022",
+       "source_text": "Dated as of October 28, 2022",
+       "confidence": 0.98,
+       "block_index": 7
+      },
+      {
+       "name": "Published CUSIP",
+       "raw_value": "01265LAR2",
+       "source_text": "Published CUSIP: 01265LAR2",
+       "confidence": 0.95,
+       "block_index": 5
+      },
+      {
+       "name": "Exhibit Number",
+       "raw_value": "Exhibit 10.1",
+       "source_text": "EX-10.1 2 exhibit1010930202210q.htm EX-10.1",
+       "confidence": 0.95,
+       "block_index": 3
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Albemarle Corporation",
+       "role": "Company",
+       "source_text": "ALBEMARLE CORPORATION,\n(the \"Company\"),"
+      },
+      {
+       "name": "Certain other subsidiaries of the Company",
+       "role": "Borrower/Subsidiary party",
+       "source_text": "CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,"
+      },
+      {
+       "name": "The Lenders party hereto",
+       "role": "Lenders",
+       "source_text": "THE LENDERS PARTY HERETO,"
+      },
+      {
+       "name": "Bank of America, N.A.",
+       "role": "Administrative Agent and Swing Line Lender",
+       "source_text": "BANK OF AMERICA, N.A.,\nas Administrative Agent and Swing Line Lender,"
+      },
+      {
+       "name": "JPMorgan Chase Bank, N.A.",
+       "role": "Syndication Agent",
+       "source_text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"EX-10.1 2 exhibit1010930202210q.htm EX-10.1\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Exhibit 10.1\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Execution Version\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Published CUSIP: 01265LAR2\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"heading\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"text\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Dated as of October 28, 2022\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"among\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"ALBEMARLE CORPORATION,\\n(the \\\"Company\\\"),\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"THE LENDERS PARTY HERETO,\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"BANK OF AMERICA, N.A.,\\nas Administrative Agent and Swing Line Lender,\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Agreement Date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"Dated as of October 28, 2022\",\"confidence\":0.98,\"block_index\":7},{\"name\":\"Published CUSIP\",\"raw_value\":\"01265LAR2\",\"source_text\":\"Published CUSIP: 01265LAR2\",\"confidence\":0.95,\"block_index\":5},{\"name\":\"Exhibit Number\",\"raw_value\":\"Exhibit 10.1\",\"source_text\":\"EX-10.1 2 exhibit1010930202210q.htm EX-10.1\",\"confidence\":0.95,\"block_index\":3}],\"tables\":[],\"parties\":[{\"name\":\"Albemarle Corporation\",\"role\":\"Company\",\"source_text\":\"ALBEMARLE CORPORATION,\\n(the \\\"Company\\\"),\"},{\"name\":\"Certain other subsidiaries of the Company\",\"role\":\"Borrower/Subsidiary party\",\"source_text\":\"CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,\"},{\"name\":\"The Lenders party hereto\",\"role\":\"Lenders\",\"source_text\":\"THE LENDERS PARTY HERETO,\"},{\"name\":\"Bank of America, N.A.\",\"role\":\"Administrative Agent and Swing Line Lender\",\"source_text\":\"BANK OF AMERICA, N.A.,\\nas Administrative Agent and Swing Line Lender,\"},{\"name\":\"JPMorgan Chase Bank, N.A.\",\"role\":\"Syndication Agent\",\"source_text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1274,
+     "cost_usd": 0.070615
+    },
+    "latency_s": 15.349374690995319,
+    "request_id": "req_011CfGQd1QRJL9vXtfdaztHo"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "45a50f7f1b71b0f907e9e6ff824f5beac14c45cfcc5fe42fb7e9475daf25ca95",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "GOLDMAN SACHS BANK USA,\nMUFG BANK, LTD.,\nBANCO SANTANDER, S.A., NEW YORK BRANCH,\nSUMITOMO MITSUI BANKING CORPORATION,\nTRUIST BANK\nand\nU.S. BANK NATIONAL ASSOCIATION,\nas Co-Documentation Agents",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Arranged By:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "BOFA SECURITIES, INC.,\nJPMORGAN CHASE BANK, N.A.,\nHSBC SECURITIES (USA) INC.\nand\nMIZUHO BANK, LTD.,\nas Joint Lead Arrangers and Joint Bookrunners",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "RECEIVED",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    1/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [],
+     "tables": [],
+     "parties": [
+      {
+       "name": "JPMORGAN CHASE BANK, N.A.",
+       "role": "Syndication Agent",
+       "source_text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent"
+      },
+      {
+       "name": "GOLDMAN SACHS BANK USA",
+       "role": "Co-Documentation Agent",
+       "source_text": "GOLDMAN SACHS BANK USA,\nMUFG BANK, LTD.,"
+      },
+      {
+       "name": "MUFG BANK, LTD.",
+       "role": "Co-Documentation Agent",
+       "source_text": "MUFG BANK, LTD.,"
+      },
+      {
+       "name": "BANCO SANTANDER, S.A., NEW YORK BRANCH",
+       "role": "Co-Documentation Agent",
+       "source_text": "BANCO SANTANDER, S.A., NEW YORK BRANCH,"
+      },
+      {
+       "name": "SUMITOMO MITSUI BANKING CORPORATION",
+       "role": "Co-Documentation Agent",
+       "source_text": "SUMITOMO MITSUI BANKING CORPORATION,"
+      },
+      {
+       "name": "TRUIST BANK",
+       "role": "Co-Documentation Agent",
+       "source_text": "TRUIST BANK\nand"
+      },
+      {
+       "name": "U.S. BANK NATIONAL ASSOCIATION",
+       "role": "Co-Documentation Agent",
+       "source_text": "U.S. BANK NATIONAL ASSOCIATION,\nas Co-Documentation Agents"
+      },
+      {
+       "name": "BOFA SECURITIES, INC.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "BOFA SECURITIES, INC.,"
+      },
+      {
+       "name": "JPMORGAN CHASE BANK, N.A.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "JPMORGAN CHASE BANK, N.A.,\nHSBC SECURITIES (USA) INC."
+      },
+      {
+       "name": "HSBC SECURITIES (USA) INC.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "HSBC SECURITIES (USA) INC.\nand"
+      },
+      {
+       "name": "MIZUHO BANK, LTD.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "MIZUHO BANK, LTD.,\nas Joint Lead Arrangers and Joint Bookrunners"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"GOLDMAN SACHS BANK USA,\\nMUFG BANK, LTD.,\\nBANCO SANTANDER, S.A., NEW YORK BRANCH,\\nSUMITOMO MITSUI BANKING CORPORATION,\\nTRUIST BANK\\nand\\nU.S. BANK NATIONAL ASSOCIATION,\\nas Co-Documentation Agents\"},{\"kind\":\"other\",\"text\":\"Arranged By:\"},{\"kind\":\"other\",\"text\":\"BOFA SECURITIES, INC.,\\nJPMORGAN CHASE BANK, N.A.,\\nHSBC SECURITIES (USA) INC.\\nand\\nMIZUHO BANK, LTD.,\\nas Joint Lead Arrangers and Joint Bookrunners\"},{\"kind\":\"other\",\"text\":\"RECEIVED\"},{\"kind\":\"other\",\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    1/211\"}],\"fields\":[],\"tables\":[],\"parties\":[{\"name\":\"JPMORGAN CHASE BANK, N.A.\",\"role\":\"Syndication Agent\",\"source_text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\"},{\"name\":\"GOLDMAN SACHS BANK USA\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"GOLDMAN SACHS BANK USA,\\nMUFG BANK, LTD.,\"},{\"name\":\"MUFG BANK, LTD.\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"MUFG BANK, LTD.,\"},{\"name\":\"BANCO SANTANDER, S.A., NEW YORK BRANCH\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"BANCO SANTANDER, S.A., NEW YORK BRANCH,\"},{\"name\":\"SUMITOMO MITSUI BANKING CORPORATION\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"SUMITOMO MITSUI BANKING CORPORATION,\"},{\"name\":\"TRUIST BANK\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"TRUIST BANK\\nand\"},{\"name\":\"U.S. BANK NATIONAL ASSOCIATION\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"U.S. BANK NATIONAL ASSOCIATION,\\nas Co-Documentation Agents\"},{\"name\":\"BOFA SECURITIES, INC.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"BOFA SECURITIES, INC.,\"},{\"name\":\"JPMORGAN CHASE BANK, N.A.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"JPMORGAN CHASE BANK, N.A.,\\nHSBC SECURITIES (USA) INC.\"},{\"name\":\"HSBC SECURITIES (USA) INC.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"HSBC SECURITIES (USA) INC.\\nand\"},{\"name\":\"MIZUHO BANK, LTD.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"MIZUHO BANK, LTD.,\\nas Joint Lead Arrangers and Joint Bookrunners\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1256,
+     "cost_usd": 0.070165
+    },
+    "latency_s": 12.940470634996018,
+    "request_id": "req_011CfGQe9oiiyX3KrycjH9Db"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "bc50d4b41c2a66f1bc61e08ea4ad8f1c54991f7e2238a76074e539b020e3c81b",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "21/09/2026, 10:38",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Document",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "EX-10.1 2 exhibit1010930202210q.htm EX-10.1",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Exhibit 10.1",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Execution Version",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Published CUSIP: 01265LAR2",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "heading",
+       "number": null,
+       "heading": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "text": "AMENDED AND RESTATED CREDIT AGREEMENT",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Dated as of October 28, 2022",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "among",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "ALBEMARLE CORPORATION,\n(the \"Company\"),",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "THE LENDERS PARTY HERETO,",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "BANK OF AMERICA, N.A.,\nas Administrative Agent and Swing Line Lender,",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent",
+       "continues_from_previous": false,
+       "continues_on_next": true
+      }
+     ],
+     "fields": [
+      {
+       "name": "Agreement Date",
+       "raw_value": "October 28, 2022",
+       "source_text": "Dated as of October 28, 2022",
+       "confidence": 0.98,
+       "block_index": 7
+      },
+      {
+       "name": "Published CUSIP",
+       "raw_value": "01265LAR2",
+       "source_text": "Published CUSIP: 01265LAR2",
+       "confidence": 0.95,
+       "block_index": 5
+      },
+      {
+       "name": "Exhibit Number",
+       "raw_value": "Exhibit 10.1",
+       "source_text": "EX-10.1 2 exhibit1010930202210q.htm EX-10.1",
+       "confidence": 0.95,
+       "block_index": 3
+      }
+     ],
+     "tables": [],
+     "parties": [
+      {
+       "name": "Albemarle Corporation",
+       "role": "Company",
+       "source_text": "ALBEMARLE CORPORATION,\n(the \"Company\"),"
+      },
+      {
+       "name": "Certain other subsidiaries of the Company",
+       "role": "Borrower/Subsidiary party",
+       "source_text": "CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,"
+      },
+      {
+       "name": "The Lenders party hereto",
+       "role": "Lenders",
+       "source_text": "THE LENDERS PARTY HERETO,"
+      },
+      {
+       "name": "Bank of America, N.A.",
+       "role": "Administrative Agent and Swing Line Lender",
+       "source_text": "BANK OF AMERICA, N.A.,\nas Administrative Agent and Swing Line Lender,"
+      },
+      {
+       "name": "JPMorgan Chase Bank, N.A.",
+       "role": "Syndication Agent",
+       "source_text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"21/09/2026, 10:38\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Document\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"EX-10.1 2 exhibit1010930202210q.htm EX-10.1\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Exhibit 10.1\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Execution Version\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Published CUSIP: 01265LAR2\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"heading\",\"heading\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"text\":\"AMENDED AND RESTATED CREDIT AGREEMENT\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"Dated as of October 28, 2022\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"among\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"ALBEMARLE CORPORATION,\\n(the \\\"Company\\\"),\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"THE LENDERS PARTY HERETO,\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"BANK OF AMERICA, N.A.,\\nas Administrative Agent and Swing Line Lender,\",\"continues_from_previous\":false,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\",\"continues_from_previous\":false,\"continues_on_next\":true}],\"fields\":[{\"name\":\"Agreement Date\",\"raw_value\":\"October 28, 2022\",\"source_text\":\"Dated as of October 28, 2022\",\"confidence\":0.98,\"block_index\":7},{\"name\":\"Published CUSIP\",\"raw_value\":\"01265LAR2\",\"source_text\":\"Published CUSIP: 01265LAR2\",\"confidence\":0.95,\"block_index\":5},{\"name\":\"Exhibit Number\",\"raw_value\":\"Exhibit 10.1\",\"source_text\":\"EX-10.1 2 exhibit1010930202210q.htm EX-10.1\",\"confidence\":0.95,\"block_index\":3}],\"tables\":[],\"parties\":[{\"name\":\"Albemarle Corporation\",\"role\":\"Company\",\"source_text\":\"ALBEMARLE CORPORATION,\\n(the \\\"Company\\\"),\"},{\"name\":\"Certain other subsidiaries of the Company\",\"role\":\"Borrower/Subsidiary party\",\"source_text\":\"CERTAIN OTHER SUBSIDIARIES OF THE COMPANY,\"},{\"name\":\"The Lenders party hereto\",\"role\":\"Lenders\",\"source_text\":\"THE LENDERS PARTY HERETO,\"},{\"name\":\"Bank of America, N.A.\",\"role\":\"Administrative Agent and Swing Line Lender\",\"source_text\":\"BANK OF AMERICA, N.A.,\\nas Administrative Agent and Swing Line Lender,\"},{\"name\":\"JPMorgan Chase Bank, N.A.\",\"role\":\"Syndication Agent\",\"source_text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1274,
+     "cost_usd": 0.070615
+    },
+    "latency_s": 15.349374690995319,
+    "request_id": "req_011CfGQd1QRJL9vXtfdaztHo"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "45a50f7f1b71b0f907e9e6ff824f5beac14c45cfcc5fe42fb7e9475daf25ca95",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent",
+       "continues_from_previous": true,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "GOLDMAN SACHS BANK USA,\nMUFG BANK, LTD.,\nBANCO SANTANDER, S.A., NEW YORK BRANCH,\nSUMITOMO MITSUI BANKING CORPORATION,\nTRUIST BANK\nand\nU.S. BANK NATIONAL ASSOCIATION,\nas Co-Documentation Agents",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "Arranged By:",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "BOFA SECURITIES, INC.,\nJPMORGAN CHASE BANK, N.A.,\nHSBC SECURITIES (USA) INC.\nand\nMIZUHO BANK, LTD.,\nas Joint Lead Arrangers and Joint Bookrunners",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "RECEIVED",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      },
+      {
+       "kind": "other",
+       "number": null,
+       "heading": null,
+       "text": "https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    1/211",
+       "continues_from_previous": false,
+       "continues_on_next": false
+      }
+     ],
+     "fields": [],
+     "tables": [],
+     "parties": [
+      {
+       "name": "JPMORGAN CHASE BANK, N.A.",
+       "role": "Syndication Agent",
+       "source_text": "JPMORGAN CHASE BANK, N.A.,\nas Syndication Agent"
+      },
+      {
+       "name": "GOLDMAN SACHS BANK USA",
+       "role": "Co-Documentation Agent",
+       "source_text": "GOLDMAN SACHS BANK USA,\nMUFG BANK, LTD.,"
+      },
+      {
+       "name": "MUFG BANK, LTD.",
+       "role": "Co-Documentation Agent",
+       "source_text": "MUFG BANK, LTD.,"
+      },
+      {
+       "name": "BANCO SANTANDER, S.A., NEW YORK BRANCH",
+       "role": "Co-Documentation Agent",
+       "source_text": "BANCO SANTANDER, S.A., NEW YORK BRANCH,"
+      },
+      {
+       "name": "SUMITOMO MITSUI BANKING CORPORATION",
+       "role": "Co-Documentation Agent",
+       "source_text": "SUMITOMO MITSUI BANKING CORPORATION,"
+      },
+      {
+       "name": "TRUIST BANK",
+       "role": "Co-Documentation Agent",
+       "source_text": "TRUIST BANK\nand"
+      },
+      {
+       "name": "U.S. BANK NATIONAL ASSOCIATION",
+       "role": "Co-Documentation Agent",
+       "source_text": "U.S. BANK NATIONAL ASSOCIATION,\nas Co-Documentation Agents"
+      },
+      {
+       "name": "BOFA SECURITIES, INC.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "BOFA SECURITIES, INC.,"
+      },
+      {
+       "name": "JPMORGAN CHASE BANK, N.A.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "JPMORGAN CHASE BANK, N.A.,\nHSBC SECURITIES (USA) INC."
+      },
+      {
+       "name": "HSBC SECURITIES (USA) INC.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "HSBC SECURITIES (USA) INC.\nand"
+      },
+      {
+       "name": "MIZUHO BANK, LTD.",
+       "role": "Joint Lead Arranger and Joint Bookrunner",
+       "source_text": "MIZUHO BANK, LTD.,\nas Joint Lead Arrangers and Joint Bookrunners"
+      }
+     ]
+    },
+    "raw_text": "{\"blocks\":[{\"kind\":\"other\",\"text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\",\"continues_from_previous\":true,\"continues_on_next\":false},{\"kind\":\"other\",\"text\":\"GOLDMAN SACHS BANK USA,\\nMUFG BANK, LTD.,\\nBANCO SANTANDER, S.A., NEW YORK BRANCH,\\nSUMITOMO MITSUI BANKING CORPORATION,\\nTRUIST BANK\\nand\\nU.S. BANK NATIONAL ASSOCIATION,\\nas Co-Documentation Agents\"},{\"kind\":\"other\",\"text\":\"Arranged By:\"},{\"kind\":\"other\",\"text\":\"BOFA SECURITIES, INC.,\\nJPMORGAN CHASE BANK, N.A.,\\nHSBC SECURITIES (USA) INC.\\nand\\nMIZUHO BANK, LTD.,\\nas Joint Lead Arrangers and Joint Bookrunners\"},{\"kind\":\"other\",\"text\":\"RECEIVED\"},{\"kind\":\"other\",\"text\":\"https://www.sec.gov/Archives/edgar/data/915913/000091591322000167/exhibit1010930202210q.htm    1/211\"}],\"fields\":[],\"tables\":[],\"parties\":[{\"name\":\"JPMORGAN CHASE BANK, N.A.\",\"role\":\"Syndication Agent\",\"source_text\":\"JPMORGAN CHASE BANK, N.A.,\\nas Syndication Agent\"},{\"name\":\"GOLDMAN SACHS BANK USA\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"GOLDMAN SACHS BANK USA,\\nMUFG BANK, LTD.,\"},{\"name\":\"MUFG BANK, LTD.\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"MUFG BANK, LTD.,\"},{\"name\":\"BANCO SANTANDER, S.A., NEW YORK BRANCH\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"BANCO SANTANDER, S.A., NEW YORK BRANCH,\"},{\"name\":\"SUMITOMO MITSUI BANKING CORPORATION\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"SUMITOMO MITSUI BANKING CORPORATION,\"},{\"name\":\"TRUIST BANK\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"TRUIST BANK\\nand\"},{\"name\":\"U.S. BANK NATIONAL ASSOCIATION\",\"role\":\"Co-Documentation Agent\",\"source_text\":\"U.S. BANK NATIONAL ASSOCIATION,\\nas Co-Documentation Agents\"},{\"name\":\"BOFA SECURITIES, INC.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"BOFA SECURITIES, INC.,\"},{\"name\":\"JPMORGAN CHASE BANK, N.A.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"JPMORGAN CHASE BANK, N.A.,\\nHSBC SECURITIES (USA) INC.\"},{\"name\":\"HSBC SECURITIES (USA) INC.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"HSBC SECURITIES (USA) INC.\\nand\"},{\"name\":\"MIZUHO BANK, LTD.\",\"role\":\"Joint Lead Arranger and Joint Bookrunner\",\"source_text\":\"MIZUHO BANK, LTD.,\\nas Joint Lead Arrangers and Joint Bookrunners\"}]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 7753,
+     "output_tokens": 1256,
+     "cost_usd": 0.070165
+    },
+    "latency_s": 12.940470634996018,
+    "request_id": "req_011CfGQe9oiiyX3KrycjH9Db"
+   }
+  }
+ ]
+}

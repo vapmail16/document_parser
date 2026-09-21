@@ -1,0 +1,189 @@
+{
+ "page": 32,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "d41275304bfc71f5921e8863127cb9b35c2ba1c218ee0393d6ca984d8b58310b",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "each of the Persons identified as a \"Lender\" on the signature pages hereto",
+       "source_text": "\"Lender\" means each of the Persons identified as a \"Lender\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement",
+       "confidence": 0.5,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "letter of credit",
+       "source_text": "\"Letter of Credit\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto\",\"source_text\":\"\\\"Lender\\\" means each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement\",\"confidence\":0.5},{\"name\":\"facility_type\",\"raw_value\":\"letter of credit\",\"source_text\":\"\\\"Letter of Credit\\\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit\",\"confidence\":0.4}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8809,
+     "output_tokens": 230,
+     "cost_usd": 0.049795
+    },
+    "latency_s": 4.8416479590014205,
+    "request_id": "req_011CfGWqk9DACoZx6m1nY86f"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "a492069cafcd24205ceb6c7f1f785285ebf8a774e05610c1d62f74f208656c86",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8804,
+     "output_tokens": 161,
+     "cost_usd": 0.048045
+    },
+    "latency_s": 4.505726340001274,
+    "request_id": "req_011CfGWr7nhvNg8dmpTzEMuX"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "d41275304bfc71f5921e8863127cb9b35c2ba1c218ee0393d6ca984d8b58310b",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "lender",
+       "raw_value": "each of the Persons identified as a \"Lender\" on the signature pages hereto",
+       "source_text": "\"Lender\" means each of the Persons identified as a \"Lender\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement",
+       "confidence": 0.5,
+       "block_index": null
+      },
+      {
+       "name": "facility_type",
+       "raw_value": "letter of credit",
+       "source_text": "\"Letter of Credit\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit",
+       "confidence": 0.4,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"lender\",\"raw_value\":\"each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto\",\"source_text\":\"\\\"Lender\\\" means each of the Persons identified as a \\\"Lender\\\" on the signature pages hereto, any other Person that becomes a Lender in accordance with this Agreement\",\"confidence\":0.5},{\"name\":\"facility_type\",\"raw_value\":\"letter of credit\",\"source_text\":\"\\\"Letter of Credit\\\" means any letter of credit issued hereunder. A Letter of Credit may be a commercial letter of credit or a standby letter of credit\",\"confidence\":0.4}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8809,
+     "output_tokens": 230,
+     "cost_usd": 0.049795
+    },
+    "latency_s": 4.8416479590014205,
+    "request_id": "req_011CfGWqk9DACoZx6m1nY86f"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1694,
+    "y1": 3508,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "a492069cafcd24205ceb6c7f1f785285ebf8a774e05610c1d62f74f208656c86",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8804,
+     "output_tokens": 161,
+     "cost_usd": 0.048045
+    },
+    "latency_s": 4.505726340001274,
+    "request_id": "req_011CfGWr7nhvNg8dmpTzEMuX"
+   }
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "page": 141,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1784,
+    "scale": 0.9208,
+    "effective_dpi": 276.2
+   },
+   "bands_on_page": 3,
+   "cache_key": "a5cd36fced080a70389a64f49097125bbb456fa40622f2c527940045619901c5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK",
+       "confidence": 0.97,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK\",\"confidence\":0.97}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8748,
+     "output_tokens": 148,
+     "cost_usd": 0.04744
+    },
+    "latency_s": 5.3806286539984285,
+    "request_id": "req_011CfGWsS26cqEANi9qfamy2"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1679,
+    "y1": 3493,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "1a967f88c755df5ac88258755e8b64a2e5f8c803fb2cc12822706e6b5b5bca52",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8739,
+     "output_tokens": 29,
+     "cost_usd": 0.04442
+    },
+    "latency_s": 3.3796575970045524,
+    "request_id": "req_011CfGWsqwWk2NFkBsuvvnYY"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3373,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "ecea8b7dcb1a4661201cff46b511516599199dc731f723492914bb5604eea5be",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4405,
+     "output_tokens": 29,
+     "cost_usd": 0.02275
+    },
+    "latency_s": 2.443975346002844,
+    "request_id": "req_011CfGWt6Hia7BEc78yCgsFn"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1784,
+    "scale": 0.9208,
+    "effective_dpi": 276.2
+   },
+   "bands_on_page": 3,
+   "cache_key": "a5cd36fced080a70389a64f49097125bbb456fa40622f2c527940045619901c5",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "governing_law",
+       "raw_value": "THE LAW OF THE STATE OF NEW YORK",
+       "source_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK",
+       "confidence": 0.97,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"governing_law\",\"raw_value\":\"THE LAW OF THE STATE OF NEW YORK\",\"source_text\":\"THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK\",\"confidence\":0.97}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8748,
+     "output_tokens": 148,
+     "cost_usd": 0.04744
+    },
+    "latency_s": 5.3806286539984285,
+    "request_id": "req_011CfGWsS26cqEANi9qfamy2"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1679,
+    "y1": 3493,
+    "scale": 0.9132,
+    "effective_dpi": 274.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "1a967f88c755df5ac88258755e8b64a2e5f8c803fb2cc12822706e6b5b5bca52",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8739,
+     "output_tokens": 29,
+     "cost_usd": 0.04442
+    },
+    "latency_s": 3.3796575970045524,
+    "request_id": "req_011CfGWsqwWk2NFkBsuvvnYY"
+   }
+  },
+  {
+   "band": {
+    "index": 2,
+    "y0": 3373,
+    "y1": 3508,
+    "scale": 1.0,
+    "effective_dpi": 300.0
+   },
+   "bands_on_page": 3,
+   "cache_key": "ecea8b7dcb1a4661201cff46b511516599199dc731f723492914bb5604eea5be",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 4405,
+     "output_tokens": 29,
+     "cost_usd": 0.02275
+    },
+    "latency_s": 2.443975346002844,
+    "request_id": "req_011CfGWt6Hia7BEc78yCgsFn"
+   }
+  }
+ ]
+}

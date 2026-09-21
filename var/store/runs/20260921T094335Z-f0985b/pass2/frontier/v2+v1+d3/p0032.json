@@ -1,0 +1,159 @@
+{
+ "page": 32,
+ "model_key": "frontier",
+ "prompt_version": "v1",
+ "prompt_sha256": "311e29ceb4d7f764c493ff1735235b801c21241caee3cc5ebda158737050de20",
+ "status": "ok",
+ "bands": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "2dec23a0c3a8af0e48f3d74873d79ed39151d6e5a25013f34b099e039d69eb08",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8967,
+     "output_tokens": 178,
+     "cost_usd": 0.049285
+    },
+    "latency_s": 6.170468028001778,
+    "request_id": "req_011CfGZuzcK6d92H4HGBo8UD"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1785,
+    "y1": 3508,
+    "scale": 0.9368,
+    "effective_dpi": 281.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4517d7b360c6ee4e921dd277b06f131a54f6480711080bcf5c184a8c1c092e38",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8958,
+     "output_tokens": 161,
+     "cost_usd": 0.048815
+    },
+    "latency_s": 8.365757646002749,
+    "request_id": "req_011CfGZvXwyXwLLNHQ4vqZGp"
+   }
+  }
+ ],
+ "attempts": [
+  {
+   "band": {
+    "index": 0,
+    "y0": 0,
+    "y1": 1814,
+    "scale": 0.913,
+    "effective_dpi": 273.9
+   },
+   "bands_on_page": 2,
+   "cache_key": "2dec23a0c3a8af0e48f3d74873d79ed39151d6e5a25013f34b099e039d69eb08",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8967,
+     "output_tokens": 178,
+     "cost_usd": 0.049285
+    },
+    "latency_s": 6.170468028001778,
+    "request_id": "req_011CfGZuzcK6d92H4HGBo8UD"
+   }
+  },
+  {
+   "band": {
+    "index": 1,
+    "y0": 1785,
+    "y1": 3508,
+    "scale": 0.9368,
+    "effective_dpi": 281.0
+   },
+   "bands_on_page": 2,
+   "cache_key": "4517d7b360c6ee4e921dd277b06f131a54f6480711080bcf5c184a8c1c092e38",
+   "cached": false,
+   "response": {
+    "model_key": "frontier",
+    "served_model": "claude-opus-5",
+    "stop_reason": "end_turn",
+    "envelope": {
+     "blocks": [],
+     "fields": [
+      {
+       "name": "letter_of_credit_sublimit",
+       "raw_value": "ONE HUNDRED MILLION DOLLARS ($100,000,000)",
+       "source_text": "\"Letter of Credit Sublimit\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+       "confidence": 0.95,
+       "block_index": null
+      }
+     ],
+     "tables": [],
+     "parties": []
+    },
+    "raw_text": "{\"blocks\":[],\"fields\":[{\"name\":\"letter_of_credit_sublimit\",\"raw_value\":\"ONE HUNDRED MILLION DOLLARS ($100,000,000)\",\"source_text\":\"\\\"Letter of Credit Sublimit\\\" means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments\",\"confidence\":0.95}],\"tables\":[],\"parties\":[]}",
+    "failure": null,
+    "detail": null,
+    "usage": {
+     "input_tokens": 8958,
+     "output_tokens": 161,
+     "cost_usd": 0.048815
+    },
+    "latency_s": 8.365757646002749,
+    "request_id": "req_011CfGZvXwyXwLLNHQ4vqZGp"
+   }
+  }
+ ]
+}

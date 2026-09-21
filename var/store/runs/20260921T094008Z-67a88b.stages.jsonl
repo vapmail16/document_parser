@@ -1,0 +1,28 @@
+{"stage":"pass1:frontier","status":"ok","started_at":"2026-09-21T10:11:49.254269Z","finished_at":"2026-09-21T10:13:21.269118Z","detail":"10/10 pages ok; 20 calls (0 cached); $1.55"}
+{"stage":"ocr","status":"ok","started_at":"2026-09-21T10:18:26.797531Z","finished_at":"2026-09-21T10:20:08.016066Z","detail":"tesseract 5.5.3 lang=eng psm=3; 90103 tokens; text layer trusted on 187/211 pages"}
+{"stage":"assemble:frontier","status":"ok","started_at":"2026-09-21T10:35:01.150533Z","finished_at":"2026-09-21T10:35:05.098534Z","detail":"85 clauses, 74 fields, 1 tables; pages {'ok': 10, 'not_extracted': 201}"}
+{"stage":"assemble:frontier","status":"ok","started_at":"2026-09-21T10:35:21.053427Z","finished_at":"2026-09-21T10:35:25.311697Z","detail":"85 clauses, 74 fields, 1 tables; pages {'ok': 10, 'not_extracted': 201}"}
+{"stage":"assemble:frontier","status":"ok","started_at":"2026-09-21T10:36:34.126436Z","finished_at":"2026-09-21T10:36:38.506431Z","detail":"84 clauses, 74 fields, 1 tables; pages {'ok': 10, 'not_extracted': 201}"}
+{"stage":"ground:frontier","status":"ok","started_at":"2026-09-21T10:36:39.322742Z","finished_at":"2026-09-21T10:37:06.121488Z","detail":"72/74 verified; 72 auto-accepted; 2 to review"}
+{"stage":"assemble:frontier","status":"ok","started_at":"2026-09-21T10:38:33.852175Z","finished_at":"2026-09-21T10:38:38.703215Z","detail":"84 clauses, 72 fields, 1 tables; pages {'ok': 10, 'not_extracted': 201}"}
+{"stage":"ground:frontier","status":"ok","started_at":"2026-09-21T10:38:39.628355Z","finished_at":"2026-09-21T10:39:09.429584Z","detail":"70/72 verified; 70 auto-accepted; 2 to review"}
+{"stage":"ground:frontier","status":"ok","started_at":"2026-09-21T10:40:12.990237Z","finished_at":"2026-09-21T10:40:45.869428Z","detail":"70/72 verified; 70 auto-accepted; 2 to review"}
+{"stage":"ground:frontier:v1","status":"ok","started_at":"2026-09-21T10:45:00.182844Z","finished_at":"2026-09-21T10:45:24.824570Z","detail":"70/72 verified; 70 auto-accepted; 2 to review"}
+{"stage":"pass1:frontier:v2","status":"ok","started_at":"2026-09-21T10:45:31.836526Z","finished_at":"2026-09-21T10:47:19.271910Z","detail":"10/10 pages ok; 28 calls (0 cached); $1.78"}
+{"stage":"assemble:frontier:v2","status":"ok","started_at":"2026-09-21T10:47:20.161403Z","finished_at":"2026-09-21T10:47:24.766157Z","detail":"84 clauses, 86 fields, 1 tables; pages {'ok': 10, 'not_extracted': 201}"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T10:47:25.542914Z","finished_at":"2026-09-21T10:47:52.596928Z","detail":"86/86 verified; 86 auto-accepted; 0 to review"}
+{"stage":"assemble:frontier:v2","status":"ok","started_at":"2026-09-21T11:12:39.132061Z","finished_at":"2026-09-21T11:12:43.228543Z","detail":"82 clauses, 78 fields, 1 tables; pages {'ok': 10, 'not_extracted': 201}"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T11:12:44.015819Z","finished_at":"2026-09-21T11:13:04.469366Z","detail":"78/78 verified; 78 auto-accepted; 0 to review"}
+{"stage":"pass1:frontier:v2","status":"failed","started_at":"2026-09-21T11:24:48.917626Z","finished_at":"2026-09-21T11:25:55.124637Z","detail":"5/6 pages ok; 13 calls (0 cached); $0.89; failed pages [24]"}
+{"stage":"assemble:frontier:v2","status":"ok","started_at":"2026-09-21T11:27:59.325297Z","finished_at":"2026-09-21T11:28:03.954762Z","detail":"127 clauses, 128 fields, 2 tables; pages {'ok': 15, 'not_extracted': 195, 'failed': 1}"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T11:28:04.798085Z","finished_at":"2026-09-21T11:28:45.566089Z","detail":"128/128 verified; 128 auto-accepted; 0 to review"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T11:29:40.371684Z","finished_at":"2026-09-21T11:30:20.725122Z","detail":"128/128 verified; 128 auto-accepted; 0 to review"}
+{"stage":"pass2:frontier:v2+v1","status":"ok","started_at":"2026-09-21T11:35:23.024562Z","finished_at":"2026-09-21T11:36:32.070184Z","detail":"15/15 pages; 97 known-field reports; dictionary v2; $1.79"}
+{"stage":"assemble:frontier:v2","status":"ok","started_at":"2026-09-21T11:36:33.009813Z","finished_at":"2026-09-21T11:36:37.854872Z","detail":"127 clauses, 218 fields, 2 tables; pages {'ok': 15, 'not_extracted': 195, 'failed': 1}"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T11:36:38.713265Z","finished_at":"2026-09-21T11:38:25.644879Z","detail":"218/218 verified; 183 auto-accepted; 35 to review"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T11:43:26.014065Z","finished_at":"2026-09-21T11:45:09.114297Z","detail":"218/218 verified; 183 auto-accepted; 35 to review"}
+{"stage":"assemble:frontier:v2","status":"ok","started_at":"2026-09-21T11:59:30.811561Z","finished_at":"2026-09-21T11:59:35.581253Z","detail":"127 clauses, 218 fields, 2 tables; pages {'ok': 15, 'not_extracted': 195, 'failed': 1}"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T11:59:37.026530Z","finished_at":"2026-09-21T12:01:13.761425Z","detail":"218/218 verified; 183 auto-accepted; 35 to review"}
+{"stage":"pass2:frontier:v2+v1+d3","status":"ok","started_at":"2026-09-21T12:12:26.619182Z","finished_at":"2026-09-21T12:13:41.312279Z","detail":"15/15 pages; 93 known-field reports; dictionary v3; $1.81"}
+{"stage":"assemble:frontier:v2","status":"ok","started_at":"2026-09-21T12:13:42.711543Z","finished_at":"2026-09-21T12:13:47.106376Z","detail":"127 clauses, 215 fields, 2 tables; pages {'ok': 15, 'not_extracted': 195, 'failed': 1}"}
+{"stage":"ground:frontier:v2","status":"ok","started_at":"2026-09-21T12:13:48.369744Z","finished_at":"2026-09-21T12:15:20.469452Z","detail":"215/215 verified; 190 auto-accepted; 25 to review"}
