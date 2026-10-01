@@ -12,7 +12,8 @@ instead of being accepted. Versions of an agreement can be stored, queried as of
 
 ## Status
 
-Proof of concept, all 17 build milestones of spec §20 implemented; 129 automated tests.
+Proof of concept, all 17 build milestones of spec §20 implemented, plus a JSON data-product layer
+served by a query register over REST and MCP. 136 automated tests.
 
 | Validated | Not yet validated |
 |---|---|
@@ -93,6 +94,10 @@ cae history DOC ; cae asof DOC --field applicable_margin --on 2023-06-30
 cae diff DOC --from-version V1 --to-version V2
 cae emit DOC --version-label V --out handoff.json    # accepted values only, each with page + quote
 cae export-audit --run-id RUN_ID                     # governance bundle with sha256 manifest
+
+cae products build handoff.json --out var/products   # entity model + JSON data products
+cae serve --products var/products                    # REST on http://127.0.0.1:8765
+cae mcp --products var/products                      # the same queries as MCP tools
 ```
 
 Individual stages can also be run on their own: `ingest`, `ocr`, `pass1`, `pass2`, `assemble`, `ground`,
@@ -114,19 +119,20 @@ Individual stages can also be run on their own: `ingest`, `ocr`, `pass1`, `pass2
 
 | Path | Contents |
 |---|---|
-| `src/credit_extract/` | The pipeline (see [How it works](#how-it-works)); `cli.py` is the `cae` command |
+| `src/credit_extract/` | The pipeline (see [How it works](#how-it-works)); `cli.py` is the `cae` command. `products/` is the entity model, data products, query register, REST API, and MCP server |
 | `tests/` | Unit and end-to-end tests (fake models; no network) |
 | `scripts/` | Licence gate, golden-set drafting, leak-scanned zip export (`export_bundle.py`) |
 | `prompts/`, `dictionary/`, `models.yaml` | Versioned configuration (above) |
 | `data/sec/` | Public test agreement (SEC EDGAR), SHA-256 checksums, a text reference of pages 1–10 |
 | `data/golden/` | Golden sets: template, text-layer draft, reviewed version |
-| `var/store/` | Runtime store: run records, raw model responses, extractions, reports, published records, OCR |
-| `var/handoff/`, `var/audit/` | Example hand-off payload and governance bundle |
+| `var/store/` | Processed sample: run records, page images, OCR, raw model responses, extractions, reports, published records, source PDFs |
+| `var/products/` | Entity model and JSON data products built from the accepted Albemarle handoff |
+| `var/handoff/`, `var/audit/` | Accepted hand-off payload and governance bundle |
 | `docs/POC_RESULTS.md`, `docs/BUILD_JOURNAL.md` | Measurements taken during the POC; how it was built, step by step |
 
-Regenerable artefacts are not committed: page images (`cae ingest` recreates them
-from the PDF, same hashes), the model-response cache, and the degraded test PDF (`cae degrade
-data/sec/albemarle-2022-AR.pdf data/sec/albemarle-2022-AR.degraded-s0.pdf --seed 0` recreates it).
+The processed Albemarle store is in the repository so the extracted values, page images, and data
+products can be inspected without re-running the model. `.env` (API keys) is not committed.
+The two degraded PDFs are stored with Git LFS because each is larger than GitHub's 100 MB file limit.
 
 ## Evaluation
 
@@ -145,6 +151,47 @@ Metrics: labelled recall (value under the right key), precision on golden keys, 
 precision** (the values no human sees — the number governance needs), grid-cell accuracy, and the share
 of values grounding could not confirm, each with a 95% Wilson interval. `cae compare` adds a paired
 McNemar test between two runs.
+
+## Data products
+
+Accepted handoff values are turned into an entity model and four JSON products. JSON is the store, so
+the products are not tied to a database. REST and MCP read them only through a query register.
+
+| Piece | Module | Role |
+|---|---|---|
+| Entity model and products | `products/model.py` | Facility, parties, commitments, terms, and the links between them. Products: `facility_terms`, `party_roles`, `lender_commitments`, `field_facts` |
+| Query operators | `products/query_layer.py` | `top_n` and time buckets (`year`, `quarter`, `month`). No business meaning |
+| Query register | `products/register.py` | The only questions the API will answer. Each entry names a product, a SQL template, and which operator runs after the SQL |
+| Access | `products/access.py` | Loads the JSON into SQLite and runs one registered template. Parameters are bound. A request cannot send SQL |
+| REST | `products/rest.py` | `GET /health`, `GET /products`, `GET /products/{name}`, `GET /entity-models`, `GET /queries`, `POST /queries/{name}` |
+| MCP | `products/mcp_server.py` | The same queries as tools, plus `list_products` and `get_entity_model` |
+
+The Albemarle sample is already built at `var/products/albemarle/2022-AR/r003/`. It has 12 lender
+commitments that sum to 1,500,000,000, maturity 2027-10-28, and borrowers Albemarle Corporation and
+Albemarle Europe SRL. Fifty-three unreviewed values were left out of the products.
+
+```bash
+cae serve --products var/products
+# largest three commitments
+curl -s -X POST http://127.0.0.1:8765/queries/top_lenders \
+  -H 'Content-Type: application/json' \
+  -d '{"params":{"document_id":"albemarle","version_label":"2022-AR","n":3}}'
+# commitments bucketed by the agreement effective date
+curl -s -X POST http://127.0.0.1:8765/queries/commitments_by_period \
+  -H 'Content-Type: application/json' \
+  -d '{"params":{"document_id":"albemarle","grain":"year"}}'
+```
+
+Registered queries: `facility_terms`, `party_roles`, `lender_commitments`, `top_lenders`,
+`commitments_by_period`, `field_facts`.
+
+To add a question, append a `QuerySpec` in `register.py`, or drop a JSON file of the same shape in a
+directory and start the server with `--queries that/directory`. No new HTTP route and no new MCP
+function. The template must be a single `SELECT` of one product. `top_n` and `time_agg` are declared
+on the entry and run after the SQL.
+
+On-prem, point MCP at `cae mcp --products var/products` and point other systems at `cae serve`.
+Both call the same register. Rebuild products after a new accepted handoff with `cae products build`.
 
 ## Known limitations
 

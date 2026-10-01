@@ -16,7 +16,7 @@ from .degrade import degrade_pdf
 from .enrich import EnrichmentBatch, candidates as enrich_candidates, enrich as run_enrich
 from .diff import diff as run_diff
 from .grounding import run_grounding
-from .handoff import build_payload, emit, export_audit, file_sink
+from .handoff import HandoffPayload, build_payload, emit, export_audit, file_sink
 from .approve import add_entries as add_dictionary_entries, approve as approve_aliases
 from .dictionary import list_versions, load_snapshot, save_snapshot
 from .ingest import ingest as run_ingest
@@ -31,6 +31,10 @@ from .pass2 import run_pass2
 from .reconcile import reconcile as run_reconcile
 from .review import IngestResult, ingest as review_ingest_file, write_export as write_review_export
 from .prompts import PROMPT_NAMES, available_versions
+from .products.mcp_server import serve_stdio
+from .products.model import write_bundle
+from .products.rest import serve as serve_products
+from .products.access import open_access
 from .store import Store
 
 app = typer.Typer(no_args_is_help=True, add_completion=False, help=__doc__)
@@ -762,3 +766,42 @@ def review_ingest(
                    "and its alias proposals cannot be approved into the dictionary")
     if r.skipped:
         typer.echo(f"  skipped {len(r.skipped)} rows without a decision")
+
+
+products_app = typer.Typer(no_args_is_help=True, help="Entity model and JSON data products from an accepted handoff.")
+app.add_typer(products_app, name="products")
+
+
+@products_app.command("build")
+def products_build(
+    handoff: Annotated[Path, typer.Argument(exists=True, dir_okay=False, help="Handoff JSON from cae emit")],
+    out: Annotated[Path, typer.Option(help="Directory the JSON products are written under")] = Path("var/products"),
+) -> None:
+    """Build the entity model and data products for one accepted handoff."""
+    payload = HandoffPayload.model_validate_json(handoff.read_text())
+    dest = write_bundle(payload, out)
+    typer.echo(f"wrote entity model and products for {payload.document_id} {payload.version_label} "
+               f"r{payload.revision:03d} -> {dest}")
+
+
+@app.command()
+def serve(
+    products: Annotated[Path, typer.Option(help="Directory written by cae products build")] = Path("var/products"),
+    host: Annotated[str, typer.Option()] = "127.0.0.1",
+    port: Annotated[int, typer.Option()] = 8765,
+    queries: Annotated[Path | None, typer.Option(help="Extra query-register JSON files")] = None,
+) -> None:
+    """Serve the data products over HTTP. Queries are the register; the body cannot contain SQL."""
+    access, entities = open_access(products, queries)
+    typer.echo(f"serving {len(access.products)} products, {len(access.queries)} queries on http://{host}:{port}")
+    serve_products(access, entities, host, port)
+
+
+@app.command()
+def mcp(
+    products: Annotated[Path, typer.Option(help="Directory written by cae products build")] = Path("var/products"),
+    queries: Annotated[Path | None, typer.Option(help="Extra query-register JSON files")] = None,
+) -> None:
+    """Serve the same query register as MCP tools on stdin/stdout."""
+    access, entities = open_access(products, queries)
+    serve_stdio(access, entities)

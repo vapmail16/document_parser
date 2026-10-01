@@ -1,10 +1,9 @@
 # Handover Spec — Credit Agreement Extraction & Versioning Pipeline
 
 **Owner:** Vikkas Arun Pareek
-**Audience:** Claude Code (build agent)
+**Audience:** engineers operating and extending the pipeline
 **Status:** Build spec for POC → production-ready pipeline
 **Last updated:** 21 Sep 2026 (Rev 2)
-**Handling:** Internal — names the institution. Do not push to a public repo.
 
 ### Rev 2 change log (design review incorporated)
 - **Grounding made implementable:** added an independent OCR stage + verbatim `source_text`; grounding is tri-state, tolerant of normalisation (§6 Stage 2, §15).
@@ -61,7 +60,7 @@ Generative steps: extraction and enrichment only.
 
 | Constraint | Implication |
 |---|---|
-| **Production runs inside Barclays. No public/frontier LLM may see real customer agreements.** | Extraction + enrichment models must be swappable to a **self-hosted SLM/VLM** served on-prem (vLLM/Ollama). No SaaS document-AI in the prod path. |
+| **Production runs on the organisation's network. No public/frontier LLM may see real customer agreements.** | Extraction + enrichment models must be swappable to a **self-hosted SLM/VLM** served on-prem (vLLM/Ollama). No SaaS document-AI in the prod path. |
 | **Demo/POC may use a public sample document.** | For the POC we use public SEC agreements and may use a frontier model to establish an accuracy ceiling — **but the pipeline must be model-agnostic** so frontier→SLM is a config change, not a rewrite. |
 | **Production docs are image-based (scanned) PDFs.** | Assume no reliable text layer. Rasterise pages to images and use the vision path. Test on **degraded** images, not just clean renders (§19). |
 | **Air-gapped / restricted network in prod.** | Permissive-licence (MIT/Apache/BSD) dependencies that run fully offline. **Enforced, not just preferred** — see the licence/offline table and CI gate in §5. |
@@ -736,7 +735,7 @@ Define the greenlight bar up front, e.g.: *"Extracts the [N] `core` dictionary f
 ## 22. Out of scope
 
 - The downstream tool that consumes the output (expose clean JSON + `emit()` only).
-- Choosing/procuring the final production SLM (design accepts whatever is on Barclays' allow-list).
+- Choosing/procuring the final production SLM (design accepts whatever is on the organisation's allow-list).
 - Real customer agreements (POC uses public SEC docs only).
 - Auto-*detecting* that two arbitrary documents are versions of each other (version identity is given).
 - **Auto-*applying* amendment instructions to a prior version** (POC extracts the instructions and presents them; application is a later, human-gated stage — §11).
@@ -746,7 +745,7 @@ Define the greenlight bar up front, e.g.: *"Extracts the [N] `core` dictionary f
 
 ## 23. Open questions for the requester
 
-- Which self-hosted VLM/SLM(s) are/will be on the Barclays allow-list, and is on-prem GPU + a serving stack (vLLM) already available?
+- Which self-hosted VLM/SLM(s) are/will be on the organisation's allow-list, and is on-prem GPU + a serving stack (vLLM) already available?
 - **Is an OCR engine and an embedding model on the allow-list?** Grounding (§15) and semantic reconciliation (§9) depend on them; both need to be in the model inventory (§16).
 - **Governance classification:** is this a "model" (full model-risk validation) or a human-validated assist? (Determines the whole approval path — §16.)
 - Amendment vs restatement: will prod always receive full restated docs, or also delta amendments? If deltas are common, applying amendments (§11, §22) moves up the roadmap.

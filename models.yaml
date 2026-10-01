@@ -53,7 +53,7 @@ models:
     notes: Cheaper option for bulk prompt iteration; optional third row in eval.
 
   onprem_candidate:
-    # Qwen VL served on-prem by vLLM (or Ollama) — OpenAI-compatible API. Fill in at the workplace:
+    # Qwen VL served on-prem by vLLM (or Ollama) — OpenAI-compatible API. Fill in for the on-prem server:
     #   model_name: exactly what GET <api_base>/models lists, e.g. Qwen/Qwen2.5-VL-7B-Instruct
     #   api_base:   vLLM  http://<gpu-host>:8000/v1    |   Ollama  http://localhost:11434/v1
     role: onprem

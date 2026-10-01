@@ -1,23 +1,21 @@
-# Running at the workplace with an on-prem Qwen model
+# Running on-prem with a Qwen model
 
 The pipeline is model-agnostic: the only model-specific part is one entry in `models.yaml`. The
-on-prem adapter talks to any OpenAI-compatible server (vLLM or Ollama), so switching from Claude to
-Qwen is configuration — but do the steps below in order; step 5 catches most problems in one call.
+on-prem adapter talks to any OpenAI-compatible server (vLLM or Ollama), so switching from the hosted
+baseline to Qwen is configuration — but do the steps below in order; step 5 catches most problems in one call.
 
 ## 1. Get the code
 
-Clone the repository. It contains the code, configuration, test data, golden sets and the POC results
-(run records, raw model responses, extractions, reports, published records, OCR). `.gitignore` keeps out:
+Clone the repository. It contains the code, configuration, the public SEC test agreement, golden sets,
+the processed run (page images, OCR, extractions, reports), and the JSON data products under `var/products/`.
 
 | Not in the repository | Why |
 |---|---|
-| `.env` | the API key for the hosted-model baseline — hosted models are not allowed in production |
-| `.venv/`, caches, OS files | rebuilt / irrelevant on the target machine |
-| page images, model-response cache, degraded test PDF | large and regenerable (`cae ingest`, `cae degrade --seed 0`) |
+| `.env` | API keys. Hosted models are not used when `CAE_ENVIRONMENT=prod` |
 
-The results were produced with a hosted model (Claude Opus 5) on a public SEC exhibit; their
-provenance records say so, and the golden set records that it was AI-verified. Check your
-organisation's policy for bringing in such artefacts; the code runs without them.
+The sample results were produced with a hosted model on a public SEC exhibit. Provenance on each run
+records the model id. The golden set records that it was checked by a model, not by a person.
+Set `CAE_ENVIRONMENT=prod` before any real agreement is processed.
 
 A zip copy can still be made with `uv run python scripts/export_bundle.py`, which also scans every
 file for API keys, e-mail addresses and home-directory paths before writing it.
@@ -115,7 +113,25 @@ Then the whole document: the same `cae extract` without `--pages`.
 - **Pass 2 naming.** Pass 2 asks the model to answer in dictionary keys; small models follow this less
   reliably. `cae reconcile` output shows how many pass-2 values were confirmed / disagreed / new.
 
-## 8. Before anyone relies on the numbers
+## 8. Serve the data products
+
+The accepted Albemarle handoff is already turned into JSON products at
+`var/products/albemarle/2022-AR/r003/`. After a new extraction:
+
+```bash
+cae emit albemarle --version-label 2022-AR --out var/handoff/albemarle-2022-AR.json
+cae products build var/handoff/albemarle-2022-AR.json --out var/products
+cae serve --products var/products          # REST: http://127.0.0.1:8765
+cae mcp --products var/products            # MCP tools on stdin/stdout
+```
+
+`GET /queries` lists the register. `POST /queries/top_lenders` with
+`{"params":{"document_id":"albemarle","version_label":"2022-AR","n":3}}` returns ranked commitments.
+A request body cannot contain SQL. Add a query by appending a `QuerySpec` in
+`src/credit_extract/products/register.py`, or pass `--queries` a directory of JSON files of that shape.
+See the README section "Data products".
+
+## 9. Before anyone relies on the numbers
 
 - A named person completes the golden-set checklist (the current golden set is AI-verified only).
 - The dictionary owner signs off snapshots v2 and v3 and reviews `dictionary/proposals/`.

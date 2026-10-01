@@ -1,0 +1,225 @@
+{
+  "kind": "data_product",
+  "name": "lender_commitments",
+  "grain": "One row per lender commitment on one agreement version.",
+  "columns": [
+    {
+      "name": "document_id",
+      "type": "text"
+    },
+    {
+      "name": "version_label",
+      "type": "text"
+    },
+    {
+      "name": "revision",
+      "type": "integer"
+    },
+    {
+      "name": "effective_date",
+      "type": "text"
+    },
+    {
+      "name": "party_id",
+      "type": "text"
+    },
+    {
+      "name": "lender_name",
+      "type": "text"
+    },
+    {
+      "name": "instance",
+      "type": "text"
+    },
+    {
+      "name": "commitment_amount",
+      "type": "real"
+    },
+    {
+      "name": "page",
+      "type": "integer"
+    },
+    {
+      "name": "quote",
+      "type": "text"
+    },
+    {
+      "name": "status",
+      "type": "text"
+    },
+    {
+      "name": "conflict",
+      "type": "integer"
+    }
+  ],
+  "rows": [
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:banco_santander_s_a_new_york_branch",
+      "lender_name": "Banco Santander, S.A., New York Branch",
+      "instance": "banco_santander_s_a_new_york_branch",
+      "commitment_amount": "120000000",
+      "page": 154,
+      "quote": "$120,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:bank_of_america_n_a",
+      "lender_name": "Bank of America, N.A.",
+      "instance": "bank_of_america_n_a",
+      "commitment_amount": "170000000",
+      "page": 154,
+      "quote": "$170,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:bank_of_china_new_york_branch",
+      "lender_name": "Bank of China, New York Branch",
+      "instance": "bank_of_china_new_york_branch",
+      "commitment_amount": "50000000",
+      "page": 154,
+      "quote": "$50,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:goldman_sachs_bank_usa",
+      "lender_name": "Goldman Sachs Bank USA",
+      "instance": "goldman_sachs_bank_usa",
+      "commitment_amount": "120000000",
+      "page": 154,
+      "quote": "$120,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:hsbc_bank_usa_national_association",
+      "lender_name": "HSBC Bank USA, National Association",
+      "instance": "hsbc_bank_usa_national_association",
+      "commitment_amount": "170000000",
+      "page": 154,
+      "quote": "$170,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:jpmorgan_chase_bank_n_a",
+      "lender_name": "JPMorgan Chase Bank, N.A.",
+      "instance": "jpmorgan_chase_bank_n_a",
+      "commitment_amount": "170000000",
+      "page": 154,
+      "quote": "$170,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:mizuho_bank_ltd",
+      "lender_name": "Mizuho Bank, Ltd.",
+      "instance": "mizuho_bank_ltd",
+      "commitment_amount": "170000000",
+      "page": 154,
+      "quote": "$170,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:mufg_bank_ltd",
+      "lender_name": "MUFG Bank, Ltd.",
+      "instance": "mufg_bank_ltd",
+      "commitment_amount": "120000000",
+      "page": 154,
+      "quote": "$120,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:sumitomo_mitsui_banking_corporation",
+      "lender_name": "Sumitomo Mitsui Banking Corporation",
+      "instance": "sumitomo_mitsui_banking_corporation",
+      "commitment_amount": "120000000",
+      "page": 154,
+      "quote": "$120,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:the_northern_trust_company",
+      "lender_name": "The Northern Trust Company",
+      "instance": "the_northern_trust_company",
+      "commitment_amount": "50000000",
+      "page": 154,
+      "quote": "$50,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:truist_bank",
+      "lender_name": "Truist Bank",
+      "instance": "truist_bank",
+      "commitment_amount": "120000000",
+      "page": 154,
+      "quote": "$120,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:u_s_bank_national_association",
+      "lender_name": "U.S. Bank National Association",
+      "instance": "u_s_bank_national_association",
+      "commitment_amount": "120000000",
+      "page": 154,
+      "quote": "$120,000,000.00",
+      "status": "auto_accepted",
+      "conflict": 0
+    }
+  ]
+}

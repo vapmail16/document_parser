@@ -14,7 +14,7 @@ We built a working, tested pipeline that turns a scanned credit agreement into s
 | Accuracy (16-page sample, hosted Claude Opus 5) | Auto-accepted values 43/43 correct (clean) and 42/42 (degraded); grounding never verified a value that was not on the page |
 | Caveat | The golden set is AI-verified, not human-verified, so the figures are not valid for governance sign-off |
 | On-prem model | Adapter for vLLM/Ollama built and tested against a simulated server; no real Qwen call made yet |
-| Full document | Not run; to be run at the workplace on Qwen |
+| Full document | Not run on the on-prem model |
 | API spend | About $16 for the whole POC |
 | Handover | Code in the GitHub repository; runbook `WORKPLACE.md` |
 
@@ -44,7 +44,7 @@ The review also added cross-page assembly with a completeness check, tiling so s
 | Test data | Albemarle 2022 A&R (211 pages) plus a degraded-scan variant made with a fixed seed | A clean HTML-to-PDF render is not a scan; accuracy is reported on both |
 | Golden set | Drafted from the PDF's own text, never from model output; verified separately | Keeps the benchmark independent of the system under test |
 | Cost discipline | Every paid run approved first; free work done before paid work | Paid runs were batched at the end |
-| Where production runs | At the workplace on Qwen | Real agreements must never reach a hosted model |
+| Where production runs | On-prem, self-hosted model | Real agreements must never reach a hosted model |
 
 ## Pipeline flow
 
@@ -105,7 +105,7 @@ The milestones were built in this order; each row says what was built and how it
 | 16 | Compare + on-prem adapter | Side-by-side report with paired McNemar test; vLLM/Ollama adapter; `check-model` | Adapter tested against a simulated server; end-to-end test with a fake Qwen |
 | 17 | Hand-off + audit | `emit()` of accepted values only; audit zip with sha256 manifest | 42 values emitted, 53 withheld pending review; 69-file audit bundle |
 
-After the milestones: a one-command `cae extract`, the workplace runbook, a rewritten README, and a leak-scan
+After the milestones: a one-command `cae extract`, the on-prem runbook, a rewritten README, and a leak-scan
 script (`scripts/export_bundle.py`) that was used to verify a clean copy of the project by installing and
 re-running it from scratch.
 
@@ -168,6 +168,7 @@ Most issues surfaced only when a stage ran on the real document or when results 
 | 18 | Cost summaries overwrote each other and mixed prompt versions | Compare report | Cost computed from recorded calls; per-invocation summaries |
 | 19 | `publish`, `history`, `asof` deleted by an edit | Fresh-install check of a clean copy | Restored; test that every documented command exists |
 | 20 | Clean copy omitted page manifests, so grounding could not re-run | Fresh-install check | Manifests kept, only images excluded |
+| 21 | Product REST queries failed: SQLite refused the connection from the HTTP worker thread | `cae serve` then POST `/queries/top_lenders` | Share one connection with `check_same_thread=False` and a lock; test `run()` from a second thread. Direct `dispatch()` tests stay on one thread and do not catch this |
 
 ## Learnings
 
@@ -202,16 +203,19 @@ These figures are computed from each response's token counts at Opus 5 list pric
 
 ## Handover and next steps
 
-The POC gets its answer from one run at the workplace: Qwen on the 16 sample pages, scored and compared against the Claude baseline.
+On-prem Qwen on the 16 sample pages, scored and compared against the hosted baseline, is the remaining model check.
 
-The code moves through the GitHub repository. `.gitignore` keeps out the API key (`.env`), local tooling and regenerable bulk (page images, model-response cache, degraded test PDF), while the POC results needed for `cae eval` and `cae compare` are committed. Result provenance is kept: the results say they came from a hosted model, and the golden set says it is AI-verified. `scripts/export_bundle.py` remains available to build and leak-scan a zip copy if one is ever needed.
+The repository contains the code and the processed Albemarle store (page images, OCR, extractions, the accepted handoff, and the JSON data products). `.gitignore` keeps out API keys (`.env`) and local tooling. Result provenance is kept: each run records its model id, and the golden set records that it was checked by a model. `scripts/export_bundle.py` can still build and leak-scan a zip copy.
+
+Accepted values are also exposed as data products. `cae products build` writes the entity model and the JSON products; `cae serve` and `cae mcp` answer only queries listed in `src/credit_extract/products/register.py`. See the README section "Data products".
 
 1. Clone the repository; install from `requirements-prod.txt`; install Tesseract; set `CAE_ENVIRONMENT=prod`.
 2. Serve Qwen with vLLM or Ollama; fill `model_name`, `api_base`, `licence` in `models.yaml`; enable it.
 3. `cae check-model onprem_candidate` — one call; `WORKPLACE.md` lists fixes for each failure.
-4. `cae extract` on the 16 sample pages, then `cae eval` and `cae compare` against Claude run `20260921T094008Z-67a88b`.
-5. Recalibrate `AUTO_ACCEPT_CONFIDENCE` from Qwen's auto-accepted precision before trusting auto-acceptance.
+4. `cae extract` on the 16 sample pages, then `cae eval` and `cae compare` against the hosted run `20260921T094008Z-67a88b`.
+5. Recalibrate `AUTO_ACCEPT_CONFIDENCE` from the on-prem model's auto-accepted precision before trusting auto-acceptance.
 6. Run the full 211 pages; re-check grounding thresholds on the 195 pages they were not tuned on.
+7. `cae products build` on the accepted handoff, then `cae serve` or `cae mcp` for downstream use.
 
 Open decisions for people, not code:
 

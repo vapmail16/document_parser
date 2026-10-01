@@ -1,0 +1,261 @@
+{
+  "kind": "data_product",
+  "name": "party_roles",
+  "grain": "One row per party per role. party_id is shared across roles of the same instance.",
+  "columns": [
+    {
+      "name": "document_id",
+      "type": "text"
+    },
+    {
+      "name": "version_label",
+      "type": "text"
+    },
+    {
+      "name": "revision",
+      "type": "integer"
+    },
+    {
+      "name": "effective_date",
+      "type": "text"
+    },
+    {
+      "name": "party_id",
+      "type": "text"
+    },
+    {
+      "name": "role",
+      "type": "text"
+    },
+    {
+      "name": "instance",
+      "type": "text"
+    },
+    {
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "name": "page",
+      "type": "integer"
+    },
+    {
+      "name": "quote",
+      "type": "text"
+    },
+    {
+      "name": "status",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:bank_of_america",
+      "role": "administrative_agent",
+      "instance": "bank_of_america",
+      "name": "Bank of America",
+      "page": 14,
+      "quote": "\u201cAdministrative Agent\u201d means Bank of America in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:bank_of_america_n_a",
+      "role": "administrative_agent",
+      "instance": "bank_of_america_n_a",
+      "name": "BANK OF AMERICA, N.A.",
+      "page": 1,
+      "quote": "BANK OF AMERICA, N.A., as Administrative Agent and Swing Line Lender,",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:albemarle_corporation",
+      "role": "borrower",
+      "instance": "albemarle_corporation",
+      "name": "ALBEMARLE CORPORATION",
+      "page": 1,
+      "quote": "ALBEMARLE CORPORATION, (the \"Company\"),",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:albemarle_europe_srl",
+      "role": "borrower",
+      "instance": "albemarle_europe_srl",
+      "name": "ALBEMARLE EUROPE SRL",
+      "page": 14,
+      "quote": "ALBEMARLE EUROPE SRL, a soci\u00e9t\u00e9 \u00e0 responsabilit\u00e9 limit\u00e9e organized under the laws of Belgium (the \"Belgian Borrower\"",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:banco_santander_s_a_new_york_branch",
+      "role": "lender",
+      "instance": "banco_santander_s_a_new_york_branch",
+      "name": "Banco Santander, S.A., New York Branch",
+      "page": 154,
+      "quote": "Banco Santander, S.A., New York Branch",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:bank_of_america_n_a",
+      "role": "lender",
+      "instance": "bank_of_america_n_a",
+      "name": "Bank of America, N.A.",
+      "page": 154,
+      "quote": "Bank of America, N.A.",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:bank_of_china_new_york_branch",
+      "role": "lender",
+      "instance": "bank_of_china_new_york_branch",
+      "name": "Bank of China, New York Branch",
+      "page": 154,
+      "quote": "Bank of China, New York Branch",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:goldman_sachs_bank_usa",
+      "role": "lender",
+      "instance": "goldman_sachs_bank_usa",
+      "name": "Goldman Sachs Bank USA",
+      "page": 154,
+      "quote": "Goldman Sachs Bank USA",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:hsbc_bank_usa_national_association",
+      "role": "lender",
+      "instance": "hsbc_bank_usa_national_association",
+      "name": "HSBC Bank USA, National Association",
+      "page": 150,
+      "quote": "HSBC BANK USA, NATIONAL ASSOCIATION, as a Lender and L/C Issuer",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:jpmorgan_chase_bank_n_a",
+      "role": "lender",
+      "instance": "jpmorgan_chase_bank_n_a",
+      "name": "JPMorgan Chase Bank, N.A.",
+      "page": 150,
+      "quote": "JPMORGAN CHASE BANK, N.A., as a Lender and L/C Issuer",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:mizuho_bank_ltd",
+      "role": "lender",
+      "instance": "mizuho_bank_ltd",
+      "name": "Mizuho Bank, Ltd.",
+      "page": 150,
+      "quote": "MIZUHO BANK, LTD., as a Lender and L/C Issuer",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:mufg_bank_ltd",
+      "role": "lender",
+      "instance": "mufg_bank_ltd",
+      "name": "MUFG Bank, Ltd.",
+      "page": 154,
+      "quote": "MUFG Bank, Ltd.",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:sumitomo_mitsui_banking_corporation",
+      "role": "lender",
+      "instance": "sumitomo_mitsui_banking_corporation",
+      "name": "Sumitomo Mitsui Banking Corporation",
+      "page": 154,
+      "quote": "Sumitomo Mitsui Banking Corporation",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:the_northern_trust_company",
+      "role": "lender",
+      "instance": "the_northern_trust_company",
+      "name": "The Northern Trust Company",
+      "page": 154,
+      "quote": "The Northern Trust Company",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:truist_bank",
+      "role": "lender",
+      "instance": "truist_bank",
+      "name": "Truist Bank",
+      "page": 154,
+      "quote": "Truist Bank",
+      "status": "auto_accepted"
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "party_id": "party:albemarle:u_s_bank_national_association",
+      "role": "lender",
+      "instance": "u_s_bank_national_association",
+      "name": "U.S. Bank National Association",
+      "page": 154,
+      "quote": "U.S. Bank National Association",
+      "status": "auto_accepted"
+    }
+  ]
+}

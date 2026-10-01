@@ -1,0 +1,13 @@
+{
+  "kind": "bundle",
+  "document_id": "albemarle",
+  "version_label": "2022-AR",
+  "revision": 3,
+  "files": [
+    "entity_model.json",
+    "facility_terms.json",
+    "field_facts.json",
+    "lender_commitments.json",
+    "party_roles.json"
+  ]
+}

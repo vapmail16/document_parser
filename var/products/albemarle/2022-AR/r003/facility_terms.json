@@ -1,0 +1,177 @@
+{
+  "kind": "data_product",
+  "name": "facility_terms",
+  "grain": "One row per facility-level term on one agreement version. Equal values collapse; disagreements stay.",
+  "columns": [
+    {
+      "name": "document_id",
+      "type": "text"
+    },
+    {
+      "name": "version_label",
+      "type": "text"
+    },
+    {
+      "name": "revision",
+      "type": "integer"
+    },
+    {
+      "name": "effective_date",
+      "type": "text"
+    },
+    {
+      "name": "term_key",
+      "type": "text"
+    },
+    {
+      "name": "value_type",
+      "type": "text"
+    },
+    {
+      "name": "amount",
+      "type": "real"
+    },
+    {
+      "name": "date_value",
+      "type": "text"
+    },
+    {
+      "name": "text_value",
+      "type": "text"
+    },
+    {
+      "name": "page",
+      "type": "integer"
+    },
+    {
+      "name": "also_pages",
+      "type": "text"
+    },
+    {
+      "name": "quote",
+      "type": "text"
+    },
+    {
+      "name": "status",
+      "type": "text"
+    },
+    {
+      "name": "conflict",
+      "type": "integer"
+    }
+  ],
+  "rows": [
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "term_key": "agreement_date",
+      "value_type": "date",
+      "amount": null,
+      "date_value": "2022-10-28",
+      "text_value": null,
+      "page": 1,
+      "also_pages": "14",
+      "quote": "Dated as of October 28, 2022",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "term_key": "consolidated_ebitda_definition",
+      "value_type": "text",
+      "amount": null,
+      "date_value": null,
+      "text_value": "means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following",
+      "page": 22,
+      "also_pages": "",
+      "quote": "\"Consolidated EBITDA\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "term_key": "governing_law",
+      "value_type": "text",
+      "amount": null,
+      "date_value": null,
+      "text_value": "THE LAW OF THE STATE OF NEW YORK",
+      "page": 141,
+      "also_pages": "",
+      "quote": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "term_key": "letter_of_credit_sublimit",
+      "value_type": "money",
+      "amount": "100000000",
+      "date_value": null,
+      "text_value": null,
+      "page": 32,
+      "also_pages": "",
+      "quote": "means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "term_key": "maturity_date",
+      "value_type": "date",
+      "amount": null,
+      "date_value": "2027-10-28",
+      "text_value": null,
+      "page": 33,
+      "also_pages": "",
+      "quote": "\u201cMaturity Date\u201d means the later of (a) October 28, 2027 and (b) if maturity is extended pursuant to Section 2.15",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "term_key": "swingline_sublimit",
+      "value_type": "money",
+      "amount": "150000000",
+      "date_value": null,
+      "text_value": null,
+      "page": 41,
+      "also_pages": "",
+      "quote": "\u201cSwing Line Sublimit\u201d means the lesser of (a) ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000) and (b) the Aggregate Commitments.",
+      "status": "auto_accepted",
+      "conflict": 0
+    },
+    {
+      "document_id": "albemarle",
+      "version_label": "2022-AR",
+      "revision": 3,
+      "effective_date": "2022-10-28",
+      "term_key": "total_commitments",
+      "value_type": "money",
+      "amount": "1500000000",
+      "date_value": null,
+      "text_value": null,
+      "page": 15,
+      "also_pages": "154",
+      "quote": "The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+      "status": "auto_accepted",
+      "conflict": 0
+    }
+  ]
+}

@@ -1,0 +1,883 @@
+{
+  "kind": "entity_model",
+  "document_id": "albemarle",
+  "version_label": "2022-AR",
+  "revision": 3,
+  "effective_date": "2022-10-28",
+  "entities": [
+    {
+      "id": "commitment:albemarle:2022-AR:banco_santander_s_a_new_york_branch",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "Banco Santander, S.A., New York Branch",
+        "amount": "120000000",
+        "page": 154,
+        "quote": "$120,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:bank_of_america_n_a",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "Bank of America, N.A.",
+        "amount": "170000000",
+        "page": 154,
+        "quote": "$170,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:bank_of_china_new_york_branch",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "Bank of China, New York Branch",
+        "amount": "50000000",
+        "page": 154,
+        "quote": "$50,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:goldman_sachs_bank_usa",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "Goldman Sachs Bank USA",
+        "amount": "120000000",
+        "page": 154,
+        "quote": "$120,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:hsbc_bank_usa_national_association",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "HSBC Bank USA, National Association",
+        "amount": "170000000",
+        "page": 154,
+        "quote": "$170,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:jpmorgan_chase_bank_n_a",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "JPMorgan Chase Bank, N.A.",
+        "amount": "170000000",
+        "page": 154,
+        "quote": "$170,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:mizuho_bank_ltd",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "Mizuho Bank, Ltd.",
+        "amount": "170000000",
+        "page": 154,
+        "quote": "$170,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:mufg_bank_ltd",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "MUFG Bank, Ltd.",
+        "amount": "120000000",
+        "page": 154,
+        "quote": "$120,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:sumitomo_mitsui_banking_corporation",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "Sumitomo Mitsui Banking Corporation",
+        "amount": "120000000",
+        "page": 154,
+        "quote": "$120,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:the_northern_trust_company",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "The Northern Trust Company",
+        "amount": "50000000",
+        "page": 154,
+        "quote": "$50,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:truist_bank",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "Truist Bank",
+        "amount": "120000000",
+        "page": 154,
+        "quote": "$120,000,000.00"
+      }
+    },
+    {
+      "id": "commitment:albemarle:2022-AR:u_s_bank_national_association",
+      "type": "Commitment",
+      "attributes": {
+        "lender_name": "U.S. Bank National Association",
+        "amount": "120000000",
+        "page": 154,
+        "quote": "$120,000,000.00"
+      }
+    },
+    {
+      "id": "facility:albemarle:2022-AR",
+      "type": "Facility",
+      "attributes": {
+        "document_id": "albemarle",
+        "version_label": "2022-AR",
+        "revision": 3,
+        "effective_date": "2022-10-28",
+        "execution_status": "executed",
+        "document_kind": "restatement"
+      }
+    },
+    {
+      "id": "party:albemarle:albemarle_corporation",
+      "type": "Party",
+      "attributes": {
+        "name": "ALBEMARLE CORPORATION",
+        "names": [
+          "ALBEMARLE CORPORATION"
+        ],
+        "roles": [
+          "borrower"
+        ],
+        "instance": "albemarle_corporation",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:albemarle_europe_srl",
+      "type": "Party",
+      "attributes": {
+        "name": "ALBEMARLE EUROPE SRL",
+        "names": [
+          "ALBEMARLE EUROPE SRL"
+        ],
+        "roles": [
+          "borrower"
+        ],
+        "instance": "albemarle_europe_srl",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:banco_santander_s_a_new_york_branch",
+      "type": "Party",
+      "attributes": {
+        "name": "Banco Santander, S.A., New York Branch",
+        "names": [
+          "Banco Santander, S.A., New York Branch"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "banco_santander_s_a_new_york_branch",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:bank_of_america",
+      "type": "Party",
+      "attributes": {
+        "name": "Bank of America",
+        "names": [
+          "Bank of America"
+        ],
+        "roles": [
+          "administrative_agent"
+        ],
+        "instance": "bank_of_america",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:bank_of_america_n_a",
+      "type": "Party",
+      "attributes": {
+        "name": "BANK OF AMERICA, N.A.",
+        "names": [
+          "BANK OF AMERICA, N.A.",
+          "Bank of America, N.A."
+        ],
+        "roles": [
+          "administrative_agent",
+          "lender"
+        ],
+        "instance": "bank_of_america_n_a",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:bank_of_china_new_york_branch",
+      "type": "Party",
+      "attributes": {
+        "name": "Bank of China, New York Branch",
+        "names": [
+          "Bank of China, New York Branch"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "bank_of_china_new_york_branch",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:goldman_sachs_bank_usa",
+      "type": "Party",
+      "attributes": {
+        "name": "Goldman Sachs Bank USA",
+        "names": [
+          "Goldman Sachs Bank USA"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "goldman_sachs_bank_usa",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:hsbc_bank_usa_national_association",
+      "type": "Party",
+      "attributes": {
+        "name": "HSBC Bank USA, National Association",
+        "names": [
+          "HSBC Bank USA, National Association"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "hsbc_bank_usa_national_association",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:jpmorgan_chase_bank_n_a",
+      "type": "Party",
+      "attributes": {
+        "name": "JPMorgan Chase Bank, N.A.",
+        "names": [
+          "JPMorgan Chase Bank, N.A."
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "jpmorgan_chase_bank_n_a",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:mizuho_bank_ltd",
+      "type": "Party",
+      "attributes": {
+        "name": "Mizuho Bank, Ltd.",
+        "names": [
+          "Mizuho Bank, Ltd."
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "mizuho_bank_ltd",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:mufg_bank_ltd",
+      "type": "Party",
+      "attributes": {
+        "name": "MUFG Bank, Ltd.",
+        "names": [
+          "MUFG Bank, Ltd."
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "mufg_bank_ltd",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:sumitomo_mitsui_banking_corporation",
+      "type": "Party",
+      "attributes": {
+        "name": "Sumitomo Mitsui Banking Corporation",
+        "names": [
+          "Sumitomo Mitsui Banking Corporation"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "sumitomo_mitsui_banking_corporation",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:the_northern_trust_company",
+      "type": "Party",
+      "attributes": {
+        "name": "The Northern Trust Company",
+        "names": [
+          "The Northern Trust Company"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "the_northern_trust_company",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:truist_bank",
+      "type": "Party",
+      "attributes": {
+        "name": "Truist Bank",
+        "names": [
+          "Truist Bank"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "truist_bank",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "party:albemarle:u_s_bank_national_association",
+      "type": "Party",
+      "attributes": {
+        "name": "U.S. Bank National Association",
+        "names": [
+          "U.S. Bank National Association"
+        ],
+        "roles": [
+          "lender"
+        ],
+        "instance": "u_s_bank_national_association",
+        "name_conflict": false
+      }
+    },
+    {
+      "id": "term:albemarle:2022-AR:agreement_date",
+      "type": "Term",
+      "attributes": {
+        "key": "agreement_date",
+        "value_type": "date",
+        "amount": null,
+        "date_value": "2022-10-28",
+        "text_value": null,
+        "page": 1,
+        "quote": "Dated as of October 28, 2022",
+        "conflict": false
+      }
+    },
+    {
+      "id": "term:albemarle:2022-AR:consolidated_ebitda_definition",
+      "type": "Term",
+      "attributes": {
+        "key": "consolidated_ebitda_definition",
+        "value_type": "text",
+        "amount": null,
+        "date_value": null,
+        "text_value": "means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following",
+        "page": 22,
+        "quote": "\"Consolidated EBITDA\" means, for any period, for the Consolidated Group, an amount equal to the sum of (a) Consolidated Net Income for such period plus (b) the following, in each case (other than in the case of clause (x) below) to the extent deducted in calculating such Consolidated Net Income, without duplication: (i) Consolidated Interest Charges for such period",
+        "conflict": false
+      }
+    },
+    {
+      "id": "term:albemarle:2022-AR:governing_law",
+      "type": "Term",
+      "attributes": {
+        "key": "governing_law",
+        "value_type": "text",
+        "amount": null,
+        "date_value": null,
+        "text_value": "THE LAW OF THE STATE OF NEW YORK",
+        "page": 141,
+        "quote": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK (OTHER THAN THOSE CONFLICT OF LAW RULES",
+        "conflict": false
+      }
+    },
+    {
+      "id": "term:albemarle:2022-AR:letter_of_credit_sublimit",
+      "type": "Term",
+      "attributes": {
+        "key": "letter_of_credit_sublimit",
+        "value_type": "money",
+        "amount": "100000000",
+        "date_value": null,
+        "text_value": null,
+        "page": 32,
+        "quote": "means the lesser of (a) ONE HUNDRED MILLION DOLLARS ($100,000,000) and (b) the Aggregate Commitments",
+        "conflict": false
+      }
+    },
+    {
+      "id": "term:albemarle:2022-AR:maturity_date",
+      "type": "Term",
+      "attributes": {
+        "key": "maturity_date",
+        "value_type": "date",
+        "amount": null,
+        "date_value": "2027-10-28",
+        "text_value": null,
+        "page": 33,
+        "quote": "\u201cMaturity Date\u201d means the later of (a) October 28, 2027 and (b) if maturity is extended pursuant to Section 2.15",
+        "conflict": false
+      }
+    },
+    {
+      "id": "term:albemarle:2022-AR:swingline_sublimit",
+      "type": "Term",
+      "attributes": {
+        "key": "swingline_sublimit",
+        "value_type": "money",
+        "amount": "150000000",
+        "date_value": null,
+        "text_value": null,
+        "page": 41,
+        "quote": "\u201cSwing Line Sublimit\u201d means the lesser of (a) ONE HUNDRED FIFTY MILLION DOLLARS ($150,000,000) and (b) the Aggregate Commitments.",
+        "conflict": false
+      }
+    },
+    {
+      "id": "term:albemarle:2022-AR:total_commitments",
+      "type": "Term",
+      "attributes": {
+        "key": "total_commitments",
+        "value_type": "money",
+        "amount": "1500000000",
+        "date_value": null,
+        "text_value": null,
+        "page": 15,
+        "quote": "The amount of the Aggregate Commitment in effect on the Closing Date is ONE BILLION FIVE HUNDRED MILLION DOLLARS ($1,500,000,000).",
+        "conflict": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "commits",
+      "from": "party:albemarle:banco_santander_s_a_new_york_branch",
+      "to": "commitment:albemarle:2022-AR:banco_santander_s_a_new_york_branch",
+      "attributes": {
+        "amount": "120000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:bank_of_america_n_a",
+      "to": "commitment:albemarle:2022-AR:bank_of_america_n_a",
+      "attributes": {
+        "amount": "170000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:bank_of_china_new_york_branch",
+      "to": "commitment:albemarle:2022-AR:bank_of_china_new_york_branch",
+      "attributes": {
+        "amount": "50000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:goldman_sachs_bank_usa",
+      "to": "commitment:albemarle:2022-AR:goldman_sachs_bank_usa",
+      "attributes": {
+        "amount": "120000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:hsbc_bank_usa_national_association",
+      "to": "commitment:albemarle:2022-AR:hsbc_bank_usa_national_association",
+      "attributes": {
+        "amount": "170000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:jpmorgan_chase_bank_n_a",
+      "to": "commitment:albemarle:2022-AR:jpmorgan_chase_bank_n_a",
+      "attributes": {
+        "amount": "170000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:mizuho_bank_ltd",
+      "to": "commitment:albemarle:2022-AR:mizuho_bank_ltd",
+      "attributes": {
+        "amount": "170000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:mufg_bank_ltd",
+      "to": "commitment:albemarle:2022-AR:mufg_bank_ltd",
+      "attributes": {
+        "amount": "120000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:sumitomo_mitsui_banking_corporation",
+      "to": "commitment:albemarle:2022-AR:sumitomo_mitsui_banking_corporation",
+      "attributes": {
+        "amount": "120000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:the_northern_trust_company",
+      "to": "commitment:albemarle:2022-AR:the_northern_trust_company",
+      "attributes": {
+        "amount": "50000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:truist_bank",
+      "to": "commitment:albemarle:2022-AR:truist_bank",
+      "attributes": {
+        "amount": "120000000"
+      }
+    },
+    {
+      "type": "commits",
+      "from": "party:albemarle:u_s_bank_national_association",
+      "to": "commitment:albemarle:2022-AR:u_s_bank_national_association",
+      "attributes": {
+        "amount": "120000000"
+      }
+    },
+    {
+      "type": "has_term",
+      "from": "facility:albemarle:2022-AR",
+      "to": "term:albemarle:2022-AR:agreement_date",
+      "attributes": {
+        "key": "agreement_date"
+      }
+    },
+    {
+      "type": "has_term",
+      "from": "facility:albemarle:2022-AR",
+      "to": "term:albemarle:2022-AR:consolidated_ebitda_definition",
+      "attributes": {
+        "key": "consolidated_ebitda_definition"
+      }
+    },
+    {
+      "type": "has_term",
+      "from": "facility:albemarle:2022-AR",
+      "to": "term:albemarle:2022-AR:governing_law",
+      "attributes": {
+        "key": "governing_law"
+      }
+    },
+    {
+      "type": "has_term",
+      "from": "facility:albemarle:2022-AR",
+      "to": "term:albemarle:2022-AR:letter_of_credit_sublimit",
+      "attributes": {
+        "key": "letter_of_credit_sublimit"
+      }
+    },
+    {
+      "type": "has_term",
+      "from": "facility:albemarle:2022-AR",
+      "to": "term:albemarle:2022-AR:maturity_date",
+      "attributes": {
+        "key": "maturity_date"
+      }
+    },
+    {
+      "type": "has_term",
+      "from": "facility:albemarle:2022-AR",
+      "to": "term:albemarle:2022-AR:swingline_sublimit",
+      "attributes": {
+        "key": "swingline_sublimit"
+      }
+    },
+    {
+      "type": "has_term",
+      "from": "facility:albemarle:2022-AR",
+      "to": "term:albemarle:2022-AR:total_commitments",
+      "attributes": {
+        "key": "total_commitments"
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:albemarle_corporation",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "borrower",
+        "version_label": "2022-AR",
+        "page": 1
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:albemarle_europe_srl",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "borrower",
+        "version_label": "2022-AR",
+        "page": 14
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:banco_santander_s_a_new_york_branch",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:bank_of_america",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "administrative_agent",
+        "version_label": "2022-AR",
+        "page": 14
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:bank_of_america_n_a",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "administrative_agent",
+        "version_label": "2022-AR",
+        "page": 1
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:bank_of_america_n_a",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:bank_of_china_new_york_branch",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:goldman_sachs_bank_usa",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:hsbc_bank_usa_national_association",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 150
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:jpmorgan_chase_bank_n_a",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 150
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:mizuho_bank_ltd",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 150
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:mufg_bank_ltd",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:sumitomo_mitsui_banking_corporation",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:the_northern_trust_company",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:truist_bank",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "plays_role",
+      "from": "party:albemarle:u_s_bank_national_association",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "role": "lender",
+        "version_label": "2022-AR",
+        "page": 154
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:banco_santander_s_a_new_york_branch",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:bank_of_america_n_a",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:bank_of_china_new_york_branch",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:goldman_sachs_bank_usa",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:hsbc_bank_usa_national_association",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:jpmorgan_chase_bank_n_a",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:mizuho_bank_ltd",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:mufg_bank_ltd",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:sumitomo_mitsui_banking_corporation",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:the_northern_trust_company",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:truist_bank",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    },
+    {
+      "type": "under_facility",
+      "from": "commitment:albemarle:2022-AR:u_s_bank_national_association",
+      "to": "facility:albemarle:2022-AR",
+      "attributes": {
+        "version_label": "2022-AR"
+      }
+    }
+  ],
+  "source": {
+    "run_id": "20260921T094008Z-67a88b",
+    "dictionary_version": 3,
+    "model_id": "frontier",
+    "withheld_pending_review": 53,
+    "accepted_values": 42
+  }
+}

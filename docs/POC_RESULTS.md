@@ -192,7 +192,7 @@ Total API spend for the POC: about $16 (291 calls), computed from recorded token
 |---|---|---|
 | Full 211 pages, both passes | whole-document accuracy, completeness, and the unseen-page check of grounding thresholds | ~$59 per variant |
 | A second agreement version (IEC series or synthetic v2) | real version diff | ~$59 per version at full length; ~$5 for a sampled synthetic |
-| On-prem Qwen run | the parity check (milestone 16) | runs at the workplace — see WORKPLACE.md |
+| On-prem Qwen run | the parity check (milestone 16) | on-prem; see WORKPLACE.md |
 
 ## Needs owner sign-off
 
